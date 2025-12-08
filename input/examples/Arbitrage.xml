@@ -1,0 +1,82 @@
+<settings>
+    <!-- Output settings -->
+    <writer>writertxt</writer>
+    <filename>Arbitrage_Example</filename>
+    <simulationsperfile>1</simulationsperfile>
+    <numthreads>1</numthreads>
+
+    <!-- Simulation parameters -->
+    <numsteps>20000</numsteps>
+    <deltaT>0.01</deltaT>
+    <startPrice>100</startPrice>
+    <repetitions>1</repetitions>
+
+    <!-- Random Number Generator -->
+    <randomGenerator>
+        <randomGeneratorClass>RandomGeneratorStdLib</randomGeneratorClass>
+        <seed>0</seed>
+    </randomGenerator>
+
+    <!-- Dividend Process -->
+    <dividend>
+        <dividendClass>DividendConst</dividendClass>
+        <value>0.05</value>
+    </dividend>
+
+    <!-- Agents -->
+    <agents>
+        <!-- Fundamentalist Arbitrageurs -->
+        <AgentFWFundamentalist>
+            <count>50</count>
+            <cash>10000</cash>
+            <stock>100</stock>
+            <eta>1.0</eta>
+            <beta>1.0</beta>
+            <alpha_w>0.1</alpha_w>
+            <alpha_n>0.1</alpha_n>
+            <fundamentalValue>100.0</fundamentalValue>
+        </AgentFWFundamentalist>
+
+        <!-- Chartist / Trend Followers (Harras Model) -->
+        <AgentHarras>
+            <count>50</count>
+            <cash>10000</cash>
+            <stock>100</stock>
+            <c1>0.8</c1>
+            <c2>0.1</c2>
+            <c3>0.1</c3>
+            <threshold>0.2</threshold>
+            <g>0.1</g>
+            <alpha>0.95</alpha>
+            <marketDepth>0.1</marketDepth>
+        </AgentHarras>
+    </agents>
+
+    <!-- Neighbourhood for Harras Agents -->
+    <neighbourhood>
+        <neighbourhoodClass>LatticeNeighbourhoodGeneratorMatlab</neighbourhoodClass>
+    </neighbourhood>
+
+    <!-- Price Calculator -->
+    <priceCalculatorSettings>
+        <priceCalculatorClass>PriceCalculatorFW</priceCalculatorClass>
+        <marketDepth>0.1</marketDepth>
+    </priceCalculatorSettings>
+
+    <!-- Quantities of Interest -->
+    <qoi>
+        <price>
+            <full/>
+        </price>
+        <logreturn>
+            <mean/>
+            <variance/>
+            <skew/>
+            <excessKurtosis/>
+        </logreturn>
+        <wealth>
+            <full group="0"/>
+            <full group="1"/>
+        </wealth>
+    </qoi>
+</settings>

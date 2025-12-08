@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPriceCalculatorTest.a CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o
+/usr/bin/ranlib libPriceCalculatorTest.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAgent.a CMakeFiles/Agent.dir/Agent.cpp.o CMakeFiles/Agent.dir/AgentCrossWealth.cpp.o CMakeFiles/Agent.dir/AgentCross.cpp.o CMakeFiles/Agent.dir/AgentFW.cpp.o CMakeFiles/Agent.dir/AgentFWChartist.cpp.o CMakeFiles/Agent.dir/AgentFWFundamentalist.cpp.o CMakeFiles/Agent.dir/AgentHarras.cpp.o CMakeFiles/Agent.dir/AgentLLS.cpp.o
+/usr/bin/ranlib libAgent.a

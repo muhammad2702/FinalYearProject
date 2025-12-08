@@ -1,0 +1,2 @@
+/usr/bin/ar qc libInputTest.a CMakeFiles/InputTest.dir/InputTest.cpp.o
+/usr/bin/ranlib libInputTest.a

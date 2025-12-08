@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGroupTest.a CMakeFiles/GroupTest.dir/GroupTest.cpp.o
+/usr/bin/ranlib libGroupTest.a

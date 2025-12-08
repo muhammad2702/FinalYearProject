@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWriterTest.a CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o
+/usr/bin/ranlib libWriterTest.a

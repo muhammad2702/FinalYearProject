@@ -1,0 +1,2 @@
+/usr/bin/ar qc libExcessDemandCalculatorTest.a CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o
+/usr/bin/ranlib libExcessDemandCalculatorTest.a

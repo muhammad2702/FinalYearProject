@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDummyClasses.a CMakeFiles/DummyClasses.dir/AgentDummy.cpp.o CMakeFiles/DummyClasses.dir/ExcessDemandCalculatorDummy.cpp.o CMakeFiles/DummyClasses.dir/RandomGeneratorFunctional.cpp.o
+/usr/bin/ranlib libDummyClasses.a

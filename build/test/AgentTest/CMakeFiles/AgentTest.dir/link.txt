@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAgentTest.a CMakeFiles/AgentTest.dir/AgentCrossTest.cpp.o CMakeFiles/AgentTest.dir/AgentHarrasTest.cpp.o
+/usr/bin/ranlib libAgentTest.a

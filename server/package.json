@@ -1,0 +1,17 @@
+{
+  "name": "sabcemm-backend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "xml2js": "^0.6.2",
+    "body-parser": "^1.20.3",
+    "fs-extra": "^11.2.0"
+  }
+}

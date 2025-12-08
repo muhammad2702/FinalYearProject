@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMain.a CMakeFiles/Main.dir/Simulation.cpp.o
+/usr/bin/ranlib libMain.a

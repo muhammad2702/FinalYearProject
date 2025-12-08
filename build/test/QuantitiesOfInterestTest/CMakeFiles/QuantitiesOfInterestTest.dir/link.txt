@@ -1,0 +1,2 @@
+/usr/bin/ar qc libQuantitiesOfInterestTest.a CMakeFiles/QuantitiesOfInterestTest.dir/QuantitiesOfInterestTest.cpp.o CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorTest.cpp.o CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorAutocorrelationTest.cpp.o
+/usr/bin/ranlib libQuantitiesOfInterestTest.a

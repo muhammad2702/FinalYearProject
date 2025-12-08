@@ -1,0 +1,12 @@
+[submodule "libs/googletest"]
+	path = libs/googletest
+	url = https://github.com/google/googletest.git
+[submodule "cmake/modules/rpavlik"]
+	path = cmake/modules/rpavlik
+	url = https://github.com/rpavlik/cmake-modules
+[submodule "libs/progressbar"]
+	path = libs/progressbar
+	url = https://github.com/doches/progressbar.git
+[submodule "cmake/modules/RWTH-HPC"]
+	path = cmake/modules/RWTH-HPC
+	url = https://github.com/RWTH-HPC/CMake-codecov.git

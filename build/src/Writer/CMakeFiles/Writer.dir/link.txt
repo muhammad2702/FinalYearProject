@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWriter.a CMakeFiles/Writer.dir/Writer.cpp.o CMakeFiles/Writer.dir/WriterCSV.cpp.o CMakeFiles/Writer.dir/WriterNone.cpp.o CMakeFiles/Writer.dir/WriterTxt.cpp.o
+/usr/bin/ranlib libWriter.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVariableContainerTest.a CMakeFiles/VariableContainerTest.dir/GlobalNewsTest.cpp.o
+/usr/bin/ranlib libVariableContainerTest.a

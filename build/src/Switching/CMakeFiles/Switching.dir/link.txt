@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSwitching.a CMakeFiles/Switching.dir/ShareCalculator.cpp.o
+/usr/bin/ranlib libSwitching.a

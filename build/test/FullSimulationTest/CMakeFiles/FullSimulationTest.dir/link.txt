@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFullSimulationTest.a CMakeFiles/FullSimulationTest.dir/fullSimulationTest.cpp.o
+/usr/bin/ranlib libFullSimulationTest.a

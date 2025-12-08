@@ -1,0 +1,2 @@
+/usr/bin/ar qc libExcessDemandCalculator.a CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculator.cpp.o CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorFW.cpp.o CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorHarras.cpp.o CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorLLS.cpp.o
+/usr/bin/ranlib libExcessDemandCalculator.a

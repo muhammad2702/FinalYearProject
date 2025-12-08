@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRandomGeneratorTest.a CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o
+/usr/bin/ranlib libRandomGeneratorTest.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVariableContainer.a CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o CMakeFiles/VariableContainer.dir/DeltaT.cpp.o CMakeFiles/VariableContainer.dir/Dividend.cpp.o CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o CMakeFiles/VariableContainer.dir/Price.cpp.o
+/usr/bin/ranlib libVariableContainer.a

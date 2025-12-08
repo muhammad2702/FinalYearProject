@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAlgorithms.a CMakeFiles/Algorithms.dir/brent/brent.cpp.o
+/usr/bin/ranlib libAlgorithms.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStockExchangeTest.a CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o
+/usr/bin/ranlib libStockExchangeTest.a

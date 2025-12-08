@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNeighbourhoodGenerator.a CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o
+/usr/bin/ranlib libNeighbourhoodGenerator.a
