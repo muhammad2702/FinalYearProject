@@ -1,0 +1,17 @@
+SABCEMM Simulation Metadata
+============================
+Simulation ID: cross_simulation_0
+Simulation Number: 0
+
+Input Parameters:
+----------------------------
+rngsettings: 
+agents: 
+qoi: 
+numsteps: 1000
+outputname: cross_simulation
+deltat: 0.00004
+excessdemandcalculatorsettings: 
+pricecalculatorsettings: 
+repetitions: 1
+startprice: 1

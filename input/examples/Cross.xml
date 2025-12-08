@@ -12,7 +12,7 @@
         </RNGSettings>
         <agents>
             <AgentCross>
-                <count>100000</count>
+                <count>100</count>
                 <!-- initial herding threshold and initial herding pressure are drawn
                      from the uniform distribution [b1*deltaT, b2*deltaT] (cf. eq. 3.1, p.8)
                      ==> here, they are drawn from [0.001, 0.004] -->
@@ -47,7 +47,7 @@
                 <full></full>
             </excessdemand>
         </qoi>
-        <numsteps>10000</numsteps>
+        <numsteps>1000</numsteps>
         <outputname>Cross_Simulation</outputname>
         <deltaT>0.00004</deltaT>
         <excessDemandCalculatorSettings>
@@ -62,7 +62,7 @@
             <!-- corresponds to lambda in the Harras-paper (cf. p.10) -->
             <marketDepth>0.2</marketDepth>
         </priceCalculatorSettings>
-        <repetitions>5</repetitions>
+        <repetitions>1</repetitions>
 	    <startPrice>1</startPrice>
     </case>
 
