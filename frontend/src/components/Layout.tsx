@@ -29,7 +29,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <div className="sidebar-header">
                     <div className="logo">
                         <BarChart3 className="logo-icon" />
-                        <span className="logo-text">SABCEMM</span>
+                        <span className="logo-text">PRISM</span>
                     </div>
                     <div className="logo-subtitle">Agent-Based Economics</div>
                 </div>
