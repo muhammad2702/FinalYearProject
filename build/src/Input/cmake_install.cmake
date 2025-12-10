@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/src/Input
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Input
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

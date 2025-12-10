@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include -I/home/monan/Desktop/SABCEMM/libs/googletest/googlemock -I/home/monan/Desktop/SABCEMM/libs/googletest/googletest/include -I/home/monan/Desktop/SABCEMM/libs/googletest/googletest
+CXX_INCLUDES = -I/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include -I/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock -I/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include -I/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest
 
 CXX_FLAGS =  -Wall -Wshadow -Werror -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 

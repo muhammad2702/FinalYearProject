@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include src/RandomGenerator/CMakeFiles/RandomGenerator.dir/depend.make
@@ -70,102 +70,102 @@ include src/RandomGenerator/CMakeFiles/RandomGenerator.dir/progress.make
 include src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
-src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o: /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGenerator.cpp
+src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGenerator.cpp
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o -c /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGenerator.cpp
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGenerator.cpp > CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGenerator.cpp > CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.i
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGenerator.cpp -o CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGenerator.cpp -o CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.s
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
-src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o: /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorRANDU.cpp
+src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorRANDU.cpp
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o -c /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorRANDU.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorRANDU.cpp
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorRANDU.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorRANDU.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.i
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorRANDU.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorRANDU.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.s
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
-src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o: /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLib.cpp
+src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLib.cpp
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o -c /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLib.cpp
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLib.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLib.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.i
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLib.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLib.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.s
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
-src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o: /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLibOld.cpp
+src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLibOld.cpp
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o -c /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLibOld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLibOld.cpp
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLibOld.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLibOld.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.i
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorStdLibOld.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorStdLibOld.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.s
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
-src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o: /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorFromFile.cpp
+src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorFromFile.cpp
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o -c /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorFromFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorFromFile.cpp
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorFromFile.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorFromFile.cpp > CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.i
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomGeneratorFromFile.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomGeneratorFromFile.cpp -o CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.s
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
-src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o: /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomNumberPool.cpp
+src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomNumberPool.cpp
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o -c /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomNumberPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o -MF CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o.d -o CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomNumberPool.cpp
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomNumberPool.cpp > CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomNumberPool.cpp > CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.i
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/RandomGenerator/RandomNumberPool.cpp -o CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/RandomNumberPool.cpp -o CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.s
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/flags.make
-src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o: /home/monan/Desktop/SABCEMM/src/RandomGenerator/Algorithms/sabcemm_rand.cc
+src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/Algorithms/sabcemm_rand.cc
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o -MF CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o.d -o CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o -c /home/monan/Desktop/SABCEMM/src/RandomGenerator/Algorithms/sabcemm_rand.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o -MF CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o.d -o CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/Algorithms/sabcemm_rand.cc
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/RandomGenerator/Algorithms/sabcemm_rand.cc > CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/Algorithms/sabcemm_rand.cc > CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.i
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/RandomGenerator/Algorithms/sabcemm_rand.cc -o CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator/Algorithms/sabcemm_rand.cc -o CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.s
 
 # Object files for target RandomGenerator
 RandomGenerator_OBJECTS = \
@@ -189,19 +189,19 @@ src/RandomGenerator/libRandomGenerator.a: src/RandomGenerator/CMakeFiles/RandomG
 src/RandomGenerator/libRandomGenerator.a: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o
 src/RandomGenerator/libRandomGenerator.a: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make
 src/RandomGenerator/libRandomGenerator.a: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libRandomGenerator.a"
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && $(CMAKE_COMMAND) -P CMakeFiles/RandomGenerator.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RandomGenerator.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libRandomGenerator.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && $(CMAKE_COMMAND) -P CMakeFiles/RandomGenerator.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RandomGenerator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build: src/RandomGenerator/libRandomGenerator.a
 .PHONY : src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/RandomGenerator && $(CMAKE_COMMAND) -P CMakeFiles/RandomGenerator.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator && $(CMAKE_COMMAND) -P CMakeFiles/RandomGenerator.dir/cmake_clean.cmake
 .PHONY : src/RandomGenerator/CMakeFiles/RandomGenerator.dir/clean
 
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/RandomGenerator /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/RandomGenerator /home/monan/Desktop/SABCEMM/build/src/RandomGenerator/CMakeFiles/RandomGenerator.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/RandomGenerator /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator/CMakeFiles/RandomGenerator.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/RandomGenerator/CMakeFiles/RandomGenerator.dir/depend
 

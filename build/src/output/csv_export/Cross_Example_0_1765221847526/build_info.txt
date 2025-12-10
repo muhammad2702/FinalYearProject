@@ -1,0 +1,8 @@
+Simulation 0 Build Info:
+GIT_VERSION: a5265b6
+GIT_SHA1: a5265b6c0a03775f1c918e815bea1775edbbbc00
+OS: Linux-5.15.167.4-microsoft-standard-WSL2
+OS_NAME: Linux
+BUILD_TYPE: 
+CXX: GNU
+----------------------------

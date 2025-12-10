@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test/QuantitiesOfInterestTest//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/QuantitiesOfInterestTest//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/rule
 .PHONY : test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ QuantitiesOfInterestTest: test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfI
 
 # fast build rule for target.
 QuantitiesOfInterestTest/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build
 .PHONY : QuantitiesOfInterestTest/fast
 
 QoiCalculatorAutocorrelationTest.o: QoiCalculatorAutocorrelationTest.cpp.o
@@ -180,7 +180,7 @@ QoiCalculatorAutocorrelationTest.o: QoiCalculatorAutocorrelationTest.cpp.o
 
 # target to build an object file
 QoiCalculatorAutocorrelationTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorAutocorrelationTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorAutocorrelationTest.cpp.o
 .PHONY : QoiCalculatorAutocorrelationTest.cpp.o
 
 QoiCalculatorAutocorrelationTest.i: QoiCalculatorAutocorrelationTest.cpp.i
@@ -188,7 +188,7 @@ QoiCalculatorAutocorrelationTest.i: QoiCalculatorAutocorrelationTest.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorAutocorrelationTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorAutocorrelationTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorAutocorrelationTest.cpp.i
 .PHONY : QoiCalculatorAutocorrelationTest.cpp.i
 
 QoiCalculatorAutocorrelationTest.s: QoiCalculatorAutocorrelationTest.cpp.s
@@ -196,7 +196,7 @@ QoiCalculatorAutocorrelationTest.s: QoiCalculatorAutocorrelationTest.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorAutocorrelationTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorAutocorrelationTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorAutocorrelationTest.cpp.s
 .PHONY : QoiCalculatorAutocorrelationTest.cpp.s
 
 QoiCalculatorTest.o: QoiCalculatorTest.cpp.o
@@ -204,7 +204,7 @@ QoiCalculatorTest.o: QoiCalculatorTest.cpp.o
 
 # target to build an object file
 QoiCalculatorTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorTest.cpp.o
 .PHONY : QoiCalculatorTest.cpp.o
 
 QoiCalculatorTest.i: QoiCalculatorTest.cpp.i
@@ -212,7 +212,7 @@ QoiCalculatorTest.i: QoiCalculatorTest.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorTest.cpp.i
 .PHONY : QoiCalculatorTest.cpp.i
 
 QoiCalculatorTest.s: QoiCalculatorTest.cpp.s
@@ -220,7 +220,7 @@ QoiCalculatorTest.s: QoiCalculatorTest.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QoiCalculatorTest.cpp.s
 .PHONY : QoiCalculatorTest.cpp.s
 
 QuantitiesOfInterestTest.o: QuantitiesOfInterestTest.cpp.o
@@ -228,7 +228,7 @@ QuantitiesOfInterestTest.o: QuantitiesOfInterestTest.cpp.o
 
 # target to build an object file
 QuantitiesOfInterestTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QuantitiesOfInterestTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QuantitiesOfInterestTest.cpp.o
 .PHONY : QuantitiesOfInterestTest.cpp.o
 
 QuantitiesOfInterestTest.i: QuantitiesOfInterestTest.cpp.i
@@ -236,7 +236,7 @@ QuantitiesOfInterestTest.i: QuantitiesOfInterestTest.cpp.i
 
 # target to preprocess a source file
 QuantitiesOfInterestTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QuantitiesOfInterestTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QuantitiesOfInterestTest.cpp.i
 .PHONY : QuantitiesOfInterestTest.cpp.i
 
 QuantitiesOfInterestTest.s: QuantitiesOfInterestTest.cpp.s
@@ -244,7 +244,7 @@ QuantitiesOfInterestTest.s: QuantitiesOfInterestTest.cpp.s
 
 # target to generate assembly for a file
 QuantitiesOfInterestTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QuantitiesOfInterestTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/build.make test/QuantitiesOfInterestTest/CMakeFiles/QuantitiesOfInterestTest.dir/QuantitiesOfInterestTest.cpp.s
 .PHONY : QuantitiesOfInterestTest.cpp.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/financeSimulationTests.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/financeSimulationTests.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/financeSimulationTests.dir/rule
 .PHONY : test/CMakeFiles/financeSimulationTests.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ financeSimulationTests: test/CMakeFiles/financeSimulationTests.dir/rule
 
 # fast build rule for target.
 financeSimulationTests/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/build
 .PHONY : financeSimulationTests/fast
 
 __/src/Simulation.o: __/src/Simulation.cpp.o
@@ -180,7 +180,7 @@ __/src/Simulation.o: __/src/Simulation.cpp.o
 
 # target to build an object file
 __/src/Simulation.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/__/src/Simulation.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/__/src/Simulation.cpp.o
 .PHONY : __/src/Simulation.cpp.o
 
 __/src/Simulation.i: __/src/Simulation.cpp.i
@@ -188,7 +188,7 @@ __/src/Simulation.i: __/src/Simulation.cpp.i
 
 # target to preprocess a source file
 __/src/Simulation.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/__/src/Simulation.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/__/src/Simulation.cpp.i
 .PHONY : __/src/Simulation.cpp.i
 
 __/src/Simulation.s: __/src/Simulation.cpp.s
@@ -196,7 +196,7 @@ __/src/Simulation.s: __/src/Simulation.cpp.s
 
 # target to generate assembly for a file
 __/src/Simulation.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/__/src/Simulation.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/__/src/Simulation.cpp.s
 .PHONY : __/src/Simulation.cpp.s
 
 mainTest.o: mainTest.cpp.o
@@ -204,7 +204,7 @@ mainTest.o: mainTest.cpp.o
 
 # target to build an object file
 mainTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/mainTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/mainTest.cpp.o
 .PHONY : mainTest.cpp.o
 
 mainTest.i: mainTest.cpp.i
@@ -212,7 +212,7 @@ mainTest.i: mainTest.cpp.i
 
 # target to preprocess a source file
 mainTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/mainTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/mainTest.cpp.i
 .PHONY : mainTest.cpp.i
 
 mainTest.s: mainTest.cpp.s
@@ -220,7 +220,7 @@ mainTest.s: mainTest.cpp.s
 
 # target to generate assembly for a file
 mainTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/mainTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/financeSimulationTests.dir/build.make test/CMakeFiles/financeSimulationTests.dir/mainTest.cpp.s
 .PHONY : mainTest.cpp.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

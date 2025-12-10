@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Utility rule file for input.
 
@@ -74,10 +74,10 @@ input/CMakeFiles/input.dir/build: input
 .PHONY : input/CMakeFiles/input.dir/build
 
 input/CMakeFiles/input.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/input && $(CMAKE_COMMAND) -P CMakeFiles/input.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/input && $(CMAKE_COMMAND) -P CMakeFiles/input.dir/cmake_clean.cmake
 .PHONY : input/CMakeFiles/input.dir/clean
 
 input/CMakeFiles/input.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/input /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/input /home/monan/Desktop/SABCEMM/build/input/CMakeFiles/input.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/input /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/input /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/input/CMakeFiles/input.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : input/CMakeFiles/input.dir/depend
 

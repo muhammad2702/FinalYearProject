@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/depend.make
@@ -70,18 +70,18 @@ include test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/progress.mak
 include test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/flags.make
 
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o: test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/flags.make
-test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o: /home/monan/Desktop/SABCEMM/test/RandomGeneratorTest/RandomGeneratorTest.cpp
+test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/RandomGeneratorTest/RandomGeneratorTest.cpp
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o: test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o -MF CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o.d -o CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/RandomGeneratorTest/RandomGeneratorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o -MF CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o.d -o CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/RandomGeneratorTest/RandomGeneratorTest.cpp
 
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/RandomGeneratorTest/RandomGeneratorTest.cpp > CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/RandomGeneratorTest/RandomGeneratorTest.cpp > CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.i
 
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/RandomGeneratorTest/RandomGeneratorTest.cpp -o CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/RandomGeneratorTest/RandomGeneratorTest.cpp -o CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.s
 
 # Object files for target RandomGeneratorTest
 RandomGeneratorTest_OBJECTS = \
@@ -93,19 +93,19 @@ RandomGeneratorTest_EXTERNAL_OBJECTS =
 test/RandomGeneratorTest/libRandomGeneratorTest.a: test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o
 test/RandomGeneratorTest/libRandomGeneratorTest.a: test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make
 test/RandomGeneratorTest/libRandomGeneratorTest.a: test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRandomGeneratorTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/RandomGeneratorTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RandomGeneratorTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRandomGeneratorTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/RandomGeneratorTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RandomGeneratorTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build: test/RandomGeneratorTest/libRandomGeneratorTest.a
 .PHONY : test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build
 
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/RandomGeneratorTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/RandomGeneratorTest.dir/cmake_clean.cmake
 .PHONY : test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/clean
 
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/RandomGeneratorTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/RandomGeneratorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Utility rule file for MockClasses.
 
@@ -67,7 +67,7 @@ include test/MockClasses/CMakeFiles/MockClasses.dir/compiler_depend.make
 include test/MockClasses/CMakeFiles/MockClasses.dir/progress.make
 
 test/MockClasses/CMakeFiles/MockClasses:
-	cd /home/monan/Desktop/SABCEMM/build/test/MockClasses && MockAgent.h MockDataCollector.h MockDataItemCollector.h MockPriceCalculator.h MockWriter.h MockQoiCalculator.h
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/MockClasses && MockAgent.h MockDataCollector.h MockDataItemCollector.h MockPriceCalculator.h MockWriter.h MockQoiCalculator.h
 
 MockClasses: test/MockClasses/CMakeFiles/MockClasses
 MockClasses: test/MockClasses/CMakeFiles/MockClasses.dir/build.make
@@ -78,10 +78,10 @@ test/MockClasses/CMakeFiles/MockClasses.dir/build: MockClasses
 .PHONY : test/MockClasses/CMakeFiles/MockClasses.dir/build
 
 test/MockClasses/CMakeFiles/MockClasses.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/MockClasses && $(CMAKE_COMMAND) -P CMakeFiles/MockClasses.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/MockClasses && $(CMAKE_COMMAND) -P CMakeFiles/MockClasses.dir/cmake_clean.cmake
 .PHONY : test/MockClasses/CMakeFiles/MockClasses.dir/clean
 
 test/MockClasses/CMakeFiles/MockClasses.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/MockClasses /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/MockClasses /home/monan/Desktop/SABCEMM/build/test/MockClasses/CMakeFiles/MockClasses.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/MockClasses /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/MockClasses /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/MockClasses/CMakeFiles/MockClasses.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/MockClasses/CMakeFiles/MockClasses.dir/depend
 

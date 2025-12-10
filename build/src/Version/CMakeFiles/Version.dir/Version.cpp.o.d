@@ -1,7 +1,7 @@
 src/Version/CMakeFiles/Version.dir/Version.cpp.o: \
- /home/monan/Desktop/SABCEMM/build/src/Version/Version.cpp \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Version/Version.cpp \
  /usr/include/stdc-predef.h \
- /home/monan/Desktop/SABCEMM/src/Version/Version.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Version/Version.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/rule
 .PHONY : test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ ExcessDemandCalculatorTest: test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDem
 
 # fast build rule for target.
 ExcessDemandCalculatorTest/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build
 .PHONY : ExcessDemandCalculatorTest/fast
 
 ExcessDemandCalculatorHarrasTest.o: ExcessDemandCalculatorHarrasTest.cpp.o
@@ -180,7 +180,7 @@ ExcessDemandCalculatorHarrasTest.o: ExcessDemandCalculatorHarrasTest.cpp.o
 
 # target to build an object file
 ExcessDemandCalculatorHarrasTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o
 .PHONY : ExcessDemandCalculatorHarrasTest.cpp.o
 
 ExcessDemandCalculatorHarrasTest.i: ExcessDemandCalculatorHarrasTest.cpp.i
@@ -188,7 +188,7 @@ ExcessDemandCalculatorHarrasTest.i: ExcessDemandCalculatorHarrasTest.cpp.i
 
 # target to preprocess a source file
 ExcessDemandCalculatorHarrasTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.i
 .PHONY : ExcessDemandCalculatorHarrasTest.cpp.i
 
 ExcessDemandCalculatorHarrasTest.s: ExcessDemandCalculatorHarrasTest.cpp.s
@@ -196,7 +196,7 @@ ExcessDemandCalculatorHarrasTest.s: ExcessDemandCalculatorHarrasTest.cpp.s
 
 # target to generate assembly for a file
 ExcessDemandCalculatorHarrasTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.s
 .PHONY : ExcessDemandCalculatorHarrasTest.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

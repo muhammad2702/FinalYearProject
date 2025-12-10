@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/monan/Desktop/SABCEMM/libs/googletest/googlemock
-# Build directory: /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock
+# Source directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock
+# Build directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

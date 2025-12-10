@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/rule
 .PHONY : src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ QuantitiesOfInterest: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.d
 
 # fast build rule for target.
 QuantitiesOfInterest/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build
 .PHONY : QuantitiesOfInterest/fast
 
 QoiCalculator.o: QoiCalculator.cpp.o
@@ -180,7 +180,7 @@ QoiCalculator.o: QoiCalculator.cpp.o
 
 # target to build an object file
 QoiCalculator.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o
 .PHONY : QoiCalculator.cpp.o
 
 QoiCalculator.i: QoiCalculator.cpp.i
@@ -188,7 +188,7 @@ QoiCalculator.i: QoiCalculator.cpp.i
 
 # target to preprocess a source file
 QoiCalculator.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.i
 .PHONY : QoiCalculator.cpp.i
 
 QoiCalculator.s: QoiCalculator.cpp.s
@@ -196,7 +196,7 @@ QoiCalculator.s: QoiCalculator.cpp.s
 
 # target to generate assembly for a file
 QoiCalculator.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.s
 .PHONY : QoiCalculator.cpp.s
 
 QoiCalculatorAutocorrelation.o: QoiCalculatorAutocorrelation.cpp.o
@@ -204,7 +204,7 @@ QoiCalculatorAutocorrelation.o: QoiCalculatorAutocorrelation.cpp.o
 
 # target to build an object file
 QoiCalculatorAutocorrelation.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o
 .PHONY : QoiCalculatorAutocorrelation.cpp.o
 
 QoiCalculatorAutocorrelation.i: QoiCalculatorAutocorrelation.cpp.i
@@ -212,7 +212,7 @@ QoiCalculatorAutocorrelation.i: QoiCalculatorAutocorrelation.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorAutocorrelation.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.i
 .PHONY : QoiCalculatorAutocorrelation.cpp.i
 
 QoiCalculatorAutocorrelation.s: QoiCalculatorAutocorrelation.cpp.s
@@ -220,7 +220,7 @@ QoiCalculatorAutocorrelation.s: QoiCalculatorAutocorrelation.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorAutocorrelation.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.s
 .PHONY : QoiCalculatorAutocorrelation.cpp.s
 
 QoiCalculatorExcessKurtosis.o: QoiCalculatorExcessKurtosis.cpp.o
@@ -228,7 +228,7 @@ QoiCalculatorExcessKurtosis.o: QoiCalculatorExcessKurtosis.cpp.o
 
 # target to build an object file
 QoiCalculatorExcessKurtosis.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o
 .PHONY : QoiCalculatorExcessKurtosis.cpp.o
 
 QoiCalculatorExcessKurtosis.i: QoiCalculatorExcessKurtosis.cpp.i
@@ -236,7 +236,7 @@ QoiCalculatorExcessKurtosis.i: QoiCalculatorExcessKurtosis.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorExcessKurtosis.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.i
 .PHONY : QoiCalculatorExcessKurtosis.cpp.i
 
 QoiCalculatorExcessKurtosis.s: QoiCalculatorExcessKurtosis.cpp.s
@@ -244,7 +244,7 @@ QoiCalculatorExcessKurtosis.s: QoiCalculatorExcessKurtosis.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorExcessKurtosis.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.s
 .PHONY : QoiCalculatorExcessKurtosis.cpp.s
 
 QoiCalculatorFull.o: QoiCalculatorFull.cpp.o
@@ -252,7 +252,7 @@ QoiCalculatorFull.o: QoiCalculatorFull.cpp.o
 
 # target to build an object file
 QoiCalculatorFull.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o
 .PHONY : QoiCalculatorFull.cpp.o
 
 QoiCalculatorFull.i: QoiCalculatorFull.cpp.i
@@ -260,7 +260,7 @@ QoiCalculatorFull.i: QoiCalculatorFull.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorFull.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.i
 .PHONY : QoiCalculatorFull.cpp.i
 
 QoiCalculatorFull.s: QoiCalculatorFull.cpp.s
@@ -268,7 +268,7 @@ QoiCalculatorFull.s: QoiCalculatorFull.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorFull.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.s
 .PHONY : QoiCalculatorFull.cpp.s
 
 QoiCalculatorHill.o: QoiCalculatorHill.cpp.o
@@ -276,7 +276,7 @@ QoiCalculatorHill.o: QoiCalculatorHill.cpp.o
 
 # target to build an object file
 QoiCalculatorHill.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o
 .PHONY : QoiCalculatorHill.cpp.o
 
 QoiCalculatorHill.i: QoiCalculatorHill.cpp.i
@@ -284,7 +284,7 @@ QoiCalculatorHill.i: QoiCalculatorHill.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorHill.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.i
 .PHONY : QoiCalculatorHill.cpp.i
 
 QoiCalculatorHill.s: QoiCalculatorHill.cpp.s
@@ -292,7 +292,7 @@ QoiCalculatorHill.s: QoiCalculatorHill.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorHill.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.s
 .PHONY : QoiCalculatorHill.cpp.s
 
 QoiCalculatorKurtosis.o: QoiCalculatorKurtosis.cpp.o
@@ -300,7 +300,7 @@ QoiCalculatorKurtosis.o: QoiCalculatorKurtosis.cpp.o
 
 # target to build an object file
 QoiCalculatorKurtosis.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o
 .PHONY : QoiCalculatorKurtosis.cpp.o
 
 QoiCalculatorKurtosis.i: QoiCalculatorKurtosis.cpp.i
@@ -308,7 +308,7 @@ QoiCalculatorKurtosis.i: QoiCalculatorKurtosis.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorKurtosis.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.i
 .PHONY : QoiCalculatorKurtosis.cpp.i
 
 QoiCalculatorKurtosis.s: QoiCalculatorKurtosis.cpp.s
@@ -316,7 +316,7 @@ QoiCalculatorKurtosis.s: QoiCalculatorKurtosis.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorKurtosis.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.s
 .PHONY : QoiCalculatorKurtosis.cpp.s
 
 QoiCalculatorMaximum.o: QoiCalculatorMaximum.cpp.o
@@ -324,7 +324,7 @@ QoiCalculatorMaximum.o: QoiCalculatorMaximum.cpp.o
 
 # target to build an object file
 QoiCalculatorMaximum.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o
 .PHONY : QoiCalculatorMaximum.cpp.o
 
 QoiCalculatorMaximum.i: QoiCalculatorMaximum.cpp.i
@@ -332,7 +332,7 @@ QoiCalculatorMaximum.i: QoiCalculatorMaximum.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorMaximum.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.i
 .PHONY : QoiCalculatorMaximum.cpp.i
 
 QoiCalculatorMaximum.s: QoiCalculatorMaximum.cpp.s
@@ -340,7 +340,7 @@ QoiCalculatorMaximum.s: QoiCalculatorMaximum.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorMaximum.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.s
 .PHONY : QoiCalculatorMaximum.cpp.s
 
 QoiCalculatorMean.o: QoiCalculatorMean.cpp.o
@@ -348,7 +348,7 @@ QoiCalculatorMean.o: QoiCalculatorMean.cpp.o
 
 # target to build an object file
 QoiCalculatorMean.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o
 .PHONY : QoiCalculatorMean.cpp.o
 
 QoiCalculatorMean.i: QoiCalculatorMean.cpp.i
@@ -356,7 +356,7 @@ QoiCalculatorMean.i: QoiCalculatorMean.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorMean.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.i
 .PHONY : QoiCalculatorMean.cpp.i
 
 QoiCalculatorMean.s: QoiCalculatorMean.cpp.s
@@ -364,7 +364,7 @@ QoiCalculatorMean.s: QoiCalculatorMean.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorMean.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.s
 .PHONY : QoiCalculatorMean.cpp.s
 
 QoiCalculatorMinimum.o: QoiCalculatorMinimum.cpp.o
@@ -372,7 +372,7 @@ QoiCalculatorMinimum.o: QoiCalculatorMinimum.cpp.o
 
 # target to build an object file
 QoiCalculatorMinimum.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o
 .PHONY : QoiCalculatorMinimum.cpp.o
 
 QoiCalculatorMinimum.i: QoiCalculatorMinimum.cpp.i
@@ -380,7 +380,7 @@ QoiCalculatorMinimum.i: QoiCalculatorMinimum.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorMinimum.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.i
 .PHONY : QoiCalculatorMinimum.cpp.i
 
 QoiCalculatorMinimum.s: QoiCalculatorMinimum.cpp.s
@@ -388,7 +388,7 @@ QoiCalculatorMinimum.s: QoiCalculatorMinimum.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorMinimum.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.s
 .PHONY : QoiCalculatorMinimum.cpp.s
 
 QoiCalculatorMoment.o: QoiCalculatorMoment.cpp.o
@@ -396,7 +396,7 @@ QoiCalculatorMoment.o: QoiCalculatorMoment.cpp.o
 
 # target to build an object file
 QoiCalculatorMoment.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o
 .PHONY : QoiCalculatorMoment.cpp.o
 
 QoiCalculatorMoment.i: QoiCalculatorMoment.cpp.i
@@ -404,7 +404,7 @@ QoiCalculatorMoment.i: QoiCalculatorMoment.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorMoment.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.i
 .PHONY : QoiCalculatorMoment.cpp.i
 
 QoiCalculatorMoment.s: QoiCalculatorMoment.cpp.s
@@ -412,7 +412,7 @@ QoiCalculatorMoment.s: QoiCalculatorMoment.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorMoment.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.s
 .PHONY : QoiCalculatorMoment.cpp.s
 
 QoiCalculatorQuantile.o: QoiCalculatorQuantile.cpp.o
@@ -420,7 +420,7 @@ QoiCalculatorQuantile.o: QoiCalculatorQuantile.cpp.o
 
 # target to build an object file
 QoiCalculatorQuantile.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o
 .PHONY : QoiCalculatorQuantile.cpp.o
 
 QoiCalculatorQuantile.i: QoiCalculatorQuantile.cpp.i
@@ -428,7 +428,7 @@ QoiCalculatorQuantile.i: QoiCalculatorQuantile.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorQuantile.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.i
 .PHONY : QoiCalculatorQuantile.cpp.i
 
 QoiCalculatorQuantile.s: QoiCalculatorQuantile.cpp.s
@@ -436,7 +436,7 @@ QoiCalculatorQuantile.s: QoiCalculatorQuantile.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorQuantile.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.s
 .PHONY : QoiCalculatorQuantile.cpp.s
 
 QoiCalculatorSkew.o: QoiCalculatorSkew.cpp.o
@@ -444,7 +444,7 @@ QoiCalculatorSkew.o: QoiCalculatorSkew.cpp.o
 
 # target to build an object file
 QoiCalculatorSkew.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o
 .PHONY : QoiCalculatorSkew.cpp.o
 
 QoiCalculatorSkew.i: QoiCalculatorSkew.cpp.i
@@ -452,7 +452,7 @@ QoiCalculatorSkew.i: QoiCalculatorSkew.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorSkew.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.i
 .PHONY : QoiCalculatorSkew.cpp.i
 
 QoiCalculatorSkew.s: QoiCalculatorSkew.cpp.s
@@ -460,7 +460,7 @@ QoiCalculatorSkew.s: QoiCalculatorSkew.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorSkew.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.s
 .PHONY : QoiCalculatorSkew.cpp.s
 
 QoiCalculatorVariance.o: QoiCalculatorVariance.cpp.o
@@ -468,7 +468,7 @@ QoiCalculatorVariance.o: QoiCalculatorVariance.cpp.o
 
 # target to build an object file
 QoiCalculatorVariance.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o
 .PHONY : QoiCalculatorVariance.cpp.o
 
 QoiCalculatorVariance.i: QoiCalculatorVariance.cpp.i
@@ -476,7 +476,7 @@ QoiCalculatorVariance.i: QoiCalculatorVariance.cpp.i
 
 # target to preprocess a source file
 QoiCalculatorVariance.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.i
 .PHONY : QoiCalculatorVariance.cpp.i
 
 QoiCalculatorVariance.s: QoiCalculatorVariance.cpp.s
@@ -484,7 +484,7 @@ QoiCalculatorVariance.s: QoiCalculatorVariance.cpp.s
 
 # target to generate assembly for a file
 QoiCalculatorVariance.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.s
 .PHONY : QoiCalculatorVariance.cpp.s
 
 QuantitiesOfInterest.o: QuantitiesOfInterest.cpp.o
@@ -492,7 +492,7 @@ QuantitiesOfInterest.o: QuantitiesOfInterest.cpp.o
 
 # target to build an object file
 QuantitiesOfInterest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o
 .PHONY : QuantitiesOfInterest.cpp.o
 
 QuantitiesOfInterest.i: QuantitiesOfInterest.cpp.i
@@ -500,7 +500,7 @@ QuantitiesOfInterest.i: QuantitiesOfInterest.cpp.i
 
 # target to preprocess a source file
 QuantitiesOfInterest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.i
 .PHONY : QuantitiesOfInterest.cpp.i
 
 QuantitiesOfInterest.s: QuantitiesOfInterest.cpp.s
@@ -508,7 +508,7 @@ QuantitiesOfInterest.s: QuantitiesOfInterest.cpp.s
 
 # target to generate assembly for a file
 QuantitiesOfInterest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.s
 .PHONY : QuantitiesOfInterest.cpp.s
 
 QuantityOfInterest.o: QuantityOfInterest.cpp.o
@@ -516,7 +516,7 @@ QuantityOfInterest.o: QuantityOfInterest.cpp.o
 
 # target to build an object file
 QuantityOfInterest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o
 .PHONY : QuantityOfInterest.cpp.o
 
 QuantityOfInterest.i: QuantityOfInterest.cpp.i
@@ -524,7 +524,7 @@ QuantityOfInterest.i: QuantityOfInterest.cpp.i
 
 # target to preprocess a source file
 QuantityOfInterest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.i
 .PHONY : QuantityOfInterest.cpp.i
 
 QuantityOfInterest.s: QuantityOfInterest.cpp.s
@@ -532,7 +532,7 @@ QuantityOfInterest.s: QuantityOfInterest.cpp.s
 
 # target to generate assembly for a file
 QuantityOfInterest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.s
 .PHONY : QuantityOfInterest.cpp.s
 
 # Help Target
@@ -604,6 +604,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

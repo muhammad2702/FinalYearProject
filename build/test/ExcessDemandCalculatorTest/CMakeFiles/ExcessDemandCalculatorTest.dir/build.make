@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/depend.make
@@ -70,18 +70,18 @@ include test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.di
 include test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/flags.make
 
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o: test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/flags.make
-test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o: /home/monan/Desktop/SABCEMM/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp
+test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o: test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o -MF CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o.d -o CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o -MF CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o.d -o CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp
 
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp > CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp > CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.i
 
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp -o CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/ExcessDemandCalculatorTest/ExcessDemandCalculatorHarrasTest.cpp -o CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.s
 
 # Object files for target ExcessDemandCalculatorTest
 ExcessDemandCalculatorTest_OBJECTS = \
@@ -93,19 +93,19 @@ ExcessDemandCalculatorTest_EXTERNAL_OBJECTS =
 test/ExcessDemandCalculatorTest/libExcessDemandCalculatorTest.a: test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/ExcessDemandCalculatorHarrasTest.cpp.o
 test/ExcessDemandCalculatorTest/libExcessDemandCalculatorTest.a: test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build.make
 test/ExcessDemandCalculatorTest/libExcessDemandCalculatorTest.a: test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libExcessDemandCalculatorTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/ExcessDemandCalculatorTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExcessDemandCalculatorTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libExcessDemandCalculatorTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/ExcessDemandCalculatorTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExcessDemandCalculatorTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build: test/ExcessDemandCalculatorTest/libExcessDemandCalculatorTest.a
 .PHONY : test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/build
 
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/ExcessDemandCalculatorTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/ExcessDemandCalculatorTest.dir/cmake_clean.cmake
 .PHONY : test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/clean
 
 test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/ExcessDemandCalculatorTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest /home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/ExcessDemandCalculatorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/ExcessDemandCalculatorTest/CMakeFiles/ExcessDemandCalculatorTest.dir/depend
 

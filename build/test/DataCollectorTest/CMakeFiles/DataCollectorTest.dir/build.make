@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/depend.make
@@ -70,116 +70,116 @@ include test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/progress.make
 include test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataCollectorTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataCollectorTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataCollectorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataCollectorTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataCollectorTest.cpp > CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataCollectorTest.cpp > CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataCollectorTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataCollectorTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataCollectorTest.cpp.s
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorExcessDemandTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorExcessDemandTest.cpp.s
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.s
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfCashTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfCashTest.cpp.s
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorHarrasKTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorHarrasKTest.cpp.s
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorWealthTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorWealthTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorWealthTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorWealthTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorWealthTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorWealthTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorWealthTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorWealthTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorWealthTest.cpp.s
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorAmountOfStockTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorAmountOfStockTest.cpp.s
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/flags.make
-test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o: /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorPriceTest.cpp
+test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorPriceTest.cpp
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorPriceTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o -MF CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o.d -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorPriceTest.cpp
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorPriceTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorPriceTest.cpp > CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.i
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorPriceTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorPriceTest.cpp -o CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.s
 
 # Object files for target DataCollectorTest
 DataCollectorTest_OBJECTS = \
@@ -205,19 +205,19 @@ test/DataCollectorTest/libDataCollectorTest.a: test/DataCollectorTest/CMakeFiles
 test/DataCollectorTest/libDataCollectorTest.a: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorPriceTest.cpp.o
 test/DataCollectorTest/libDataCollectorTest.a: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/build.make
 test/DataCollectorTest/libDataCollectorTest.a: test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libDataCollectorTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && $(CMAKE_COMMAND) -P CMakeFiles/DataCollectorTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataCollectorTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libDataCollectorTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && $(CMAKE_COMMAND) -P CMakeFiles/DataCollectorTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataCollectorTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/build: test/DataCollectorTest/libDataCollectorTest.a
 .PHONY : test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/build
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest && $(CMAKE_COMMAND) -P CMakeFiles/DataCollectorTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest && $(CMAKE_COMMAND) -P CMakeFiles/DataCollectorTest.dir/cmake_clean.cmake
 .PHONY : test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/clean
 
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/DataCollectorTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest /home/monan/Desktop/SABCEMM/build/test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/depend
 

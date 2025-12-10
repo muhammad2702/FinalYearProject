@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/libs/googletest/googlemock
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,27 +43,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/libgmock.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/libgmock_main.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
-    "/home/monan/Desktop/SABCEMM/build/gmock.pc"
-    "/home/monan/Desktop/SABCEMM/build/gmock_main.pc"
+    "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/gmock.pc"
+    "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/gmock_main.pc"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

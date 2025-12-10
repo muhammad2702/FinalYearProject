@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/src/VariableContainer
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

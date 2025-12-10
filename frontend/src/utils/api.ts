@@ -83,7 +83,7 @@ export const runSimulation = async (
     xmlContent: string,
     name: string
 ): Promise<{ success: boolean; simulationId: string; output: string }> => {
-    const response = await api.post('/run-simulation', { xmlContent, name });
+    const response = await api.post('/run-sim', { xmlContent, name });
     return response.data;
 };
 

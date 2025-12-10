@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test/FullSimulationTest//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/FullSimulationTest//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/rule
 .PHONY : test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ FullSimulationInput: test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/
 
 # fast build rule for target.
 FullSimulationInput/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationInput.dir/build
 .PHONY : FullSimulationInput/fast
 
 # Convenience name for target.
 test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/rule
 .PHONY : test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ FullSimulationTest: test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/ru
 
 # fast build rule for target.
 FullSimulationTest/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build
 .PHONY : FullSimulationTest/fast
 
 fullSimulationTest.o: fullSimulationTest.cpp.o
@@ -194,7 +194,7 @@ fullSimulationTest.o: fullSimulationTest.cpp.o
 
 # target to build an object file
 fullSimulationTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/fullSimulationTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/fullSimulationTest.cpp.o
 .PHONY : fullSimulationTest.cpp.o
 
 fullSimulationTest.i: fullSimulationTest.cpp.i
@@ -202,7 +202,7 @@ fullSimulationTest.i: fullSimulationTest.cpp.i
 
 # target to preprocess a source file
 fullSimulationTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/fullSimulationTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/fullSimulationTest.cpp.i
 .PHONY : fullSimulationTest.cpp.i
 
 fullSimulationTest.s: fullSimulationTest.cpp.s
@@ -210,7 +210,7 @@ fullSimulationTest.s: fullSimulationTest.cpp.s
 
 # target to generate assembly for a file
 fullSimulationTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/fullSimulationTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/build.make test/FullSimulationTest/CMakeFiles/FullSimulationTest.dir/fullSimulationTest.cpp.s
 .PHONY : fullSimulationTest.cpp.s
 
 # Help Target
@@ -241,6 +241,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make
@@ -70,18 +70,18 @@ include libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make
 include libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make
 
 libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make
-libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: /home/monan/Desktop/SABCEMM/libs/googletest/googletest/src/gtest_main.cc
+libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/src/gtest_main.cc
 libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/monan/Desktop/SABCEMM/libs/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/src/gtest_main.cc
 
 libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/libs/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/libs/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
@@ -93,19 +93,19 @@ gtest_main_EXTERNAL_OBJECTS =
 libs/googletest/googlemock/gtest/libgtest_main.a: libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 libs/googletest/googlemock/gtest/libgtest_main.a: libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make
 libs/googletest/googlemock/gtest/libgtest_main.a: libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
-	cd /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build: libs/googletest/googlemock/gtest/libgtest_main.a
 .PHONY : libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
 
 libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 
 libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/libs/googletest/googletest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest /home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : libs/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 

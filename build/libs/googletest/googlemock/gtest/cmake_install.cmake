@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/libs/googletest/googletest
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,21 +43,21 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest/libgtest.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest/libgtest.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/monan/Desktop/SABCEMM/build/libs/googletest/googlemock/gtest/libgtest_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/googlemock/gtest/libgtest_main.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
-    "/home/monan/Desktop/SABCEMM/build/gtest.pc"
-    "/home/monan/Desktop/SABCEMM/build/gtest_main.pc"
+    "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/gtest.pc"
+    "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/gtest_main.pc"
     )
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/src
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/financeSimulation"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/monan/Desktop/SABCEMM/build/src/financeSimulation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/financeSimulation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/financeSimulation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/financeSimulation")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -60,23 +60,23 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/monan/Desktop/SABCEMM/build/src/Agent/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Algorithms/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/DataCollector/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Exceptions/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/ExcessDemandCalculator/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Group/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Input/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/PriceCalculator/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/RandomGenerator/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/StockExchange/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Switching/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Util/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/VariableContainer/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Writer/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/src/Version/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Agent/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Algorithms/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/DataCollector/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Exceptions/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/ExcessDemandCalculator/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Group/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Input/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/PriceCalculator/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Util/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Writer/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Version/cmake_install.cmake")
 
 endif()
 

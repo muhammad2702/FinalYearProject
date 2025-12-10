@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBUILD_TESTS=1 -DENABLE_RNGSPEEDTEST=0 -DWITH_HDF5=0 -DWITH_INTEL_MKL=0 -DWITH_NAG=0 -DWITH_OPENMP=0 -DWITH_PROGBAR=1
 
-CXX_INCLUDES = -I/home/monan/Desktop/SABCEMM/libs/progressbar/include/progressbar -isystem /home/monan/Desktop/SABCEMM/libs/tinyxml2/.. -isystem /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include -isystem /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include
+CXX_INCLUDES = -I/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/progressbar/include/progressbar -isystem /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/tinyxml2/.. -isystem /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include -isystem /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include
 
 CXX_FLAGS = -std=c++11 -Wall -Wextra -Wconversion -Wparentheses -Wunreachable-code -Wredundant-decls -Wcast-align -Wfloat-equal -Wno-long-long -Wformat=2 -pedantic
 

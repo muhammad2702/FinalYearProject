@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/src/PriceCalculator//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/PriceCalculator//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/PriceCalculator/CMakeFiles/PriceCalculator.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/CMakeFiles/PriceCalculator.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PriceCalculator/CMakeFiles/PriceCalculator.dir/rule
 .PHONY : src/PriceCalculator/CMakeFiles/PriceCalculator.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ PriceCalculator: src/PriceCalculator/CMakeFiles/PriceCalculator.dir/rule
 
 # fast build rule for target.
 PriceCalculator/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build
 .PHONY : PriceCalculator/fast
 
 PriceCalculator.o: PriceCalculator.cpp.o
@@ -180,7 +180,7 @@ PriceCalculator.o: PriceCalculator.cpp.o
 
 # target to build an object file
 PriceCalculator.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculator.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculator.cpp.o
 .PHONY : PriceCalculator.cpp.o
 
 PriceCalculator.i: PriceCalculator.cpp.i
@@ -188,7 +188,7 @@ PriceCalculator.i: PriceCalculator.cpp.i
 
 # target to preprocess a source file
 PriceCalculator.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculator.cpp.i
 .PHONY : PriceCalculator.cpp.i
 
 PriceCalculator.s: PriceCalculator.cpp.s
@@ -196,7 +196,7 @@ PriceCalculator.s: PriceCalculator.cpp.s
 
 # target to generate assembly for a file
 PriceCalculator.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculator.cpp.s
 .PHONY : PriceCalculator.cpp.s
 
 PriceCalculatorBisection.o: PriceCalculatorBisection.cpp.o
@@ -204,7 +204,7 @@ PriceCalculatorBisection.o: PriceCalculatorBisection.cpp.o
 
 # target to build an object file
 PriceCalculatorBisection.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorBisection.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorBisection.cpp.o
 .PHONY : PriceCalculatorBisection.cpp.o
 
 PriceCalculatorBisection.i: PriceCalculatorBisection.cpp.i
@@ -212,7 +212,7 @@ PriceCalculatorBisection.i: PriceCalculatorBisection.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorBisection.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorBisection.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorBisection.cpp.i
 .PHONY : PriceCalculatorBisection.cpp.i
 
 PriceCalculatorBisection.s: PriceCalculatorBisection.cpp.s
@@ -220,7 +220,7 @@ PriceCalculatorBisection.s: PriceCalculatorBisection.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorBisection.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorBisection.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorBisection.cpp.s
 .PHONY : PriceCalculatorBisection.cpp.s
 
 PriceCalculatorCross.o: PriceCalculatorCross.cpp.o
@@ -228,7 +228,7 @@ PriceCalculatorCross.o: PriceCalculatorCross.cpp.o
 
 # target to build an object file
 PriceCalculatorCross.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorCross.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorCross.cpp.o
 .PHONY : PriceCalculatorCross.cpp.o
 
 PriceCalculatorCross.i: PriceCalculatorCross.cpp.i
@@ -236,7 +236,7 @@ PriceCalculatorCross.i: PriceCalculatorCross.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorCross.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorCross.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorCross.cpp.i
 .PHONY : PriceCalculatorCross.cpp.i
 
 PriceCalculatorCross.s: PriceCalculatorCross.cpp.s
@@ -244,7 +244,7 @@ PriceCalculatorCross.s: PriceCalculatorCross.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorCross.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorCross.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorCross.cpp.s
 .PHONY : PriceCalculatorCross.cpp.s
 
 PriceCalculatorFW.o: PriceCalculatorFW.cpp.o
@@ -252,7 +252,7 @@ PriceCalculatorFW.o: PriceCalculatorFW.cpp.o
 
 # target to build an object file
 PriceCalculatorFW.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorFW.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorFW.cpp.o
 .PHONY : PriceCalculatorFW.cpp.o
 
 PriceCalculatorFW.i: PriceCalculatorFW.cpp.i
@@ -260,7 +260,7 @@ PriceCalculatorFW.i: PriceCalculatorFW.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorFW.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorFW.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorFW.cpp.i
 .PHONY : PriceCalculatorFW.cpp.i
 
 PriceCalculatorFW.s: PriceCalculatorFW.cpp.s
@@ -268,7 +268,7 @@ PriceCalculatorFW.s: PriceCalculatorFW.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorFW.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorFW.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorFW.cpp.s
 .PHONY : PriceCalculatorFW.cpp.s
 
 PriceCalculatorGeneral.o: PriceCalculatorGeneral.cpp.o
@@ -276,7 +276,7 @@ PriceCalculatorGeneral.o: PriceCalculatorGeneral.cpp.o
 
 # target to build an object file
 PriceCalculatorGeneral.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorGeneral.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorGeneral.cpp.o
 .PHONY : PriceCalculatorGeneral.cpp.o
 
 PriceCalculatorGeneral.i: PriceCalculatorGeneral.cpp.i
@@ -284,7 +284,7 @@ PriceCalculatorGeneral.i: PriceCalculatorGeneral.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorGeneral.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorGeneral.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorGeneral.cpp.i
 .PHONY : PriceCalculatorGeneral.cpp.i
 
 PriceCalculatorGeneral.s: PriceCalculatorGeneral.cpp.s
@@ -292,7 +292,7 @@ PriceCalculatorGeneral.s: PriceCalculatorGeneral.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorGeneral.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorGeneral.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorGeneral.cpp.s
 .PHONY : PriceCalculatorGeneral.cpp.s
 
 PriceCalculatorHarras.o: PriceCalculatorHarras.cpp.o
@@ -300,7 +300,7 @@ PriceCalculatorHarras.o: PriceCalculatorHarras.cpp.o
 
 # target to build an object file
 PriceCalculatorHarras.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarras.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarras.cpp.o
 .PHONY : PriceCalculatorHarras.cpp.o
 
 PriceCalculatorHarras.i: PriceCalculatorHarras.cpp.i
@@ -308,7 +308,7 @@ PriceCalculatorHarras.i: PriceCalculatorHarras.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorHarras.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarras.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarras.cpp.i
 .PHONY : PriceCalculatorHarras.cpp.i
 
 PriceCalculatorHarras.s: PriceCalculatorHarras.cpp.s
@@ -316,7 +316,7 @@ PriceCalculatorHarras.s: PriceCalculatorHarras.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorHarras.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarras.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarras.cpp.s
 .PHONY : PriceCalculatorHarras.cpp.s
 
 PriceCalculatorHarrasNoise.o: PriceCalculatorHarrasNoise.cpp.o
@@ -324,7 +324,7 @@ PriceCalculatorHarrasNoise.o: PriceCalculatorHarrasNoise.cpp.o
 
 # target to build an object file
 PriceCalculatorHarrasNoise.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarrasNoise.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarrasNoise.cpp.o
 .PHONY : PriceCalculatorHarrasNoise.cpp.o
 
 PriceCalculatorHarrasNoise.i: PriceCalculatorHarrasNoise.cpp.i
@@ -332,7 +332,7 @@ PriceCalculatorHarrasNoise.i: PriceCalculatorHarrasNoise.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorHarrasNoise.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarrasNoise.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarrasNoise.cpp.i
 .PHONY : PriceCalculatorHarrasNoise.cpp.i
 
 PriceCalculatorHarrasNoise.s: PriceCalculatorHarrasNoise.cpp.s
@@ -340,7 +340,7 @@ PriceCalculatorHarrasNoise.s: PriceCalculatorHarrasNoise.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorHarrasNoise.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarrasNoise.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorHarrasNoise.cpp.s
 .PHONY : PriceCalculatorHarrasNoise.cpp.s
 
 PriceCalculatorLLS.o: PriceCalculatorLLS.cpp.o
@@ -348,7 +348,7 @@ PriceCalculatorLLS.o: PriceCalculatorLLS.cpp.o
 
 # target to build an object file
 PriceCalculatorLLS.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS.cpp.o
 .PHONY : PriceCalculatorLLS.cpp.o
 
 PriceCalculatorLLS.i: PriceCalculatorLLS.cpp.i
@@ -356,7 +356,7 @@ PriceCalculatorLLS.i: PriceCalculatorLLS.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorLLS.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS.cpp.i
 .PHONY : PriceCalculatorLLS.cpp.i
 
 PriceCalculatorLLS.s: PriceCalculatorLLS.cpp.s
@@ -364,7 +364,7 @@ PriceCalculatorLLS.s: PriceCalculatorLLS.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorLLS.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS.cpp.s
 .PHONY : PriceCalculatorLLS.cpp.s
 
 PriceCalculatorLLS1.o: PriceCalculatorLLS1.cpp.o
@@ -372,7 +372,7 @@ PriceCalculatorLLS1.o: PriceCalculatorLLS1.cpp.o
 
 # target to build an object file
 PriceCalculatorLLS1.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS1.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS1.cpp.o
 .PHONY : PriceCalculatorLLS1.cpp.o
 
 PriceCalculatorLLS1.i: PriceCalculatorLLS1.cpp.i
@@ -380,7 +380,7 @@ PriceCalculatorLLS1.i: PriceCalculatorLLS1.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorLLS1.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS1.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS1.cpp.i
 .PHONY : PriceCalculatorLLS1.cpp.i
 
 PriceCalculatorLLS1.s: PriceCalculatorLLS1.cpp.s
@@ -388,7 +388,7 @@ PriceCalculatorLLS1.s: PriceCalculatorLLS1.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorLLS1.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS1.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLS1.cpp.s
 .PHONY : PriceCalculatorLLS1.cpp.s
 
 PriceCalculatorLLSNoise.o: PriceCalculatorLLSNoise.cpp.o
@@ -396,7 +396,7 @@ PriceCalculatorLLSNoise.o: PriceCalculatorLLSNoise.cpp.o
 
 # target to build an object file
 PriceCalculatorLLSNoise.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLSNoise.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLSNoise.cpp.o
 .PHONY : PriceCalculatorLLSNoise.cpp.o
 
 PriceCalculatorLLSNoise.i: PriceCalculatorLLSNoise.cpp.i
@@ -404,7 +404,7 @@ PriceCalculatorLLSNoise.i: PriceCalculatorLLSNoise.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorLLSNoise.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLSNoise.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLSNoise.cpp.i
 .PHONY : PriceCalculatorLLSNoise.cpp.i
 
 PriceCalculatorLLSNoise.s: PriceCalculatorLLSNoise.cpp.s
@@ -412,7 +412,7 @@ PriceCalculatorLLSNoise.s: PriceCalculatorLLSNoise.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorLLSNoise.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLSNoise.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/PriceCalculator/CMakeFiles/PriceCalculator.dir/build.make src/PriceCalculator/CMakeFiles/PriceCalculator.dir/PriceCalculatorLLSNoise.cpp.s
 .PHONY : PriceCalculatorLLSNoise.cpp.s
 
 # Help Target
@@ -469,6 +469,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

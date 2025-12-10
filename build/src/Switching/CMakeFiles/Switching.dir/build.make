@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include src/Switching/CMakeFiles/Switching.dir/depend.make
@@ -70,18 +70,18 @@ include src/Switching/CMakeFiles/Switching.dir/progress.make
 include src/Switching/CMakeFiles/Switching.dir/flags.make
 
 src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o: src/Switching/CMakeFiles/Switching.dir/flags.make
-src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o: /home/monan/Desktop/SABCEMM/src/Switching/ShareCalculator.cpp
+src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Switching/ShareCalculator.cpp
 src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o: src/Switching/CMakeFiles/Switching.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/Switching && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o -MF CMakeFiles/Switching.dir/ShareCalculator.cpp.o.d -o CMakeFiles/Switching.dir/ShareCalculator.cpp.o -c /home/monan/Desktop/SABCEMM/src/Switching/ShareCalculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o -MF CMakeFiles/Switching.dir/ShareCalculator.cpp.o.d -o CMakeFiles/Switching.dir/ShareCalculator.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Switching/ShareCalculator.cpp
 
 src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Switching.dir/ShareCalculator.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/Switching && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/Switching/ShareCalculator.cpp > CMakeFiles/Switching.dir/ShareCalculator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Switching/ShareCalculator.cpp > CMakeFiles/Switching.dir/ShareCalculator.cpp.i
 
 src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Switching.dir/ShareCalculator.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/Switching && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/Switching/ShareCalculator.cpp -o CMakeFiles/Switching.dir/ShareCalculator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Switching/ShareCalculator.cpp -o CMakeFiles/Switching.dir/ShareCalculator.cpp.s
 
 # Object files for target Switching
 Switching_OBJECTS = \
@@ -93,19 +93,19 @@ Switching_EXTERNAL_OBJECTS =
 src/Switching/libSwitching.a: src/Switching/CMakeFiles/Switching.dir/ShareCalculator.cpp.o
 src/Switching/libSwitching.a: src/Switching/CMakeFiles/Switching.dir/build.make
 src/Switching/libSwitching.a: src/Switching/CMakeFiles/Switching.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSwitching.a"
-	cd /home/monan/Desktop/SABCEMM/build/src/Switching && $(CMAKE_COMMAND) -P CMakeFiles/Switching.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/src/Switching && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Switching.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSwitching.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching && $(CMAKE_COMMAND) -P CMakeFiles/Switching.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Switching.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Switching/CMakeFiles/Switching.dir/build: src/Switching/libSwitching.a
 .PHONY : src/Switching/CMakeFiles/Switching.dir/build
 
 src/Switching/CMakeFiles/Switching.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/Switching && $(CMAKE_COMMAND) -P CMakeFiles/Switching.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching && $(CMAKE_COMMAND) -P CMakeFiles/Switching.dir/cmake_clean.cmake
 .PHONY : src/Switching/CMakeFiles/Switching.dir/clean
 
 src/Switching/CMakeFiles/Switching.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/Switching /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/Switching /home/monan/Desktop/SABCEMM/build/src/Switching/CMakeFiles/Switching.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Switching /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Switching/CMakeFiles/Switching.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/Switching/CMakeFiles/Switching.dir/depend
 

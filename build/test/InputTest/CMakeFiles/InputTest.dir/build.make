@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/InputTest/CMakeFiles/InputTest.dir/depend.make
@@ -70,18 +70,18 @@ include test/InputTest/CMakeFiles/InputTest.dir/progress.make
 include test/InputTest/CMakeFiles/InputTest.dir/flags.make
 
 test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o: test/InputTest/CMakeFiles/InputTest.dir/flags.make
-test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o: /home/monan/Desktop/SABCEMM/test/InputTest/InputTest.cpp
+test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/InputTest/InputTest.cpp
 test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o: test/InputTest/CMakeFiles/InputTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/InputTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o -MF CMakeFiles/InputTest.dir/InputTest.cpp.o.d -o CMakeFiles/InputTest.dir/InputTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/InputTest/InputTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o -MF CMakeFiles/InputTest.dir/InputTest.cpp.o.d -o CMakeFiles/InputTest.dir/InputTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/InputTest/InputTest.cpp
 
 test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/InputTest.dir/InputTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/InputTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/InputTest/InputTest.cpp > CMakeFiles/InputTest.dir/InputTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/InputTest/InputTest.cpp > CMakeFiles/InputTest.dir/InputTest.cpp.i
 
 test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/InputTest.dir/InputTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/InputTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/InputTest/InputTest.cpp -o CMakeFiles/InputTest.dir/InputTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/InputTest/InputTest.cpp -o CMakeFiles/InputTest.dir/InputTest.cpp.s
 
 # Object files for target InputTest
 InputTest_OBJECTS = \
@@ -93,19 +93,19 @@ InputTest_EXTERNAL_OBJECTS =
 test/InputTest/libInputTest.a: test/InputTest/CMakeFiles/InputTest.dir/InputTest.cpp.o
 test/InputTest/libInputTest.a: test/InputTest/CMakeFiles/InputTest.dir/build.make
 test/InputTest/libInputTest.a: test/InputTest/CMakeFiles/InputTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libInputTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/InputTest && $(CMAKE_COMMAND) -P CMakeFiles/InputTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/InputTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/InputTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libInputTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest && $(CMAKE_COMMAND) -P CMakeFiles/InputTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/InputTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/InputTest/CMakeFiles/InputTest.dir/build: test/InputTest/libInputTest.a
 .PHONY : test/InputTest/CMakeFiles/InputTest.dir/build
 
 test/InputTest/CMakeFiles/InputTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/InputTest && $(CMAKE_COMMAND) -P CMakeFiles/InputTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest && $(CMAKE_COMMAND) -P CMakeFiles/InputTest.dir/cmake_clean.cmake
 .PHONY : test/InputTest/CMakeFiles/InputTest.dir/clean
 
 test/InputTest/CMakeFiles/InputTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/InputTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/InputTest /home/monan/Desktop/SABCEMM/build/test/InputTest/CMakeFiles/InputTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/InputTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest/CMakeFiles/InputTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/InputTest/CMakeFiles/InputTest.dir/depend
 

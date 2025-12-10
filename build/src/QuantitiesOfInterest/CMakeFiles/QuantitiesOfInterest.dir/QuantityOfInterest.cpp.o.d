@@ -1,8 +1,8 @@
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o: \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantityOfInterest.cpp \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantityOfInterest.cpp \
  /usr/include/stdc-predef.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantityOfInterest.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest_prod.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantityOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest_prod.h \
  /usr/include/c++/13/map /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -117,16 +117,16 @@ src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.
  /usr/include/c++/13/bits/functional_hash.h \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/cassert \
  /usr/include/assert.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Input/Input.h \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
- /home/monan/Desktop/SABCEMM/libs/tinyxml2/tinyxml2.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/tinyxml2/tinyxml2.h \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -141,20 +141,20 @@ src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculator.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorKurtosis.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMaximum.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMean.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMinimum.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMoment.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorQuantile.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorSkew.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorVariance.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorFull.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/Writer.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../Util/Util.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorKurtosis.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMaximum.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMean.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMinimum.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMoment.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorQuantile.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorSkew.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorVariance.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorFull.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/Writer.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../Util/Util.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -187,10 +187,10 @@ src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../DataCollector/DataItemCollector.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../QuantitiesOfInterest/QuantityOfInterest.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorHill.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../QuantitiesOfInterest/QuantityOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorHill.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

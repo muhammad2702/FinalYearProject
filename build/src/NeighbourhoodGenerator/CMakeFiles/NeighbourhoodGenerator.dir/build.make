@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/depend.make
@@ -70,60 +70,60 @@ include src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/progres
 include src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/flags.make
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/flags.make
-src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o: /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp
+src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o -c /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp > CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp > CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.i
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGenerator.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.s
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/flags.make
-src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o: /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp
+src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o -c /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp > CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp > CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.i
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LatticeNeighbourhoodGeneratorMatlab.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.s
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/flags.make
-src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o: /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp
+src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o -c /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp > CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp > CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.i
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/LinearNeigbourhoodGenerator.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.s
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/flags.make
-src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o: /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp
+src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o -c /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o -MF CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o.d -o CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp > CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp > CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.i
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator/NeighbourhoodGenerator.cpp -o CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.s
 
 # Object files for target NeighbourhoodGenerator
 NeighbourhoodGenerator_OBJECTS = \
@@ -141,19 +141,19 @@ src/NeighbourhoodGenerator/libNeighbourhoodGenerator.a: src/NeighbourhoodGenerat
 src/NeighbourhoodGenerator/libNeighbourhoodGenerator.a: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o
 src/NeighbourhoodGenerator/libNeighbourhoodGenerator.a: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make
 src/NeighbourhoodGenerator/libNeighbourhoodGenerator.a: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libNeighbourhoodGenerator.a"
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGenerator.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeighbourhoodGenerator.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libNeighbourhoodGenerator.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGenerator.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeighbourhoodGenerator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build: src/NeighbourhoodGenerator/libNeighbourhoodGenerator.a
 .PHONY : src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGenerator.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGenerator.dir/cmake_clean.cmake
 .PHONY : src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/clean
 
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/NeighbourhoodGenerator /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/NeighbourhoodGenerator /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/depend
 

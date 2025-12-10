@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/rule
 .PHONY : test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ RandomGeneratorTest: test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir
 
 # fast build rule for target.
 RandomGeneratorTest/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build
 .PHONY : RandomGeneratorTest/fast
 
 RandomGeneratorTest.o: RandomGeneratorTest.cpp.o
@@ -180,7 +180,7 @@ RandomGeneratorTest.o: RandomGeneratorTest.cpp.o
 
 # target to build an object file
 RandomGeneratorTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.o
 .PHONY : RandomGeneratorTest.cpp.o
 
 RandomGeneratorTest.i: RandomGeneratorTest.cpp.i
@@ -188,7 +188,7 @@ RandomGeneratorTest.i: RandomGeneratorTest.cpp.i
 
 # target to preprocess a source file
 RandomGeneratorTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.i
 .PHONY : RandomGeneratorTest.cpp.i
 
 RandomGeneratorTest.s: RandomGeneratorTest.cpp.s
@@ -196,7 +196,7 @@ RandomGeneratorTest.s: RandomGeneratorTest.cpp.s
 
 # target to generate assembly for a file
 RandomGeneratorTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/build.make test/RandomGeneratorTest/CMakeFiles/RandomGeneratorTest.dir/RandomGeneratorTest.cpp.s
 .PHONY : RandomGeneratorTest.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

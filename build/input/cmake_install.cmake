@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/input
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/input
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/SABCEMM/examples" TYPE DIRECTORY FILES "/home/monan/Desktop/SABCEMM/input/." FILES_MATCHING REGEX "/[^/]*\\.xml$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/SABCEMM/examples" TYPE DIRECTORY FILES "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/input/." FILES_MATCHING REGEX "/[^/]*\\.xml$")
 endif()
 

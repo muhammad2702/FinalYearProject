@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/src/Writer//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Writer//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Writer/CMakeFiles/Writer.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/CMakeFiles/Writer.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Writer/CMakeFiles/Writer.dir/rule
 .PHONY : src/Writer/CMakeFiles/Writer.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Writer: src/Writer/CMakeFiles/Writer.dir/rule
 
 # fast build rule for target.
 Writer/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/build
 .PHONY : Writer/fast
 
 Writer.o: Writer.cpp.o
@@ -180,7 +180,7 @@ Writer.o: Writer.cpp.o
 
 # target to build an object file
 Writer.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/Writer.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/Writer.cpp.o
 .PHONY : Writer.cpp.o
 
 Writer.i: Writer.cpp.i
@@ -188,7 +188,7 @@ Writer.i: Writer.cpp.i
 
 # target to preprocess a source file
 Writer.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/Writer.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/Writer.cpp.i
 .PHONY : Writer.cpp.i
 
 Writer.s: Writer.cpp.s
@@ -196,7 +196,7 @@ Writer.s: Writer.cpp.s
 
 # target to generate assembly for a file
 Writer.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/Writer.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/Writer.cpp.s
 .PHONY : Writer.cpp.s
 
 WriterCSV.o: WriterCSV.cpp.o
@@ -204,7 +204,7 @@ WriterCSV.o: WriterCSV.cpp.o
 
 # target to build an object file
 WriterCSV.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterCSV.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterCSV.cpp.o
 .PHONY : WriterCSV.cpp.o
 
 WriterCSV.i: WriterCSV.cpp.i
@@ -212,7 +212,7 @@ WriterCSV.i: WriterCSV.cpp.i
 
 # target to preprocess a source file
 WriterCSV.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterCSV.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterCSV.cpp.i
 .PHONY : WriterCSV.cpp.i
 
 WriterCSV.s: WriterCSV.cpp.s
@@ -220,7 +220,7 @@ WriterCSV.s: WriterCSV.cpp.s
 
 # target to generate assembly for a file
 WriterCSV.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterCSV.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterCSV.cpp.s
 .PHONY : WriterCSV.cpp.s
 
 WriterNone.o: WriterNone.cpp.o
@@ -228,7 +228,7 @@ WriterNone.o: WriterNone.cpp.o
 
 # target to build an object file
 WriterNone.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterNone.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterNone.cpp.o
 .PHONY : WriterNone.cpp.o
 
 WriterNone.i: WriterNone.cpp.i
@@ -236,7 +236,7 @@ WriterNone.i: WriterNone.cpp.i
 
 # target to preprocess a source file
 WriterNone.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterNone.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterNone.cpp.i
 .PHONY : WriterNone.cpp.i
 
 WriterNone.s: WriterNone.cpp.s
@@ -244,7 +244,7 @@ WriterNone.s: WriterNone.cpp.s
 
 # target to generate assembly for a file
 WriterNone.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterNone.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterNone.cpp.s
 .PHONY : WriterNone.cpp.s
 
 WriterTxt.o: WriterTxt.cpp.o
@@ -252,7 +252,7 @@ WriterTxt.o: WriterTxt.cpp.o
 
 # target to build an object file
 WriterTxt.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterTxt.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterTxt.cpp.o
 .PHONY : WriterTxt.cpp.o
 
 WriterTxt.i: WriterTxt.cpp.i
@@ -260,7 +260,7 @@ WriterTxt.i: WriterTxt.cpp.i
 
 # target to preprocess a source file
 WriterTxt.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterTxt.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterTxt.cpp.i
 .PHONY : WriterTxt.cpp.i
 
 WriterTxt.s: WriterTxt.cpp.s
@@ -268,7 +268,7 @@ WriterTxt.s: WriterTxt.cpp.s
 
 # target to generate assembly for a file
 WriterTxt.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterTxt.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/Writer/CMakeFiles/Writer.dir/build.make src/Writer/CMakeFiles/Writer.dir/WriterTxt.cpp.s
 .PHONY : WriterTxt.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

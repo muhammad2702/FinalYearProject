@@ -1,5 +1,5 @@
 test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cpp.o: \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/DataItemCollectorTest.cpp \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/DataItemCollectorTest.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -110,7 +110,7 @@ test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cp
  /usr/include/c++/13/bits/functional_hash.h \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest.h \
  /usr/include/c++/13/limits /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
@@ -151,8 +151,8 @@ test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cp
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-internal.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-port.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-internal.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-port.h \
  /usr/include/c++/13/stdlib.h /usr/include/string.h \
  /usr/include/strings.h /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
@@ -177,8 +177,8 @@ test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cp
  /usr/include/c++/13/istream /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-port-arch.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/custom/gtest-port.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-port-arch.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/custom/gtest-port.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -225,33 +225,33 @@ test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cp
  /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/set \
  /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest-message.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-string.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-filepath.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-type-util.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest-message.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-string.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-filepath.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-type-util.h \
  /usr/include/c++/13/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest-death-test.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest-param-test.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-param-util.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest-death-test.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest-param-test.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-param-util.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h \
  /usr/include/assert.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest-printers.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest_prod.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest-test-part.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest-typed-test.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest_pred_impl.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-actions.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/internal/gmock-port.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/internal/custom/gmock-port.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-cardinalities.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest-printers.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest_prod.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest-test-part.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest-typed-test.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest_pred_impl.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-actions.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/internal/gmock-generated-internal-utils.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/internal/gmock-port.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/internal/custom/gmock-port.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-cardinalities.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -260,11 +260,11 @@ test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cp
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-generated-actions.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-spec-builders.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-matchers.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-generated-actions.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-spec-builders.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-matchers.h \
  /usr/include/c++/13/math.h /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -275,34 +275,34 @@ test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cp
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-generated-nice-strict.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-generated-matchers.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-more-actions.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googlemock/include/gmock/gmock-more-matchers.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../../src/DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-generated-nice-strict.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-generated-matchers.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-more-actions.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googlemock/include/gmock/gmock-more-matchers.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../../src/DataCollector/DataItemCollector.h \
  /usr/include/c++/13/cassert \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/MockDataItemCollector.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/DataCollector/DataItemCollector.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/MockWriter.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/Writer.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/libs/tinyxml2/tinyxml2.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/MockDataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/MockWriter.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/Writer.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/tinyxml2/tinyxml2.h \
  /usr/include/c++/13/climits /usr/include/c++/13/cstring \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/../Util/Util.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/../Util/Util.h \
  /usr/include/c++/13/cstddef /usr/include/c++/13/numeric \
  /usr/include/c++/13/bits/stl_numeric.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/../DataCollector/DataItemCollector.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/../QuantitiesOfInterest/QuantityOfInterest.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/../QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/../QuantitiesOfInterest/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Simulation.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Switching/ShareCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/../DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/../QuantitiesOfInterest/QuantityOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/../QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/../QuantitiesOfInterest/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Simulation.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Switching/ShareCalculator.h \
  /usr/include/boost/assign.hpp /usr/include/boost/assign/std.hpp \
  /usr/include/boost/assign/std/vector.hpp \
  /usr/include/boost/assign/list_inserter.hpp \
@@ -664,58 +664,58 @@ test/DataCollectorTest/CMakeFiles/DataCollectorTest.dir/DataItemCollectorTest.cp
  /usr/include/boost/type_traits/remove_extent.hpp \
  /usr/include/boost/utility/declval.hpp /usr/include/c++/13/array \
  /usr/include/c++/13/compare \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Switching/Switchable.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Switching/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/StockExchange.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/Agent.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../RandomGenerator/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../Switching/Switchable.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/DeltaT.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../Group/Group.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/GlobalNews.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/Dividend.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/DeltaT.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/PriceCalculator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/ExcessDemandCalculator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../Agent/Agent.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/Dividend.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../VariableContainer/DeltaT.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../ExcessDemandCalculator/ExcessDemandCalculator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Switching/ShareCalculator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../VariableContainer/Dividend.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../VariableContainer/GlobalNews.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/ExcessDemandCalculator/ExcessDemandCalculator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/PriceCalculator/PriceCalculator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/DataCollector/DataCollector.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/DataCollector/DataItemCollector.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../Agent/Agent.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Writer/Writer.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/VariableContainer/VariableContainer.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/VariableContainer/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/VariableContainer/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/QuantitiesOfInterest.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/QuantityOfInterest.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../Agent/Agent.h \
- /home/monan/Desktop/SABCEMM/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../Writer/Writer.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Switching/Switchable.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Switching/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/StockExchange.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../RandomGenerator/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../Switching/Switchable.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/DeltaT.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../Group/Group.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/GlobalNews.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/Dividend.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Agent/../VariableContainer/DeltaT.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/PriceCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/ExcessDemandCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/Dividend.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../VariableContainer/DeltaT.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../PriceCalculator/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../ExcessDemandCalculator/ExcessDemandCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../Switching/ShareCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../VariableContainer/Dividend.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/StockExchange/../VariableContainer/GlobalNews.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/ExcessDemandCalculator/ExcessDemandCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/PriceCalculator/PriceCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/DataCollector/DataCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/DataCollector/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Writer/Writer.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/VariableContainer/VariableContainer.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/VariableContainer/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/VariableContainer/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/QuantitiesOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/QuantityOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/DataCollectorTest/../MockClasses/../../src/QuantitiesOfInterest/../Writer/Writer.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/include/c++/13/bits/parse_numbers.h

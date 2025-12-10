@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/src/DataCollector//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/DataCollector//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/DataCollector/CMakeFiles/DataCollector.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/CMakeFiles/DataCollector.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/DataCollector/CMakeFiles/DataCollector.dir/rule
 .PHONY : src/DataCollector/CMakeFiles/DataCollector.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ DataCollector: src/DataCollector/CMakeFiles/DataCollector.dir/rule
 
 # fast build rule for target.
 DataCollector/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/build
 .PHONY : DataCollector/fast
 
 DataCollector.o: DataCollector.cpp.o
@@ -180,7 +180,7 @@ DataCollector.o: DataCollector.cpp.o
 
 # target to build an object file
 DataCollector.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataCollector.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataCollector.cpp.o
 .PHONY : DataCollector.cpp.o
 
 DataCollector.i: DataCollector.cpp.i
@@ -188,7 +188,7 @@ DataCollector.i: DataCollector.cpp.i
 
 # target to preprocess a source file
 DataCollector.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataCollector.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataCollector.cpp.i
 .PHONY : DataCollector.cpp.i
 
 DataCollector.s: DataCollector.cpp.s
@@ -196,7 +196,7 @@ DataCollector.s: DataCollector.cpp.s
 
 # target to generate assembly for a file
 DataCollector.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataCollector.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataCollector.cpp.s
 .PHONY : DataCollector.cpp.s
 
 DataItemCollector.o: DataItemCollector.cpp.o
@@ -204,7 +204,7 @@ DataItemCollector.o: DataItemCollector.cpp.o
 
 # target to build an object file
 DataItemCollector.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.o
 .PHONY : DataItemCollector.cpp.o
 
 DataItemCollector.i: DataItemCollector.cpp.i
@@ -212,7 +212,7 @@ DataItemCollector.i: DataItemCollector.cpp.i
 
 # target to preprocess a source file
 DataItemCollector.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.i
 .PHONY : DataItemCollector.cpp.i
 
 DataItemCollector.s: DataItemCollector.cpp.s
@@ -220,7 +220,7 @@ DataItemCollector.s: DataItemCollector.cpp.s
 
 # target to generate assembly for a file
 DataItemCollector.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.s
 .PHONY : DataItemCollector.cpp.s
 
 DataItemCollectorAmountOfCash.o: DataItemCollectorAmountOfCash.cpp.o
@@ -228,7 +228,7 @@ DataItemCollectorAmountOfCash.o: DataItemCollectorAmountOfCash.cpp.o
 
 # target to build an object file
 DataItemCollectorAmountOfCash.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfCash.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfCash.cpp.o
 .PHONY : DataItemCollectorAmountOfCash.cpp.o
 
 DataItemCollectorAmountOfCash.i: DataItemCollectorAmountOfCash.cpp.i
@@ -236,7 +236,7 @@ DataItemCollectorAmountOfCash.i: DataItemCollectorAmountOfCash.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorAmountOfCash.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfCash.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfCash.cpp.i
 .PHONY : DataItemCollectorAmountOfCash.cpp.i
 
 DataItemCollectorAmountOfCash.s: DataItemCollectorAmountOfCash.cpp.s
@@ -244,7 +244,7 @@ DataItemCollectorAmountOfCash.s: DataItemCollectorAmountOfCash.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorAmountOfCash.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfCash.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfCash.cpp.s
 .PHONY : DataItemCollectorAmountOfCash.cpp.s
 
 DataItemCollectorAmountOfStock.o: DataItemCollectorAmountOfStock.cpp.o
@@ -252,7 +252,7 @@ DataItemCollectorAmountOfStock.o: DataItemCollectorAmountOfStock.cpp.o
 
 # target to build an object file
 DataItemCollectorAmountOfStock.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfStock.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfStock.cpp.o
 .PHONY : DataItemCollectorAmountOfStock.cpp.o
 
 DataItemCollectorAmountOfStock.i: DataItemCollectorAmountOfStock.cpp.i
@@ -260,7 +260,7 @@ DataItemCollectorAmountOfStock.i: DataItemCollectorAmountOfStock.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorAmountOfStock.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfStock.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfStock.cpp.i
 .PHONY : DataItemCollectorAmountOfStock.cpp.i
 
 DataItemCollectorAmountOfStock.s: DataItemCollectorAmountOfStock.cpp.s
@@ -268,7 +268,7 @@ DataItemCollectorAmountOfStock.s: DataItemCollectorAmountOfStock.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorAmountOfStock.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfStock.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorAmountOfStock.cpp.s
 .PHONY : DataItemCollectorAmountOfStock.cpp.s
 
 DataItemCollectorEMBGamma.o: DataItemCollectorEMBGamma.cpp.o
@@ -276,7 +276,7 @@ DataItemCollectorEMBGamma.o: DataItemCollectorEMBGamma.cpp.o
 
 # target to build an object file
 DataItemCollectorEMBGamma.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorEMBGamma.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorEMBGamma.cpp.o
 .PHONY : DataItemCollectorEMBGamma.cpp.o
 
 DataItemCollectorEMBGamma.i: DataItemCollectorEMBGamma.cpp.i
@@ -284,7 +284,7 @@ DataItemCollectorEMBGamma.i: DataItemCollectorEMBGamma.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorEMBGamma.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorEMBGamma.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorEMBGamma.cpp.i
 .PHONY : DataItemCollectorEMBGamma.cpp.i
 
 DataItemCollectorEMBGamma.s: DataItemCollectorEMBGamma.cpp.s
@@ -292,7 +292,7 @@ DataItemCollectorEMBGamma.s: DataItemCollectorEMBGamma.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorEMBGamma.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorEMBGamma.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorEMBGamma.cpp.s
 .PHONY : DataItemCollectorEMBGamma.cpp.s
 
 DataItemCollectorExcessDemand.o: DataItemCollectorExcessDemand.cpp.o
@@ -300,7 +300,7 @@ DataItemCollectorExcessDemand.o: DataItemCollectorExcessDemand.cpp.o
 
 # target to build an object file
 DataItemCollectorExcessDemand.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorExcessDemand.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorExcessDemand.cpp.o
 .PHONY : DataItemCollectorExcessDemand.cpp.o
 
 DataItemCollectorExcessDemand.i: DataItemCollectorExcessDemand.cpp.i
@@ -308,7 +308,7 @@ DataItemCollectorExcessDemand.i: DataItemCollectorExcessDemand.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorExcessDemand.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorExcessDemand.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorExcessDemand.cpp.i
 .PHONY : DataItemCollectorExcessDemand.cpp.i
 
 DataItemCollectorExcessDemand.s: DataItemCollectorExcessDemand.cpp.s
@@ -316,7 +316,7 @@ DataItemCollectorExcessDemand.s: DataItemCollectorExcessDemand.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorExcessDemand.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorExcessDemand.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorExcessDemand.cpp.s
 .PHONY : DataItemCollectorExcessDemand.cpp.s
 
 DataItemCollectorFWSharesChartist.o: DataItemCollectorFWSharesChartist.cpp.o
@@ -324,7 +324,7 @@ DataItemCollectorFWSharesChartist.o: DataItemCollectorFWSharesChartist.cpp.o
 
 # target to build an object file
 DataItemCollectorFWSharesChartist.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesChartist.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesChartist.cpp.o
 .PHONY : DataItemCollectorFWSharesChartist.cpp.o
 
 DataItemCollectorFWSharesChartist.i: DataItemCollectorFWSharesChartist.cpp.i
@@ -332,7 +332,7 @@ DataItemCollectorFWSharesChartist.i: DataItemCollectorFWSharesChartist.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorFWSharesChartist.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesChartist.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesChartist.cpp.i
 .PHONY : DataItemCollectorFWSharesChartist.cpp.i
 
 DataItemCollectorFWSharesChartist.s: DataItemCollectorFWSharesChartist.cpp.s
@@ -340,7 +340,7 @@ DataItemCollectorFWSharesChartist.s: DataItemCollectorFWSharesChartist.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorFWSharesChartist.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesChartist.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesChartist.cpp.s
 .PHONY : DataItemCollectorFWSharesChartist.cpp.s
 
 DataItemCollectorFWSharesFundamentalist.o: DataItemCollectorFWSharesFundamentalist.cpp.o
@@ -348,7 +348,7 @@ DataItemCollectorFWSharesFundamentalist.o: DataItemCollectorFWSharesFundamentali
 
 # target to build an object file
 DataItemCollectorFWSharesFundamentalist.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesFundamentalist.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesFundamentalist.cpp.o
 .PHONY : DataItemCollectorFWSharesFundamentalist.cpp.o
 
 DataItemCollectorFWSharesFundamentalist.i: DataItemCollectorFWSharesFundamentalist.cpp.i
@@ -356,7 +356,7 @@ DataItemCollectorFWSharesFundamentalist.i: DataItemCollectorFWSharesFundamentali
 
 # target to preprocess a source file
 DataItemCollectorFWSharesFundamentalist.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesFundamentalist.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesFundamentalist.cpp.i
 .PHONY : DataItemCollectorFWSharesFundamentalist.cpp.i
 
 DataItemCollectorFWSharesFundamentalist.s: DataItemCollectorFWSharesFundamentalist.cpp.s
@@ -364,7 +364,7 @@ DataItemCollectorFWSharesFundamentalist.s: DataItemCollectorFWSharesFundamentali
 
 # target to generate assembly for a file
 DataItemCollectorFWSharesFundamentalist.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesFundamentalist.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorFWSharesFundamentalist.cpp.s
 .PHONY : DataItemCollectorFWSharesFundamentalist.cpp.s
 
 DataItemCollectorHarrasK.o: DataItemCollectorHarrasK.cpp.o
@@ -372,7 +372,7 @@ DataItemCollectorHarrasK.o: DataItemCollectorHarrasK.cpp.o
 
 # target to build an object file
 DataItemCollectorHarrasK.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorHarrasK.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorHarrasK.cpp.o
 .PHONY : DataItemCollectorHarrasK.cpp.o
 
 DataItemCollectorHarrasK.i: DataItemCollectorHarrasK.cpp.i
@@ -380,7 +380,7 @@ DataItemCollectorHarrasK.i: DataItemCollectorHarrasK.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorHarrasK.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorHarrasK.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorHarrasK.cpp.i
 .PHONY : DataItemCollectorHarrasK.cpp.i
 
 DataItemCollectorHarrasK.s: DataItemCollectorHarrasK.cpp.s
@@ -388,7 +388,7 @@ DataItemCollectorHarrasK.s: DataItemCollectorHarrasK.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorHarrasK.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorHarrasK.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorHarrasK.cpp.s
 .PHONY : DataItemCollectorHarrasK.cpp.s
 
 DataItemCollectorLLSMemorySpans.o: DataItemCollectorLLSMemorySpans.cpp.o
@@ -396,7 +396,7 @@ DataItemCollectorLLSMemorySpans.o: DataItemCollectorLLSMemorySpans.cpp.o
 
 # target to build an object file
 DataItemCollectorLLSMemorySpans.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorLLSMemorySpans.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorLLSMemorySpans.cpp.o
 .PHONY : DataItemCollectorLLSMemorySpans.cpp.o
 
 DataItemCollectorLLSMemorySpans.i: DataItemCollectorLLSMemorySpans.cpp.i
@@ -404,7 +404,7 @@ DataItemCollectorLLSMemorySpans.i: DataItemCollectorLLSMemorySpans.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorLLSMemorySpans.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorLLSMemorySpans.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorLLSMemorySpans.cpp.i
 .PHONY : DataItemCollectorLLSMemorySpans.cpp.i
 
 DataItemCollectorLLSMemorySpans.s: DataItemCollectorLLSMemorySpans.cpp.s
@@ -412,7 +412,7 @@ DataItemCollectorLLSMemorySpans.s: DataItemCollectorLLSMemorySpans.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorLLSMemorySpans.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorLLSMemorySpans.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorLLSMemorySpans.cpp.s
 .PHONY : DataItemCollectorLLSMemorySpans.cpp.s
 
 DataItemCollectorPrice.o: DataItemCollectorPrice.cpp.o
@@ -420,7 +420,7 @@ DataItemCollectorPrice.o: DataItemCollectorPrice.cpp.o
 
 # target to build an object file
 DataItemCollectorPrice.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorPrice.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorPrice.cpp.o
 .PHONY : DataItemCollectorPrice.cpp.o
 
 DataItemCollectorPrice.i: DataItemCollectorPrice.cpp.i
@@ -428,7 +428,7 @@ DataItemCollectorPrice.i: DataItemCollectorPrice.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorPrice.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorPrice.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorPrice.cpp.i
 .PHONY : DataItemCollectorPrice.cpp.i
 
 DataItemCollectorPrice.s: DataItemCollectorPrice.cpp.s
@@ -436,7 +436,7 @@ DataItemCollectorPrice.s: DataItemCollectorPrice.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorPrice.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorPrice.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorPrice.cpp.s
 .PHONY : DataItemCollectorPrice.cpp.s
 
 DataItemCollectorSwitchableShares.o: DataItemCollectorSwitchableShares.cpp.o
@@ -444,7 +444,7 @@ DataItemCollectorSwitchableShares.o: DataItemCollectorSwitchableShares.cpp.o
 
 # target to build an object file
 DataItemCollectorSwitchableShares.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorSwitchableShares.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorSwitchableShares.cpp.o
 .PHONY : DataItemCollectorSwitchableShares.cpp.o
 
 DataItemCollectorSwitchableShares.i: DataItemCollectorSwitchableShares.cpp.i
@@ -452,7 +452,7 @@ DataItemCollectorSwitchableShares.i: DataItemCollectorSwitchableShares.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorSwitchableShares.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorSwitchableShares.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorSwitchableShares.cpp.i
 .PHONY : DataItemCollectorSwitchableShares.cpp.i
 
 DataItemCollectorSwitchableShares.s: DataItemCollectorSwitchableShares.cpp.s
@@ -460,7 +460,7 @@ DataItemCollectorSwitchableShares.s: DataItemCollectorSwitchableShares.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorSwitchableShares.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorSwitchableShares.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorSwitchableShares.cpp.s
 .PHONY : DataItemCollectorSwitchableShares.cpp.s
 
 DataItemCollectorWealth.o: DataItemCollectorWealth.cpp.o
@@ -468,7 +468,7 @@ DataItemCollectorWealth.o: DataItemCollectorWealth.cpp.o
 
 # target to build an object file
 DataItemCollectorWealth.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorWealth.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorWealth.cpp.o
 .PHONY : DataItemCollectorWealth.cpp.o
 
 DataItemCollectorWealth.i: DataItemCollectorWealth.cpp.i
@@ -476,7 +476,7 @@ DataItemCollectorWealth.i: DataItemCollectorWealth.cpp.i
 
 # target to preprocess a source file
 DataItemCollectorWealth.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorWealth.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorWealth.cpp.i
 .PHONY : DataItemCollectorWealth.cpp.i
 
 DataItemCollectorWealth.s: DataItemCollectorWealth.cpp.s
@@ -484,7 +484,7 @@ DataItemCollectorWealth.s: DataItemCollectorWealth.cpp.s
 
 # target to generate assembly for a file
 DataItemCollectorWealth.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorWealth.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/DataCollector/CMakeFiles/DataCollector.dir/build.make src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollectorWealth.cpp.s
 .PHONY : DataItemCollectorWealth.cpp.s
 
 # Help Target
@@ -550,6 +550,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

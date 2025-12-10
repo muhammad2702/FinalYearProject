@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/WriterTest/CMakeFiles/WriterTest.dir/depend.make
@@ -70,18 +70,18 @@ include test/WriterTest/CMakeFiles/WriterTest.dir/progress.make
 include test/WriterTest/CMakeFiles/WriterTest.dir/flags.make
 
 test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o: test/WriterTest/CMakeFiles/WriterTest.dir/flags.make
-test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o: /home/monan/Desktop/SABCEMM/test/WriterTest/WriterTxtTest.cpp
+test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/WriterTest/WriterTxtTest.cpp
 test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o: test/WriterTest/CMakeFiles/WriterTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/WriterTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o -MF CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o.d -o CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/WriterTest/WriterTxtTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o -MF CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o.d -o CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/WriterTest/WriterTxtTest.cpp
 
 test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/WriterTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/WriterTest/WriterTxtTest.cpp > CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/WriterTest/WriterTxtTest.cpp > CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.i
 
 test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/WriterTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/WriterTest/WriterTxtTest.cpp -o CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/WriterTest/WriterTxtTest.cpp -o CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.s
 
 # Object files for target WriterTest
 WriterTest_OBJECTS = \
@@ -93,19 +93,19 @@ WriterTest_EXTERNAL_OBJECTS =
 test/WriterTest/libWriterTest.a: test/WriterTest/CMakeFiles/WriterTest.dir/WriterTxtTest.cpp.o
 test/WriterTest/libWriterTest.a: test/WriterTest/CMakeFiles/WriterTest.dir/build.make
 test/WriterTest/libWriterTest.a: test/WriterTest/CMakeFiles/WriterTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libWriterTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/WriterTest && $(CMAKE_COMMAND) -P CMakeFiles/WriterTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/WriterTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WriterTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libWriterTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest && $(CMAKE_COMMAND) -P CMakeFiles/WriterTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WriterTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/WriterTest/CMakeFiles/WriterTest.dir/build: test/WriterTest/libWriterTest.a
 .PHONY : test/WriterTest/CMakeFiles/WriterTest.dir/build
 
 test/WriterTest/CMakeFiles/WriterTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/WriterTest && $(CMAKE_COMMAND) -P CMakeFiles/WriterTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest && $(CMAKE_COMMAND) -P CMakeFiles/WriterTest.dir/cmake_clean.cmake
 .PHONY : test/WriterTest/CMakeFiles/WriterTest.dir/clean
 
 test/WriterTest/CMakeFiles/WriterTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/WriterTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/WriterTest /home/monan/Desktop/SABCEMM/build/test/WriterTest/CMakeFiles/WriterTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/WriterTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest/CMakeFiles/WriterTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/WriterTest/CMakeFiles/WriterTest.dir/depend
 

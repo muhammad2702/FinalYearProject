@@ -1,7 +1,7 @@
 src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.o: \
- /home/monan/Desktop/SABCEMM/src/DataCollector/DataItemCollector.cpp \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/DataCollector/DataItemCollector.cpp \
  /usr/include/stdc-predef.h \
- /home/monan/Desktop/SABCEMM/src/DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/DataCollector/DataItemCollector.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -116,7 +116,7 @@ src/DataCollector/CMakeFiles/DataCollector.dir/DataItemCollector.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/cassert \
  /usr/include/assert.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest_prod.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest_prod.h \
  /usr/include/c++/13/limits /usr/include/c++/13/iostream \
  /usr/include/c++/13/ostream /usr/include/c++/13/ios \
  /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \

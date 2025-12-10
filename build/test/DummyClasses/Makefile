@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test/DummyClasses//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DummyClasses//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/DummyClasses/CMakeFiles/DummyClasses.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/CMakeFiles/DummyClasses.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/DummyClasses/CMakeFiles/DummyClasses.dir/rule
 .PHONY : test/DummyClasses/CMakeFiles/DummyClasses.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ DummyClasses: test/DummyClasses/CMakeFiles/DummyClasses.dir/rule
 
 # fast build rule for target.
 DummyClasses/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/build
 .PHONY : DummyClasses/fast
 
 AgentDummy.o: AgentDummy.cpp.o
@@ -180,7 +180,7 @@ AgentDummy.o: AgentDummy.cpp.o
 
 # target to build an object file
 AgentDummy.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/AgentDummy.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/AgentDummy.cpp.o
 .PHONY : AgentDummy.cpp.o
 
 AgentDummy.i: AgentDummy.cpp.i
@@ -188,7 +188,7 @@ AgentDummy.i: AgentDummy.cpp.i
 
 # target to preprocess a source file
 AgentDummy.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/AgentDummy.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/AgentDummy.cpp.i
 .PHONY : AgentDummy.cpp.i
 
 AgentDummy.s: AgentDummy.cpp.s
@@ -196,7 +196,7 @@ AgentDummy.s: AgentDummy.cpp.s
 
 # target to generate assembly for a file
 AgentDummy.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/AgentDummy.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/AgentDummy.cpp.s
 .PHONY : AgentDummy.cpp.s
 
 ExcessDemandCalculatorDummy.o: ExcessDemandCalculatorDummy.cpp.o
@@ -204,7 +204,7 @@ ExcessDemandCalculatorDummy.o: ExcessDemandCalculatorDummy.cpp.o
 
 # target to build an object file
 ExcessDemandCalculatorDummy.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/ExcessDemandCalculatorDummy.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/ExcessDemandCalculatorDummy.cpp.o
 .PHONY : ExcessDemandCalculatorDummy.cpp.o
 
 ExcessDemandCalculatorDummy.i: ExcessDemandCalculatorDummy.cpp.i
@@ -212,7 +212,7 @@ ExcessDemandCalculatorDummy.i: ExcessDemandCalculatorDummy.cpp.i
 
 # target to preprocess a source file
 ExcessDemandCalculatorDummy.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/ExcessDemandCalculatorDummy.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/ExcessDemandCalculatorDummy.cpp.i
 .PHONY : ExcessDemandCalculatorDummy.cpp.i
 
 ExcessDemandCalculatorDummy.s: ExcessDemandCalculatorDummy.cpp.s
@@ -220,7 +220,7 @@ ExcessDemandCalculatorDummy.s: ExcessDemandCalculatorDummy.cpp.s
 
 # target to generate assembly for a file
 ExcessDemandCalculatorDummy.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/ExcessDemandCalculatorDummy.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/ExcessDemandCalculatorDummy.cpp.s
 .PHONY : ExcessDemandCalculatorDummy.cpp.s
 
 RandomGeneratorFunctional.o: RandomGeneratorFunctional.cpp.o
@@ -228,7 +228,7 @@ RandomGeneratorFunctional.o: RandomGeneratorFunctional.cpp.o
 
 # target to build an object file
 RandomGeneratorFunctional.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/RandomGeneratorFunctional.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/RandomGeneratorFunctional.cpp.o
 .PHONY : RandomGeneratorFunctional.cpp.o
 
 RandomGeneratorFunctional.i: RandomGeneratorFunctional.cpp.i
@@ -236,7 +236,7 @@ RandomGeneratorFunctional.i: RandomGeneratorFunctional.cpp.i
 
 # target to preprocess a source file
 RandomGeneratorFunctional.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/RandomGeneratorFunctional.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/RandomGeneratorFunctional.cpp.i
 .PHONY : RandomGeneratorFunctional.cpp.i
 
 RandomGeneratorFunctional.s: RandomGeneratorFunctional.cpp.s
@@ -244,7 +244,7 @@ RandomGeneratorFunctional.s: RandomGeneratorFunctional.cpp.s
 
 # target to generate assembly for a file
 RandomGeneratorFunctional.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/RandomGeneratorFunctional.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/DummyClasses/CMakeFiles/DummyClasses.dir/build.make test/DummyClasses/CMakeFiles/DummyClasses.dir/RandomGeneratorFunctional.cpp.s
 .PHONY : RandomGeneratorFunctional.cpp.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

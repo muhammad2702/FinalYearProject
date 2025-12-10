@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/test
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,21 +44,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/monan/Desktop/SABCEMM/build/test/AgentTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/DataCollectorTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/DummyClasses/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/ExcessDemandCalculatorTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/GroupTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/InputTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/MockClasses/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/QuantitiesOfInterestTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/RandomGeneratorTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/FullSimulationTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/StockExchangeTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/VariableContainerTest/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/test/WriterTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/AgentTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DataCollectorTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/DummyClasses/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/ExcessDemandCalculatorTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/InputTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/MockClasses/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/QuantitiesOfInterestTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/RandomGeneratorTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/FullSimulationTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/VariableContainerTest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/WriterTest/cmake_install.cmake")
 
 endif()
 

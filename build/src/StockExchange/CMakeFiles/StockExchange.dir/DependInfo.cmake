@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/monan/Desktop/SABCEMM/src/StockExchange/StockExchange.cpp" "src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o" "gcc" "src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o.d"
+  "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/StockExchange/StockExchange.cpp" "src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o" "gcc" "src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

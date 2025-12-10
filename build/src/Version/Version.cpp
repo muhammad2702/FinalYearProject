@@ -37,18 +37,18 @@
  * @brief This file belongs to the SABCEMM projekt. See github.com/SABCEMM/SABCEMM
  */
 
-#include "/home/monan/Desktop/SABCEMM/src/Version/Version.h"
+#include "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Version/Version.h"
 
 #include <string>
 
 using namespace std;
 
 namespace buildinfo{
-    const string GIT_VERSION = "v0.1-alpha-23-ga87ea83";
-    const string GIT_SHA1 = "a87ea83b57a8a7d16591abe30e56db459e710a0e";
-    const string OS = "Linux-6.14.0-36-generic";
+    const string GIT_VERSION = "a5265b6";
+    const string GIT_SHA1 = "a5265b6c0a03775f1c918e815bea1775edbbbc00";
+    const string OS = "Linux-5.15.167.4-microsoft-standard-WSL2";
     const string OS_NAME = "Linux";
-    const string FQDN = "monan-HP-ZBook-17-G2";
+    const string FQDN = "Sunny";
     const string BUILD_TYPE = "";
     const string CXX = "GNU";
 }

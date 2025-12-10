@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/depend.make
@@ -70,18 +70,18 @@ include test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/progress.make
 include test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/flags.make
 
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o: test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/flags.make
-test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o: /home/monan/Desktop/SABCEMM/test/StockExchangeTest/StockExchangeTest.cpp
+test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/StockExchangeTest/StockExchangeTest.cpp
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o: test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o -MF CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o.d -o CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/StockExchangeTest/StockExchangeTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o -MF CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o.d -o CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/StockExchangeTest/StockExchangeTest.cpp
 
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/StockExchangeTest/StockExchangeTest.cpp > CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/StockExchangeTest/StockExchangeTest.cpp > CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.i
 
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/StockExchangeTest/StockExchangeTest.cpp -o CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/StockExchangeTest/StockExchangeTest.cpp -o CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.s
 
 # Object files for target StockExchangeTest
 StockExchangeTest_OBJECTS = \
@@ -93,19 +93,19 @@ StockExchangeTest_EXTERNAL_OBJECTS =
 test/StockExchangeTest/libStockExchangeTest.a: test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o
 test/StockExchangeTest/libStockExchangeTest.a: test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make
 test/StockExchangeTest/libStockExchangeTest.a: test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libStockExchangeTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest && $(CMAKE_COMMAND) -P CMakeFiles/StockExchangeTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StockExchangeTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libStockExchangeTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest && $(CMAKE_COMMAND) -P CMakeFiles/StockExchangeTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StockExchangeTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build: test/StockExchangeTest/libStockExchangeTest.a
 .PHONY : test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build
 
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest && $(CMAKE_COMMAND) -P CMakeFiles/StockExchangeTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest && $(CMAKE_COMMAND) -P CMakeFiles/StockExchangeTest.dir/cmake_clean.cmake
 .PHONY : test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/clean
 
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/StockExchangeTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/StockExchangeTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/depend
 

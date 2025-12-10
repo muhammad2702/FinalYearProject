@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/GroupTest/CMakeFiles/GroupTest.dir/depend.make
@@ -70,18 +70,18 @@ include test/GroupTest/CMakeFiles/GroupTest.dir/progress.make
 include test/GroupTest/CMakeFiles/GroupTest.dir/flags.make
 
 test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o: test/GroupTest/CMakeFiles/GroupTest.dir/flags.make
-test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o: /home/monan/Desktop/SABCEMM/test/GroupTest/GroupTest.cpp
+test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/GroupTest/GroupTest.cpp
 test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o: test/GroupTest/CMakeFiles/GroupTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/GroupTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o -MF CMakeFiles/GroupTest.dir/GroupTest.cpp.o.d -o CMakeFiles/GroupTest.dir/GroupTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/GroupTest/GroupTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o -MF CMakeFiles/GroupTest.dir/GroupTest.cpp.o.d -o CMakeFiles/GroupTest.dir/GroupTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/GroupTest/GroupTest.cpp
 
 test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GroupTest.dir/GroupTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/GroupTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/GroupTest/GroupTest.cpp > CMakeFiles/GroupTest.dir/GroupTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/GroupTest/GroupTest.cpp > CMakeFiles/GroupTest.dir/GroupTest.cpp.i
 
 test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GroupTest.dir/GroupTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/GroupTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/GroupTest/GroupTest.cpp -o CMakeFiles/GroupTest.dir/GroupTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/GroupTest/GroupTest.cpp -o CMakeFiles/GroupTest.dir/GroupTest.cpp.s
 
 # Object files for target GroupTest
 GroupTest_OBJECTS = \
@@ -93,19 +93,19 @@ GroupTest_EXTERNAL_OBJECTS =
 test/GroupTest/libGroupTest.a: test/GroupTest/CMakeFiles/GroupTest.dir/GroupTest.cpp.o
 test/GroupTest/libGroupTest.a: test/GroupTest/CMakeFiles/GroupTest.dir/build.make
 test/GroupTest/libGroupTest.a: test/GroupTest/CMakeFiles/GroupTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libGroupTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/GroupTest && $(CMAKE_COMMAND) -P CMakeFiles/GroupTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/GroupTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GroupTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libGroupTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest && $(CMAKE_COMMAND) -P CMakeFiles/GroupTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GroupTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/GroupTest/CMakeFiles/GroupTest.dir/build: test/GroupTest/libGroupTest.a
 .PHONY : test/GroupTest/CMakeFiles/GroupTest.dir/build
 
 test/GroupTest/CMakeFiles/GroupTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/GroupTest && $(CMAKE_COMMAND) -P CMakeFiles/GroupTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest && $(CMAKE_COMMAND) -P CMakeFiles/GroupTest.dir/cmake_clean.cmake
 .PHONY : test/GroupTest/CMakeFiles/GroupTest.dir/clean
 
 test/GroupTest/CMakeFiles/GroupTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/GroupTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/GroupTest /home/monan/Desktop/SABCEMM/build/test/GroupTest/CMakeFiles/GroupTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/GroupTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/GroupTest/CMakeFiles/GroupTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/GroupTest/CMakeFiles/GroupTest.dir/depend
 

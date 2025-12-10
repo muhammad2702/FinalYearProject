@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/monan/Desktop/SABCEMM/src/Algorithms/brent/brent.cpp" "src/Algorithms/CMakeFiles/Algorithms.dir/brent/brent.cpp.o" "gcc" "src/Algorithms/CMakeFiles/Algorithms.dir/brent/brent.cpp.o.d"
+  "/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Algorithms/brent/brent.cpp" "src/Algorithms/CMakeFiles/Algorithms.dir/brent/brent.cpp.o" "gcc" "src/Algorithms/CMakeFiles/Algorithms.dir/brent/brent.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

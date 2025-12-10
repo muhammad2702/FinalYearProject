@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/libs/progressbar/lib
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/progressbar/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

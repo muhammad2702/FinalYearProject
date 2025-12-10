@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/depend.make
@@ -70,214 +70,214 @@ include src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/progress.ma
 include src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp > CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp > CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantityOfInterest.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantityOfInterest.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantityOfInterest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantityOfInterest.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantityOfInterest.cpp > CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantityOfInterest.cpp > CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantityOfInterest.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantityOfInterest.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QuantityOfInterest.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculator.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculator.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculator.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculator.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculator.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculator.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculator.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculator.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorExcessKurtosis.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorExcessKurtosis.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorKurtosis.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorKurtosis.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMaximum.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMaximum.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMean.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMean.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMean.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMean.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMean.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMean.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMean.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMean.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMean.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMinimum.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMinimum.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorMoment.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorMoment.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorQuantile.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorQuantile.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorSkew.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorSkew.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorVariance.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorVariance.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorFull.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorFull.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorFull.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorFull.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorFull.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorFull.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorFull.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorFull.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorFull.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorHill.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorHill.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorHill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorHill.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorHill.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorHill.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorHill.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorHill.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorHill.cpp.s
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/flags.make
-src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp
+src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o -c /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o -MF CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o.d -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp > CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.i
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QoiCalculatorAutocorrelation.cpp -o CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.s
 
 # Object files for target QuantitiesOfInterest
 QuantitiesOfInterest_OBJECTS = \
@@ -317,19 +317,19 @@ src/QuantitiesOfInterest/libQuantitiesOfInterest.a: src/QuantitiesOfInterest/CMa
 src/QuantitiesOfInterest/libQuantitiesOfInterest.a: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QoiCalculatorAutocorrelation.cpp.o
 src/QuantitiesOfInterest/libQuantitiesOfInterest.a: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build.make
 src/QuantitiesOfInterest/libQuantitiesOfInterest.a: src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libQuantitiesOfInterest.a"
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && $(CMAKE_COMMAND) -P CMakeFiles/QuantitiesOfInterest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QuantitiesOfInterest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libQuantitiesOfInterest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && $(CMAKE_COMMAND) -P CMakeFiles/QuantitiesOfInterest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QuantitiesOfInterest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build: src/QuantitiesOfInterest/libQuantitiesOfInterest.a
 .PHONY : src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/build
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest && $(CMAKE_COMMAND) -P CMakeFiles/QuantitiesOfInterest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest && $(CMAKE_COMMAND) -P CMakeFiles/QuantitiesOfInterest.dir/cmake_clean.cmake
 .PHONY : src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/clean
 
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest /home/monan/Desktop/SABCEMM/build/src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/depend
 

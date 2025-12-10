@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/src/RandomGenerator//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/RandomGenerator//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RandomGenerator/CMakeFiles/RandomGenerator.dir/rule
 .PHONY : src/RandomGenerator/CMakeFiles/RandomGenerator.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ RandomGenerator: src/RandomGenerator/CMakeFiles/RandomGenerator.dir/rule
 
 # fast build rule for target.
 RandomGenerator/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build
 .PHONY : RandomGenerator/fast
 
 Algorithms/sabcemm_rand.o: Algorithms/sabcemm_rand.cc.o
@@ -180,7 +180,7 @@ Algorithms/sabcemm_rand.o: Algorithms/sabcemm_rand.cc.o
 
 # target to build an object file
 Algorithms/sabcemm_rand.cc.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.o
 .PHONY : Algorithms/sabcemm_rand.cc.o
 
 Algorithms/sabcemm_rand.i: Algorithms/sabcemm_rand.cc.i
@@ -188,7 +188,7 @@ Algorithms/sabcemm_rand.i: Algorithms/sabcemm_rand.cc.i
 
 # target to preprocess a source file
 Algorithms/sabcemm_rand.cc.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.i
 .PHONY : Algorithms/sabcemm_rand.cc.i
 
 Algorithms/sabcemm_rand.s: Algorithms/sabcemm_rand.cc.s
@@ -196,7 +196,7 @@ Algorithms/sabcemm_rand.s: Algorithms/sabcemm_rand.cc.s
 
 # target to generate assembly for a file
 Algorithms/sabcemm_rand.cc.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/Algorithms/sabcemm_rand.cc.s
 .PHONY : Algorithms/sabcemm_rand.cc.s
 
 RandomGenerator.o: RandomGenerator.cpp.o
@@ -204,7 +204,7 @@ RandomGenerator.o: RandomGenerator.cpp.o
 
 # target to build an object file
 RandomGenerator.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.o
 .PHONY : RandomGenerator.cpp.o
 
 RandomGenerator.i: RandomGenerator.cpp.i
@@ -212,7 +212,7 @@ RandomGenerator.i: RandomGenerator.cpp.i
 
 # target to preprocess a source file
 RandomGenerator.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.i
 .PHONY : RandomGenerator.cpp.i
 
 RandomGenerator.s: RandomGenerator.cpp.s
@@ -220,7 +220,7 @@ RandomGenerator.s: RandomGenerator.cpp.s
 
 # target to generate assembly for a file
 RandomGenerator.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGenerator.cpp.s
 .PHONY : RandomGenerator.cpp.s
 
 RandomGeneratorFromFile.o: RandomGeneratorFromFile.cpp.o
@@ -228,7 +228,7 @@ RandomGeneratorFromFile.o: RandomGeneratorFromFile.cpp.o
 
 # target to build an object file
 RandomGeneratorFromFile.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.o
 .PHONY : RandomGeneratorFromFile.cpp.o
 
 RandomGeneratorFromFile.i: RandomGeneratorFromFile.cpp.i
@@ -236,7 +236,7 @@ RandomGeneratorFromFile.i: RandomGeneratorFromFile.cpp.i
 
 # target to preprocess a source file
 RandomGeneratorFromFile.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.i
 .PHONY : RandomGeneratorFromFile.cpp.i
 
 RandomGeneratorFromFile.s: RandomGeneratorFromFile.cpp.s
@@ -244,7 +244,7 @@ RandomGeneratorFromFile.s: RandomGeneratorFromFile.cpp.s
 
 # target to generate assembly for a file
 RandomGeneratorFromFile.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorFromFile.cpp.s
 .PHONY : RandomGeneratorFromFile.cpp.s
 
 RandomGeneratorRANDU.o: RandomGeneratorRANDU.cpp.o
@@ -252,7 +252,7 @@ RandomGeneratorRANDU.o: RandomGeneratorRANDU.cpp.o
 
 # target to build an object file
 RandomGeneratorRANDU.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.o
 .PHONY : RandomGeneratorRANDU.cpp.o
 
 RandomGeneratorRANDU.i: RandomGeneratorRANDU.cpp.i
@@ -260,7 +260,7 @@ RandomGeneratorRANDU.i: RandomGeneratorRANDU.cpp.i
 
 # target to preprocess a source file
 RandomGeneratorRANDU.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.i
 .PHONY : RandomGeneratorRANDU.cpp.i
 
 RandomGeneratorRANDU.s: RandomGeneratorRANDU.cpp.s
@@ -268,7 +268,7 @@ RandomGeneratorRANDU.s: RandomGeneratorRANDU.cpp.s
 
 # target to generate assembly for a file
 RandomGeneratorRANDU.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorRANDU.cpp.s
 .PHONY : RandomGeneratorRANDU.cpp.s
 
 RandomGeneratorStdLib.o: RandomGeneratorStdLib.cpp.o
@@ -276,7 +276,7 @@ RandomGeneratorStdLib.o: RandomGeneratorStdLib.cpp.o
 
 # target to build an object file
 RandomGeneratorStdLib.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.o
 .PHONY : RandomGeneratorStdLib.cpp.o
 
 RandomGeneratorStdLib.i: RandomGeneratorStdLib.cpp.i
@@ -284,7 +284,7 @@ RandomGeneratorStdLib.i: RandomGeneratorStdLib.cpp.i
 
 # target to preprocess a source file
 RandomGeneratorStdLib.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.i
 .PHONY : RandomGeneratorStdLib.cpp.i
 
 RandomGeneratorStdLib.s: RandomGeneratorStdLib.cpp.s
@@ -292,7 +292,7 @@ RandomGeneratorStdLib.s: RandomGeneratorStdLib.cpp.s
 
 # target to generate assembly for a file
 RandomGeneratorStdLib.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLib.cpp.s
 .PHONY : RandomGeneratorStdLib.cpp.s
 
 RandomGeneratorStdLibOld.o: RandomGeneratorStdLibOld.cpp.o
@@ -300,7 +300,7 @@ RandomGeneratorStdLibOld.o: RandomGeneratorStdLibOld.cpp.o
 
 # target to build an object file
 RandomGeneratorStdLibOld.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.o
 .PHONY : RandomGeneratorStdLibOld.cpp.o
 
 RandomGeneratorStdLibOld.i: RandomGeneratorStdLibOld.cpp.i
@@ -308,7 +308,7 @@ RandomGeneratorStdLibOld.i: RandomGeneratorStdLibOld.cpp.i
 
 # target to preprocess a source file
 RandomGeneratorStdLibOld.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.i
 .PHONY : RandomGeneratorStdLibOld.cpp.i
 
 RandomGeneratorStdLibOld.s: RandomGeneratorStdLibOld.cpp.s
@@ -316,7 +316,7 @@ RandomGeneratorStdLibOld.s: RandomGeneratorStdLibOld.cpp.s
 
 # target to generate assembly for a file
 RandomGeneratorStdLibOld.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomGeneratorStdLibOld.cpp.s
 .PHONY : RandomGeneratorStdLibOld.cpp.s
 
 RandomNumberPool.o: RandomNumberPool.cpp.o
@@ -324,7 +324,7 @@ RandomNumberPool.o: RandomNumberPool.cpp.o
 
 # target to build an object file
 RandomNumberPool.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.o
 .PHONY : RandomNumberPool.cpp.o
 
 RandomNumberPool.i: RandomNumberPool.cpp.i
@@ -332,7 +332,7 @@ RandomNumberPool.i: RandomNumberPool.cpp.i
 
 # target to preprocess a source file
 RandomNumberPool.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.i
 .PHONY : RandomNumberPool.cpp.i
 
 RandomNumberPool.s: RandomNumberPool.cpp.s
@@ -340,7 +340,7 @@ RandomNumberPool.s: RandomNumberPool.cpp.s
 
 # target to generate assembly for a file
 RandomNumberPool.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/RandomGenerator/CMakeFiles/RandomGenerator.dir/build.make src/RandomGenerator/CMakeFiles/RandomGenerator.dir/RandomNumberPool.cpp.s
 .PHONY : RandomNumberPool.cpp.s
 
 # Help Target
@@ -388,6 +388,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

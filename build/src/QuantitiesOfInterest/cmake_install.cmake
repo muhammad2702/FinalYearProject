@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

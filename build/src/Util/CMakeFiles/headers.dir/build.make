@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Utility rule file for headers.
 
@@ -74,10 +74,10 @@ src/Util/CMakeFiles/headers.dir/build: headers
 .PHONY : src/Util/CMakeFiles/headers.dir/build
 
 src/Util/CMakeFiles/headers.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/Util && $(CMAKE_COMMAND) -P CMakeFiles/headers.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Util && $(CMAKE_COMMAND) -P CMakeFiles/headers.dir/cmake_clean.cmake
 .PHONY : src/Util/CMakeFiles/headers.dir/clean
 
 src/Util/CMakeFiles/headers.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/Util /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/Util /home/monan/Desktop/SABCEMM/build/src/Util/CMakeFiles/headers.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Util /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Util /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Util/CMakeFiles/headers.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/Util/CMakeFiles/headers.dir/depend
 

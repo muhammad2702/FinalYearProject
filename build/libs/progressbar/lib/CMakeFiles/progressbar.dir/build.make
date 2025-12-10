@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include libs/progressbar/lib/CMakeFiles/progressbar.dir/depend.make
@@ -70,18 +70,18 @@ include libs/progressbar/lib/CMakeFiles/progressbar.dir/progress.make
 include libs/progressbar/lib/CMakeFiles/progressbar.dir/flags.make
 
 libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o: libs/progressbar/lib/CMakeFiles/progressbar.dir/flags.make
-libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o: /home/monan/Desktop/SABCEMM/libs/progressbar/lib/progressbar.c
+libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/progressbar/lib/progressbar.c
 libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o: libs/progressbar/lib/CMakeFiles/progressbar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o"
-	cd /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o -MF CMakeFiles/progressbar.dir/progressbar.c.o.d -o CMakeFiles/progressbar.dir/progressbar.c.o -c /home/monan/Desktop/SABCEMM/libs/progressbar/lib/progressbar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o -MF CMakeFiles/progressbar.dir/progressbar.c.o.d -o CMakeFiles/progressbar.dir/progressbar.c.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/progressbar/lib/progressbar.c
 
 libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/progressbar.dir/progressbar.c.i"
-	cd /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/monan/Desktop/SABCEMM/libs/progressbar/lib/progressbar.c > CMakeFiles/progressbar.dir/progressbar.c.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/progressbar/lib/progressbar.c > CMakeFiles/progressbar.dir/progressbar.c.i
 
 libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/progressbar.dir/progressbar.c.s"
-	cd /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/monan/Desktop/SABCEMM/libs/progressbar/lib/progressbar.c -o CMakeFiles/progressbar.dir/progressbar.c.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/progressbar/lib/progressbar.c -o CMakeFiles/progressbar.dir/progressbar.c.s
 
 # Object files for target progressbar
 progressbar_OBJECTS = \
@@ -93,19 +93,19 @@ progressbar_EXTERNAL_OBJECTS =
 libs/progressbar/lib/libprogressbar.a: libs/progressbar/lib/CMakeFiles/progressbar.dir/progressbar.c.o
 libs/progressbar/lib/libprogressbar.a: libs/progressbar/lib/CMakeFiles/progressbar.dir/build.make
 libs/progressbar/lib/libprogressbar.a: libs/progressbar/lib/CMakeFiles/progressbar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libprogressbar.a"
-	cd /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib && $(CMAKE_COMMAND) -P CMakeFiles/progressbar.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/progressbar.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libprogressbar.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib && $(CMAKE_COMMAND) -P CMakeFiles/progressbar.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/progressbar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/progressbar/lib/CMakeFiles/progressbar.dir/build: libs/progressbar/lib/libprogressbar.a
 .PHONY : libs/progressbar/lib/CMakeFiles/progressbar.dir/build
 
 libs/progressbar/lib/CMakeFiles/progressbar.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib && $(CMAKE_COMMAND) -P CMakeFiles/progressbar.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib && $(CMAKE_COMMAND) -P CMakeFiles/progressbar.dir/cmake_clean.cmake
 .PHONY : libs/progressbar/lib/CMakeFiles/progressbar.dir/clean
 
 libs/progressbar/lib/CMakeFiles/progressbar.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/libs/progressbar/lib /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib /home/monan/Desktop/SABCEMM/build/libs/progressbar/lib/CMakeFiles/progressbar.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/progressbar/lib /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/progressbar/lib/CMakeFiles/progressbar.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : libs/progressbar/lib/CMakeFiles/progressbar.dir/depend
 

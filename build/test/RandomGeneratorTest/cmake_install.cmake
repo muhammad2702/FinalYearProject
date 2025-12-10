@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/test/RandomGeneratorTest
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/RandomGeneratorTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

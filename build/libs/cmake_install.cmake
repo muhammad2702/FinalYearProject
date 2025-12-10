@@ -1,4 +1,4 @@
-# Install script for directory: /home/monan/Desktop/SABCEMM/libs
+# Install script for directory: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/monan/Desktop/SABCEMM/build/libs/tinyxml2/cmake_install.cmake")
-  include("/home/monan/Desktop/SABCEMM/build/libs/googletest/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/tinyxml2/cmake_install.cmake")
+  include("/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/libs/googletest/cmake_install.cmake")
 
 endif()
 

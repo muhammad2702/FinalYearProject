@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Utility rule file for exceptionHeaders.
 
@@ -74,10 +74,10 @@ src/Exceptions/CMakeFiles/exceptionHeaders.dir/build: exceptionHeaders
 .PHONY : src/Exceptions/CMakeFiles/exceptionHeaders.dir/build
 
 src/Exceptions/CMakeFiles/exceptionHeaders.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/Exceptions && $(CMAKE_COMMAND) -P CMakeFiles/exceptionHeaders.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Exceptions && $(CMAKE_COMMAND) -P CMakeFiles/exceptionHeaders.dir/cmake_clean.cmake
 .PHONY : src/Exceptions/CMakeFiles/exceptionHeaders.dir/clean
 
 src/Exceptions/CMakeFiles/exceptionHeaders.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/Exceptions /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/Exceptions /home/monan/Desktop/SABCEMM/build/src/Exceptions/CMakeFiles/exceptionHeaders.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/Exceptions /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Exceptions /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/Exceptions/CMakeFiles/exceptionHeaders.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/Exceptions/CMakeFiles/exceptionHeaders.dir/depend
 

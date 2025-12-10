@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/src/NeighbourhoodGenerator//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/NeighbourhoodGenerator//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/rule
 .PHONY : src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ NeighbourhoodGenerator: src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGener
 
 # fast build rule for target.
 NeighbourhoodGenerator/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build
 .PHONY : NeighbourhoodGenerator/fast
 
 LatticeNeighbourhoodGenerator.o: LatticeNeighbourhoodGenerator.cpp.o
@@ -180,7 +180,7 @@ LatticeNeighbourhoodGenerator.o: LatticeNeighbourhoodGenerator.cpp.o
 
 # target to build an object file
 LatticeNeighbourhoodGenerator.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.o
 .PHONY : LatticeNeighbourhoodGenerator.cpp.o
 
 LatticeNeighbourhoodGenerator.i: LatticeNeighbourhoodGenerator.cpp.i
@@ -188,7 +188,7 @@ LatticeNeighbourhoodGenerator.i: LatticeNeighbourhoodGenerator.cpp.i
 
 # target to preprocess a source file
 LatticeNeighbourhoodGenerator.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.i
 .PHONY : LatticeNeighbourhoodGenerator.cpp.i
 
 LatticeNeighbourhoodGenerator.s: LatticeNeighbourhoodGenerator.cpp.s
@@ -196,7 +196,7 @@ LatticeNeighbourhoodGenerator.s: LatticeNeighbourhoodGenerator.cpp.s
 
 # target to generate assembly for a file
 LatticeNeighbourhoodGenerator.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGenerator.cpp.s
 .PHONY : LatticeNeighbourhoodGenerator.cpp.s
 
 LatticeNeighbourhoodGeneratorMatlab.o: LatticeNeighbourhoodGeneratorMatlab.cpp.o
@@ -204,7 +204,7 @@ LatticeNeighbourhoodGeneratorMatlab.o: LatticeNeighbourhoodGeneratorMatlab.cpp.o
 
 # target to build an object file
 LatticeNeighbourhoodGeneratorMatlab.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.o
 .PHONY : LatticeNeighbourhoodGeneratorMatlab.cpp.o
 
 LatticeNeighbourhoodGeneratorMatlab.i: LatticeNeighbourhoodGeneratorMatlab.cpp.i
@@ -212,7 +212,7 @@ LatticeNeighbourhoodGeneratorMatlab.i: LatticeNeighbourhoodGeneratorMatlab.cpp.i
 
 # target to preprocess a source file
 LatticeNeighbourhoodGeneratorMatlab.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.i
 .PHONY : LatticeNeighbourhoodGeneratorMatlab.cpp.i
 
 LatticeNeighbourhoodGeneratorMatlab.s: LatticeNeighbourhoodGeneratorMatlab.cpp.s
@@ -220,7 +220,7 @@ LatticeNeighbourhoodGeneratorMatlab.s: LatticeNeighbourhoodGeneratorMatlab.cpp.s
 
 # target to generate assembly for a file
 LatticeNeighbourhoodGeneratorMatlab.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LatticeNeighbourhoodGeneratorMatlab.cpp.s
 .PHONY : LatticeNeighbourhoodGeneratorMatlab.cpp.s
 
 LinearNeigbourhoodGenerator.o: LinearNeigbourhoodGenerator.cpp.o
@@ -228,7 +228,7 @@ LinearNeigbourhoodGenerator.o: LinearNeigbourhoodGenerator.cpp.o
 
 # target to build an object file
 LinearNeigbourhoodGenerator.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.o
 .PHONY : LinearNeigbourhoodGenerator.cpp.o
 
 LinearNeigbourhoodGenerator.i: LinearNeigbourhoodGenerator.cpp.i
@@ -236,7 +236,7 @@ LinearNeigbourhoodGenerator.i: LinearNeigbourhoodGenerator.cpp.i
 
 # target to preprocess a source file
 LinearNeigbourhoodGenerator.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.i
 .PHONY : LinearNeigbourhoodGenerator.cpp.i
 
 LinearNeigbourhoodGenerator.s: LinearNeigbourhoodGenerator.cpp.s
@@ -244,7 +244,7 @@ LinearNeigbourhoodGenerator.s: LinearNeigbourhoodGenerator.cpp.s
 
 # target to generate assembly for a file
 LinearNeigbourhoodGenerator.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/LinearNeigbourhoodGenerator.cpp.s
 .PHONY : LinearNeigbourhoodGenerator.cpp.s
 
 NeighbourhoodGenerator.o: NeighbourhoodGenerator.cpp.o
@@ -252,7 +252,7 @@ NeighbourhoodGenerator.o: NeighbourhoodGenerator.cpp.o
 
 # target to build an object file
 NeighbourhoodGenerator.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.o
 .PHONY : NeighbourhoodGenerator.cpp.o
 
 NeighbourhoodGenerator.i: NeighbourhoodGenerator.cpp.i
@@ -260,7 +260,7 @@ NeighbourhoodGenerator.i: NeighbourhoodGenerator.cpp.i
 
 # target to preprocess a source file
 NeighbourhoodGenerator.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.i
 .PHONY : NeighbourhoodGenerator.cpp.i
 
 NeighbourhoodGenerator.s: NeighbourhoodGenerator.cpp.s
@@ -268,7 +268,7 @@ NeighbourhoodGenerator.s: NeighbourhoodGenerator.cpp.s
 
 # target to generate assembly for a file
 NeighbourhoodGenerator.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/build.make src/NeighbourhoodGenerator/CMakeFiles/NeighbourhoodGenerator.dir/NeighbourhoodGenerator.cpp.s
 .PHONY : NeighbourhoodGenerator.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

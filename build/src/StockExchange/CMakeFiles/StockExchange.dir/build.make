@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include src/StockExchange/CMakeFiles/StockExchange.dir/depend.make
@@ -70,18 +70,18 @@ include src/StockExchange/CMakeFiles/StockExchange.dir/progress.make
 include src/StockExchange/CMakeFiles/StockExchange.dir/flags.make
 
 src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o: src/StockExchange/CMakeFiles/StockExchange.dir/flags.make
-src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o: /home/monan/Desktop/SABCEMM/src/StockExchange/StockExchange.cpp
+src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/StockExchange/StockExchange.cpp
 src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o: src/StockExchange/CMakeFiles/StockExchange.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/StockExchange && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o -MF CMakeFiles/StockExchange.dir/StockExchange.cpp.o.d -o CMakeFiles/StockExchange.dir/StockExchange.cpp.o -c /home/monan/Desktop/SABCEMM/src/StockExchange/StockExchange.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o -MF CMakeFiles/StockExchange.dir/StockExchange.cpp.o.d -o CMakeFiles/StockExchange.dir/StockExchange.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/StockExchange/StockExchange.cpp
 
 src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StockExchange.dir/StockExchange.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/StockExchange && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/StockExchange/StockExchange.cpp > CMakeFiles/StockExchange.dir/StockExchange.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/StockExchange/StockExchange.cpp > CMakeFiles/StockExchange.dir/StockExchange.cpp.i
 
 src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StockExchange.dir/StockExchange.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/StockExchange && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/StockExchange/StockExchange.cpp -o CMakeFiles/StockExchange.dir/StockExchange.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/StockExchange/StockExchange.cpp -o CMakeFiles/StockExchange.dir/StockExchange.cpp.s
 
 # Object files for target StockExchange
 StockExchange_OBJECTS = \
@@ -93,19 +93,19 @@ StockExchange_EXTERNAL_OBJECTS =
 src/StockExchange/libStockExchange.a: src/StockExchange/CMakeFiles/StockExchange.dir/StockExchange.cpp.o
 src/StockExchange/libStockExchange.a: src/StockExchange/CMakeFiles/StockExchange.dir/build.make
 src/StockExchange/libStockExchange.a: src/StockExchange/CMakeFiles/StockExchange.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libStockExchange.a"
-	cd /home/monan/Desktop/SABCEMM/build/src/StockExchange && $(CMAKE_COMMAND) -P CMakeFiles/StockExchange.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/src/StockExchange && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StockExchange.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libStockExchange.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange && $(CMAKE_COMMAND) -P CMakeFiles/StockExchange.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StockExchange.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/StockExchange/CMakeFiles/StockExchange.dir/build: src/StockExchange/libStockExchange.a
 .PHONY : src/StockExchange/CMakeFiles/StockExchange.dir/build
 
 src/StockExchange/CMakeFiles/StockExchange.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/StockExchange && $(CMAKE_COMMAND) -P CMakeFiles/StockExchange.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange && $(CMAKE_COMMAND) -P CMakeFiles/StockExchange.dir/cmake_clean.cmake
 .PHONY : src/StockExchange/CMakeFiles/StockExchange.dir/clean
 
 src/StockExchange/CMakeFiles/StockExchange.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/StockExchange /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/StockExchange /home/monan/Desktop/SABCEMM/build/src/StockExchange/CMakeFiles/StockExchange.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/StockExchange /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/StockExchange/CMakeFiles/StockExchange.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/StockExchange/CMakeFiles/StockExchange.dir/depend
 

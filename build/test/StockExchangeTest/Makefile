@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test/StockExchangeTest//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/StockExchangeTest//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/rule
 .PHONY : test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ StockExchangeTest: test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/rule
 
 # fast build rule for target.
 StockExchangeTest/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build
 .PHONY : StockExchangeTest/fast
 
 StockExchangeTest.o: StockExchangeTest.cpp.o
@@ -180,7 +180,7 @@ StockExchangeTest.o: StockExchangeTest.cpp.o
 
 # target to build an object file
 StockExchangeTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.o
 .PHONY : StockExchangeTest.cpp.o
 
 StockExchangeTest.i: StockExchangeTest.cpp.i
@@ -188,7 +188,7 @@ StockExchangeTest.i: StockExchangeTest.cpp.i
 
 # target to preprocess a source file
 StockExchangeTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.i
 .PHONY : StockExchangeTest.cpp.i
 
 StockExchangeTest.s: StockExchangeTest.cpp.s
@@ -196,7 +196,7 @@ StockExchangeTest.s: StockExchangeTest.cpp.s
 
 # target to generate assembly for a file
 StockExchangeTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/build.make test/StockExchangeTest/CMakeFiles/StockExchangeTest.dir/StockExchangeTest.cpp.s
 .PHONY : StockExchangeTest.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

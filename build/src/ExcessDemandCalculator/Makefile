@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/src/ExcessDemandCalculator//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/ExcessDemandCalculator//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/rule
 .PHONY : src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ ExcessDemandCalculator: src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalcul
 
 # fast build rule for target.
 ExcessDemandCalculator/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build
 .PHONY : ExcessDemandCalculator/fast
 
 ExcessDemandCalculator.o: ExcessDemandCalculator.cpp.o
@@ -180,7 +180,7 @@ ExcessDemandCalculator.o: ExcessDemandCalculator.cpp.o
 
 # target to build an object file
 ExcessDemandCalculator.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculator.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculator.cpp.o
 .PHONY : ExcessDemandCalculator.cpp.o
 
 ExcessDemandCalculator.i: ExcessDemandCalculator.cpp.i
@@ -188,7 +188,7 @@ ExcessDemandCalculator.i: ExcessDemandCalculator.cpp.i
 
 # target to preprocess a source file
 ExcessDemandCalculator.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculator.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculator.cpp.i
 .PHONY : ExcessDemandCalculator.cpp.i
 
 ExcessDemandCalculator.s: ExcessDemandCalculator.cpp.s
@@ -196,7 +196,7 @@ ExcessDemandCalculator.s: ExcessDemandCalculator.cpp.s
 
 # target to generate assembly for a file
 ExcessDemandCalculator.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculator.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculator.cpp.s
 .PHONY : ExcessDemandCalculator.cpp.s
 
 ExcessDemandCalculatorFW.o: ExcessDemandCalculatorFW.cpp.o
@@ -204,7 +204,7 @@ ExcessDemandCalculatorFW.o: ExcessDemandCalculatorFW.cpp.o
 
 # target to build an object file
 ExcessDemandCalculatorFW.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorFW.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorFW.cpp.o
 .PHONY : ExcessDemandCalculatorFW.cpp.o
 
 ExcessDemandCalculatorFW.i: ExcessDemandCalculatorFW.cpp.i
@@ -212,7 +212,7 @@ ExcessDemandCalculatorFW.i: ExcessDemandCalculatorFW.cpp.i
 
 # target to preprocess a source file
 ExcessDemandCalculatorFW.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorFW.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorFW.cpp.i
 .PHONY : ExcessDemandCalculatorFW.cpp.i
 
 ExcessDemandCalculatorFW.s: ExcessDemandCalculatorFW.cpp.s
@@ -220,7 +220,7 @@ ExcessDemandCalculatorFW.s: ExcessDemandCalculatorFW.cpp.s
 
 # target to generate assembly for a file
 ExcessDemandCalculatorFW.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorFW.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorFW.cpp.s
 .PHONY : ExcessDemandCalculatorFW.cpp.s
 
 ExcessDemandCalculatorHarras.o: ExcessDemandCalculatorHarras.cpp.o
@@ -228,7 +228,7 @@ ExcessDemandCalculatorHarras.o: ExcessDemandCalculatorHarras.cpp.o
 
 # target to build an object file
 ExcessDemandCalculatorHarras.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorHarras.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorHarras.cpp.o
 .PHONY : ExcessDemandCalculatorHarras.cpp.o
 
 ExcessDemandCalculatorHarras.i: ExcessDemandCalculatorHarras.cpp.i
@@ -236,7 +236,7 @@ ExcessDemandCalculatorHarras.i: ExcessDemandCalculatorHarras.cpp.i
 
 # target to preprocess a source file
 ExcessDemandCalculatorHarras.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorHarras.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorHarras.cpp.i
 .PHONY : ExcessDemandCalculatorHarras.cpp.i
 
 ExcessDemandCalculatorHarras.s: ExcessDemandCalculatorHarras.cpp.s
@@ -244,7 +244,7 @@ ExcessDemandCalculatorHarras.s: ExcessDemandCalculatorHarras.cpp.s
 
 # target to generate assembly for a file
 ExcessDemandCalculatorHarras.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorHarras.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorHarras.cpp.s
 .PHONY : ExcessDemandCalculatorHarras.cpp.s
 
 ExcessDemandCalculatorLLS.o: ExcessDemandCalculatorLLS.cpp.o
@@ -252,7 +252,7 @@ ExcessDemandCalculatorLLS.o: ExcessDemandCalculatorLLS.cpp.o
 
 # target to build an object file
 ExcessDemandCalculatorLLS.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorLLS.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorLLS.cpp.o
 .PHONY : ExcessDemandCalculatorLLS.cpp.o
 
 ExcessDemandCalculatorLLS.i: ExcessDemandCalculatorLLS.cpp.i
@@ -260,7 +260,7 @@ ExcessDemandCalculatorLLS.i: ExcessDemandCalculatorLLS.cpp.i
 
 # target to preprocess a source file
 ExcessDemandCalculatorLLS.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorLLS.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorLLS.cpp.i
 .PHONY : ExcessDemandCalculatorLLS.cpp.i
 
 ExcessDemandCalculatorLLS.s: ExcessDemandCalculatorLLS.cpp.s
@@ -268,7 +268,7 @@ ExcessDemandCalculatorLLS.s: ExcessDemandCalculatorLLS.cpp.s
 
 # target to generate assembly for a file
 ExcessDemandCalculatorLLS.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorLLS.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/build.make src/ExcessDemandCalculator/CMakeFiles/ExcessDemandCalculator.dir/ExcessDemandCalculatorLLS.cpp.s
 .PHONY : ExcessDemandCalculatorLLS.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

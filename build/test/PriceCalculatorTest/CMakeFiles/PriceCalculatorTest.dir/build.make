@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/depend.make
@@ -70,32 +70,32 @@ include test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/progress.mak
 include test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/flags.make
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/flags.make
-test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o: /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp
+test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o -MF CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o.d -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o -MF CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o.d -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp > CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp > CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.i
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorBisectionTest.cpp -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.s
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/flags.make
-test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o: /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp
+test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o -MF CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o.d -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o -MF CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o.d -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp > CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp > CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.i
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest/PriceCalculatorHarrasTest.cpp -o CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.s
 
 # Object files for target PriceCalculatorTest
 PriceCalculatorTest_OBJECTS = \
@@ -109,19 +109,19 @@ test/PriceCalculatorTest/libPriceCalculatorTest.a: test/PriceCalculatorTest/CMak
 test/PriceCalculatorTest/libPriceCalculatorTest.a: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o
 test/PriceCalculatorTest/libPriceCalculatorTest.a: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make
 test/PriceCalculatorTest/libPriceCalculatorTest.a: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libPriceCalculatorTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/PriceCalculatorTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PriceCalculatorTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libPriceCalculatorTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/PriceCalculatorTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PriceCalculatorTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build: test/PriceCalculatorTest/libPriceCalculatorTest.a
 .PHONY : test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/PriceCalculatorTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest && $(CMAKE_COMMAND) -P CMakeFiles/PriceCalculatorTest.dir/cmake_clean.cmake
 .PHONY : test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/clean
 
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/PriceCalculatorTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/PriceCalculatorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/depend
 

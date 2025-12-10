@@ -22,7 +22,9 @@ const INPUT_EXAMPLES_PATH = path.join(__dirname, '../input/examples');
 // API: Get list of available simulations
 app.get('/api/simulations', async (req, res) => {
   try {
+    console.log('Fetching simulations from:', CSV_BASE_PATH);
     if (!await fs.pathExists(CSV_BASE_PATH)) {
+      console.log('No simulations found, CSV base path does not exist:', CSV_BASE_PATH);
       return res.json([]);
     }
 
@@ -156,7 +158,7 @@ app.get('/api/templates', async (req, res) => {
         };
       })
     );
-
+    console.log('Available templates:', templates.map(t => t.name));
     res.json(templates);
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -181,7 +183,7 @@ app.get('/api/templates/:id', async (req, res) => {
 });
 
 // API: Run simulation with parameters
-app.post('/api/run-simulation', async (req, res) => {
+app.post('/api/run-sim', async (req, res) => {
   try {
     const { xmlContent, name } = req.body;
 

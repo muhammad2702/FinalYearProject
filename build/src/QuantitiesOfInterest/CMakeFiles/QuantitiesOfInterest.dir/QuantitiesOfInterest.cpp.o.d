@@ -1,5 +1,5 @@
 src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInterest.cpp.o: \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantitiesOfInterest.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -145,25 +145,25 @@ src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInteres
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantitiesOfInterest.h \
- /home/monan/Desktop/SABCEMM/libs/googletest/googletest/include/gtest/gtest_prod.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantitiesOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/googletest/googletest/include/gtest/gtest_prod.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/QuantityOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/QuantityOfInterest.h \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/stl_map.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
  /usr/include/c++/13/cassert /usr/include/assert.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Input/Input.h \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
- /home/monan/Desktop/SABCEMM/libs/tinyxml2/tinyxml2.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/tinyxml2/tinyxml2.h \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -177,23 +177,23 @@ src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInteres
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/Agent.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../RandomGenerator/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../Switching/Switchable.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../VariableContainer/DeltaT.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../Group/Group.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../VariableContainer/GlobalNews.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../VariableContainer/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../VariableContainer/Dividend.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Agent/../VariableContainer/DeltaT.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/Writer.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../Util/Util.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../RandomGenerator/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../Switching/Switchable.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../VariableContainer/DeltaT.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../Group/Group.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../VariableContainer/GlobalNews.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../VariableContainer/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../VariableContainer/Dividend.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Agent/../VariableContainer/DeltaT.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/Writer.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../Util/Util.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -226,31 +226,31 @@ src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInteres
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../DataCollector/DataItemCollector.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../Writer/../QuantitiesOfInterest/QuantityOfInterest.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataCollector.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/Agent.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorPrice.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/PriceCalculator.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/ExcessDemandCalculator.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../Input/Input.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../Agent/Agent.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/Dividend.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../VariableContainer/DeltaT.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorAmountOfCash.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Util/Util.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorEMBGamma.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentLLS.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../Writer/../QuantitiesOfInterest/QuantityOfInterest.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollector.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorPrice.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/PriceCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/ExcessDemandCalculator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../Input/Input.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../Agent/Agent.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../ExcessDemandCalculator/../VariableContainer/Dividend.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../VariableContainer/DeltaT.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../PriceCalculator/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorAmountOfCash.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Util/Util.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorEMBGamma.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentLLS.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/Agent.h \
  /usr/include/boost/assign.hpp /usr/include/boost/assign/std.hpp \
  /usr/include/boost/assign/std/vector.hpp \
  /usr/include/boost/assign/list_inserter.hpp \
@@ -621,19 +621,19 @@ src/QuantitiesOfInterest/CMakeFiles/QuantitiesOfInterest.dir/QuantitiesOfInteres
  /usr/include/boost/type_traits/remove_extent.hpp \
  /usr/include/boost/utility/declval.hpp /usr/include/c++/13/array \
  /usr/include/c++/13/compare \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorExcessDemand.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorAmountOfStock.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorHarrasK.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentHarras.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/../RandomGenerator/RandomGenerator.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/../VariableContainer/Price.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/../VariableContainer/GlobalNews.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/../VariableContainer/ExcessDemand.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorSwitchableShares.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorWealth.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorFWSharesFundamentalist.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentFWChartist.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentFW.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorAmountOfStock.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorHarrasK.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentHarras.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/../RandomGenerator/RandomGenerator.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/../VariableContainer/Price.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/../VariableContainer/GlobalNews.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/../VariableContainer/ExcessDemand.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorSwitchableShares.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorWealth.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorFWSharesFundamentalist.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentFWChartist.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentFW.h \
  /usr/include/c++/13/bitset \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentFWFundamentalist.h \
- /home/monan/Desktop/SABCEMM/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorFWSharesChartist.h
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/../Agent/AgentFWFundamentalist.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/QuantitiesOfInterest/../DataCollector/DataItemCollectorFWSharesChartist.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include src/VariableContainer/CMakeFiles/VariableContainer.dir/depend.make
@@ -70,88 +70,88 @@ include src/VariableContainer/CMakeFiles/VariableContainer.dir/progress.make
 include src/VariableContainer/CMakeFiles/VariableContainer.dir/flags.make
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/flags.make
-src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o: /home/monan/Desktop/SABCEMM/src/VariableContainer/VariableContainer.cpp
+src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/VariableContainer.cpp
 src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o -MF CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o.d -o CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o -c /home/monan/Desktop/SABCEMM/src/VariableContainer/VariableContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o -MF CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o.d -o CMakeFiles/VariableContainer.dir/VariableContainer.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/VariableContainer.cpp
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VariableContainer.dir/VariableContainer.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/VariableContainer/VariableContainer.cpp > CMakeFiles/VariableContainer.dir/VariableContainer.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/VariableContainer.cpp > CMakeFiles/VariableContainer.dir/VariableContainer.cpp.i
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/VariableContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VariableContainer.dir/VariableContainer.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/VariableContainer/VariableContainer.cpp -o CMakeFiles/VariableContainer.dir/VariableContainer.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/VariableContainer.cpp -o CMakeFiles/VariableContainer.dir/VariableContainer.cpp.s
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/flags.make
-src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o: /home/monan/Desktop/SABCEMM/src/VariableContainer/DeltaT.cpp
+src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/DeltaT.cpp
 src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o -MF CMakeFiles/VariableContainer.dir/DeltaT.cpp.o.d -o CMakeFiles/VariableContainer.dir/DeltaT.cpp.o -c /home/monan/Desktop/SABCEMM/src/VariableContainer/DeltaT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.o -MF CMakeFiles/VariableContainer.dir/DeltaT.cpp.o.d -o CMakeFiles/VariableContainer.dir/DeltaT.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/DeltaT.cpp
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VariableContainer.dir/DeltaT.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/VariableContainer/DeltaT.cpp > CMakeFiles/VariableContainer.dir/DeltaT.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/DeltaT.cpp > CMakeFiles/VariableContainer.dir/DeltaT.cpp.i
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/DeltaT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VariableContainer.dir/DeltaT.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/VariableContainer/DeltaT.cpp -o CMakeFiles/VariableContainer.dir/DeltaT.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/DeltaT.cpp -o CMakeFiles/VariableContainer.dir/DeltaT.cpp.s
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/flags.make
-src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o: /home/monan/Desktop/SABCEMM/src/VariableContainer/Dividend.cpp
+src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Dividend.cpp
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o -MF CMakeFiles/VariableContainer.dir/Dividend.cpp.o.d -o CMakeFiles/VariableContainer.dir/Dividend.cpp.o -c /home/monan/Desktop/SABCEMM/src/VariableContainer/Dividend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.o -MF CMakeFiles/VariableContainer.dir/Dividend.cpp.o.d -o CMakeFiles/VariableContainer.dir/Dividend.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Dividend.cpp
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VariableContainer.dir/Dividend.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/VariableContainer/Dividend.cpp > CMakeFiles/VariableContainer.dir/Dividend.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Dividend.cpp > CMakeFiles/VariableContainer.dir/Dividend.cpp.i
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Dividend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VariableContainer.dir/Dividend.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/VariableContainer/Dividend.cpp -o CMakeFiles/VariableContainer.dir/Dividend.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Dividend.cpp -o CMakeFiles/VariableContainer.dir/Dividend.cpp.s
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/flags.make
-src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o: /home/monan/Desktop/SABCEMM/src/VariableContainer/ExcessDemand.cpp
+src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/ExcessDemand.cpp
 src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o -MF CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o.d -o CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o -c /home/monan/Desktop/SABCEMM/src/VariableContainer/ExcessDemand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o -MF CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o.d -o CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/ExcessDemand.cpp
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/VariableContainer/ExcessDemand.cpp > CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/ExcessDemand.cpp > CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.i
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/VariableContainer/ExcessDemand.cpp -o CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/ExcessDemand.cpp -o CMakeFiles/VariableContainer.dir/ExcessDemand.cpp.s
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/flags.make
-src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o: /home/monan/Desktop/SABCEMM/src/VariableContainer/GlobalNews.cpp
+src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/GlobalNews.cpp
 src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o -MF CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o.d -o CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o -c /home/monan/Desktop/SABCEMM/src/VariableContainer/GlobalNews.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o -MF CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o.d -o CMakeFiles/VariableContainer.dir/GlobalNews.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/GlobalNews.cpp
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VariableContainer.dir/GlobalNews.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/VariableContainer/GlobalNews.cpp > CMakeFiles/VariableContainer.dir/GlobalNews.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/GlobalNews.cpp > CMakeFiles/VariableContainer.dir/GlobalNews.cpp.i
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/GlobalNews.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VariableContainer.dir/GlobalNews.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/VariableContainer/GlobalNews.cpp -o CMakeFiles/VariableContainer.dir/GlobalNews.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/GlobalNews.cpp -o CMakeFiles/VariableContainer.dir/GlobalNews.cpp.s
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/flags.make
-src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o: /home/monan/Desktop/SABCEMM/src/VariableContainer/Price.cpp
+src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Price.cpp
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o: src/VariableContainer/CMakeFiles/VariableContainer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o -MF CMakeFiles/VariableContainer.dir/Price.cpp.o.d -o CMakeFiles/VariableContainer.dir/Price.cpp.o -c /home/monan/Desktop/SABCEMM/src/VariableContainer/Price.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o -MF CMakeFiles/VariableContainer.dir/Price.cpp.o.d -o CMakeFiles/VariableContainer.dir/Price.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Price.cpp
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VariableContainer.dir/Price.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/src/VariableContainer/Price.cpp > CMakeFiles/VariableContainer.dir/Price.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Price.cpp > CMakeFiles/VariableContainer.dir/Price.cpp.i
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VariableContainer.dir/Price.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/src/VariableContainer/Price.cpp -o CMakeFiles/VariableContainer.dir/Price.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer/Price.cpp -o CMakeFiles/VariableContainer.dir/Price.cpp.s
 
 # Object files for target VariableContainer
 VariableContainer_OBJECTS = \
@@ -173,19 +173,19 @@ src/VariableContainer/libVariableContainer.a: src/VariableContainer/CMakeFiles/V
 src/VariableContainer/libVariableContainer.a: src/VariableContainer/CMakeFiles/VariableContainer.dir/Price.cpp.o
 src/VariableContainer/libVariableContainer.a: src/VariableContainer/CMakeFiles/VariableContainer.dir/build.make
 src/VariableContainer/libVariableContainer.a: src/VariableContainer/CMakeFiles/VariableContainer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libVariableContainer.a"
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && $(CMAKE_COMMAND) -P CMakeFiles/VariableContainer.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VariableContainer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libVariableContainer.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && $(CMAKE_COMMAND) -P CMakeFiles/VariableContainer.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VariableContainer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/VariableContainer/CMakeFiles/VariableContainer.dir/build: src/VariableContainer/libVariableContainer.a
 .PHONY : src/VariableContainer/CMakeFiles/VariableContainer.dir/build
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/src/VariableContainer && $(CMAKE_COMMAND) -P CMakeFiles/VariableContainer.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer && $(CMAKE_COMMAND) -P CMakeFiles/VariableContainer.dir/cmake_clean.cmake
 .PHONY : src/VariableContainer/CMakeFiles/VariableContainer.dir/clean
 
 src/VariableContainer/CMakeFiles/VariableContainer.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/src/VariableContainer /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/src/VariableContainer /home/monan/Desktop/SABCEMM/build/src/VariableContainer/CMakeFiles/VariableContainer.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/src/VariableContainer /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/src/VariableContainer/CMakeFiles/VariableContainer.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/VariableContainer/CMakeFiles/VariableContainer.dir/depend
 

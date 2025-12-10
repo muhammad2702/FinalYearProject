@@ -1,7 +1,7 @@
 libs/tinyxml2/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o: \
- /home/monan/Desktop/SABCEMM/libs/tinyxml2/tinyxml2.cpp \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/tinyxml2/tinyxml2.cpp \
  /usr/include/stdc-predef.h \
- /home/monan/Desktop/SABCEMM/libs/tinyxml2/tinyxml2.h \
+ /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/libs/tinyxml2/tinyxml2.h \
  /usr/include/c++/13/cctype \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

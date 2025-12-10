@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles /home/monan/Desktop/SABCEMM/build/test/PriceCalculatorTest//CMakeFiles/progress.marks
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monan/Desktop/SABCEMM/build/CMakeFiles 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/PriceCalculatorTest//CMakeFiles/progress.marks
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/clean
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/preinstall
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/rule:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/rule
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/rule
 .PHONY : test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ PriceCalculatorTest: test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir
 
 # fast build rule for target.
 PriceCalculatorTest/fast:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build
 .PHONY : PriceCalculatorTest/fast
 
 PriceCalculatorBisectionTest.o: PriceCalculatorBisectionTest.cpp.o
@@ -180,7 +180,7 @@ PriceCalculatorBisectionTest.o: PriceCalculatorBisectionTest.cpp.o
 
 # target to build an object file
 PriceCalculatorBisectionTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.o
 .PHONY : PriceCalculatorBisectionTest.cpp.o
 
 PriceCalculatorBisectionTest.i: PriceCalculatorBisectionTest.cpp.i
@@ -188,7 +188,7 @@ PriceCalculatorBisectionTest.i: PriceCalculatorBisectionTest.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorBisectionTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.i
 .PHONY : PriceCalculatorBisectionTest.cpp.i
 
 PriceCalculatorBisectionTest.s: PriceCalculatorBisectionTest.cpp.s
@@ -196,7 +196,7 @@ PriceCalculatorBisectionTest.s: PriceCalculatorBisectionTest.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorBisectionTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorBisectionTest.cpp.s
 .PHONY : PriceCalculatorBisectionTest.cpp.s
 
 PriceCalculatorHarrasTest.o: PriceCalculatorHarrasTest.cpp.o
@@ -204,7 +204,7 @@ PriceCalculatorHarrasTest.o: PriceCalculatorHarrasTest.cpp.o
 
 # target to build an object file
 PriceCalculatorHarrasTest.cpp.o:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.o
 .PHONY : PriceCalculatorHarrasTest.cpp.o
 
 PriceCalculatorHarrasTest.i: PriceCalculatorHarrasTest.cpp.i
@@ -212,7 +212,7 @@ PriceCalculatorHarrasTest.i: PriceCalculatorHarrasTest.cpp.i
 
 # target to preprocess a source file
 PriceCalculatorHarrasTest.cpp.i:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.i
 .PHONY : PriceCalculatorHarrasTest.cpp.i
 
 PriceCalculatorHarrasTest.s: PriceCalculatorHarrasTest.cpp.s
@@ -220,7 +220,7 @@ PriceCalculatorHarrasTest.s: PriceCalculatorHarrasTest.cpp.s
 
 # target to generate assembly for a file
 PriceCalculatorHarrasTest.cpp.s:
-	cd /home/monan/Desktop/SABCEMM/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(MAKE) $(MAKESILENT) -f test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/build.make test/PriceCalculatorTest/CMakeFiles/PriceCalculatorTest.dir/PriceCalculatorHarrasTest.cpp.s
 .PHONY : PriceCalculatorHarrasTest.cpp.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

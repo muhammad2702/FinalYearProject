@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monan/Desktop/SABCEMM
+CMAKE_SOURCE_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monan/Desktop/SABCEMM/build
+CMAKE_BINARY_DIR = /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build
 
 # Include any dependencies generated for this target.
 include test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/depend.make
@@ -70,18 +70,18 @@ include test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.di
 include test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/flags.make
 
 test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o: test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/flags.make
-test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o: /home/monan/Desktop/SABCEMM/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp
+test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o: /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp
 test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o: test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o"
-	cd /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o -MF CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o.d -o CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o -c /home/monan/Desktop/SABCEMM/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o -MF CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o.d -o CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o -c /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp
 
 test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.i"
-	cd /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monan/Desktop/SABCEMM/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp > CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.i
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp > CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.i
 
 test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.s"
-	cd /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monan/Desktop/SABCEMM/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp -o CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.s
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/NeighbourhoodGeneratorTest/LatticeNeighbourhoodGeneratorTest.cpp -o CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.s
 
 # Object files for target NeighbourhoodGeneratorTest
 NeighbourhoodGeneratorTest_OBJECTS = \
@@ -93,19 +93,19 @@ NeighbourhoodGeneratorTest_EXTERNAL_OBJECTS =
 test/NeighbourhoodGeneratorTest/libNeighbourhoodGeneratorTest.a: test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/LatticeNeighbourhoodGeneratorTest.cpp.o
 test/NeighbourhoodGeneratorTest/libNeighbourhoodGeneratorTest.a: test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/build.make
 test/NeighbourhoodGeneratorTest/libNeighbourhoodGeneratorTest.a: test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/monan/Desktop/SABCEMM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libNeighbourhoodGeneratorTest.a"
-	cd /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGeneratorTest.dir/cmake_clean_target.cmake
-	cd /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeighbourhoodGeneratorTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libNeighbourhoodGeneratorTest.a"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGeneratorTest.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeighbourhoodGeneratorTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/build: test/NeighbourhoodGeneratorTest/libNeighbourhoodGeneratorTest.a
 .PHONY : test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/build
 
 test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/clean:
-	cd /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGeneratorTest.dir/cmake_clean.cmake
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest && $(CMAKE_COMMAND) -P CMakeFiles/NeighbourhoodGeneratorTest.dir/cmake_clean.cmake
 .PHONY : test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/clean
 
 test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/depend:
-	cd /home/monan/Desktop/SABCEMM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monan/Desktop/SABCEMM /home/monan/Desktop/SABCEMM/test/NeighbourhoodGeneratorTest /home/monan/Desktop/SABCEMM/build /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest /home/monan/Desktop/SABCEMM/build/test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/test/NeighbourhoodGeneratorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest /mnt/c/Users/muham/OneDrive/Desktop/FinalYearProject/build/test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/NeighbourhoodGeneratorTest/CMakeFiles/NeighbourhoodGeneratorTest.dir/depend
 
