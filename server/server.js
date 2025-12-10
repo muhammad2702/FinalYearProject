@@ -185,7 +185,6 @@ app.get('/api/templates/:id', async (req, res) => {
 // API: Run simulation with parameters
 app.post('/api/run-sim', async (req, res) => {
   let tempInputPath = null;
-  let child = null;
   
   try {
     const { xmlContent, name } = req.body;
@@ -199,165 +198,41 @@ app.post('/api/run-sim', async (req, res) => {
     await fs.ensureDir(tempDir);
     
     // Create unique filename
-    const timestamp = Date.now();
-    tempInputPath = path.join(tempDir, `${name}_${timestamp}.xml`);
+    tempInputPath = path.join(tempDir, `input_${Date.now()}_${Math.random().toString(36).substr(2, 9)}.xml`);
     
-    console.log('Creating temp file:', tempInputPath);
+    // Debug: log paths
+    console.log('Writing to:', tempInputPath);
+    console.log('Temp dir exists:', await fs.pathExists(tempDir));
+    
+    // Write file
     await fs.writeFile(tempInputPath, xmlContent);
-    console.log('Temp file created successfully');
+    
+    // Verify file was created
+    const fileExists = await fs.pathExists(tempInputPath);
+    console.log('File created successfully:', fileExists);
+    
+    if (!fileExists) {
+      throw new Error('Failed to create temp file');
+    }
 
     const buildDir = path.join(process.cwd(), '../build/src');
     const exePath = path.join(buildDir, 'financeSimulation');
     
-    console.log('Looking for executable:', exePath);
     if (!(await fs.pathExists(exePath))) {
-      throw new Error(`Simulation executable not found at: ${exePath}`);
+      throw new Error('Simulation executable not found at: ' + exePath);
     }
-    
-    console.log('Executable found, starting simulation...');
 
+    // Rest of your existing code...
     return new Promise((resolve, reject) => {
-      // Add timeout to prevent hanging
-      const timeout = setTimeout(() => {
-        if (child) {
-          child.kill('SIGKILL');
-          console.error('Simulation timed out after 30 seconds');
-          reject(new Error('Simulation timed out'));
-        }
-      }, 30000); // 30 second timeout
-
-      // Spawn the process
-      child = spawn(exePath, [tempInputPath], { 
-        cwd: buildDir,
-        stdio: ['pipe', 'pipe', 'pipe'] // Explicitly set stdio
-      });
-      
-      console.log(`Spawned process PID: ${child.pid}`);
-      
-      let stdoutOutput = '';
-      let stderrOutput = '';
-      
-      // Capture stdout
-      child.stdout.on('data', (data) => {
-        stdoutOutput += data.toString();
-        console.log('Simulation stdout:', data.toString());
-      });
-
-      // Capture stderr
-      child.stderr.on('data', (data) => {
-        stderrOutput += data.toString();
-        console.log('Simulation stderr:', data.toString());
-      });
-
-      child.on('error', (error) => {
-        clearTimeout(timeout);
-        console.error('Spawn error:', error);
-        reject(new Error(`Failed to start simulation: ${error.message}`));
-      });
-
-      child.on('close', async (code, signal) => {
-        clearTimeout(timeout);
-        console.log(`Process closed with code: ${code}, signal: ${signal}`);
-        console.log('Full stderr output:', stderrOutput);
-        
-        try {
-          // Clean up temp file
-          if (tempInputPath && await fs.pathExists(tempInputPath)) {
-            await fs.unlink(tempInputPath);
-            console.log('Cleaned up temp file');
-          }
-          
-          if (code !== 0) {
-            console.error('Simulation failed with code:', code);
-            console.error('stderr:', stderrOutput);
-            console.error('stdout:', stdoutOutput);
-            
-            // Try to provide more helpful error messages
-            let errorMsg = `Simulation failed with exit code ${code}`;
-            if (stderrOutput.includes('error')) {
-              errorMsg += `: ${stderrOutput.split('\n')[0]}`;
-            }
-            return reject(new Error(errorMsg));
-          }
-
-          console.log('Simulation completed successfully');
-          console.log('Looking for output files...');
-          
-          const outputDir = path.join(buildDir, 'output');
-          
-          if (!(await fs.pathExists(outputDir))) {
-            console.error('Output directory not found:', outputDir);
-            return reject(new Error(`Output directory not found: ${outputDir}`));
-          }
-          
-          const files = await fs.readdir(outputDir);
-          console.log('All files in output dir:', files);
-          
-          const outputFiles = files.filter(f => 
-            f.startsWith(name + '_') && f.endsWith('.xml')
-          ).sort((a, b) => b.localeCompare(a));
-          
-          console.log('Matching output files:', outputFiles);
-          
-          if (outputFiles.length === 0) {
-            return reject(new Error(`No output file found for name: ${name}`));
-          }
-
-          const latestOutput = path.join(outputDir, outputFiles[0]);
-          console.log('Reading output file:', latestOutput);
-          
-          const xml = await fs.readFile(latestOutput, 'utf8');
-          const parsed = await parseStringPromise(xml);
-
-          // Safer XML navigation
-          const results = parsed.results;
-          if (!results) {
-            return reject(new Error('Invalid XML structure: no results'));
-          }
-          
-          const sim0 = results['cross_simulation_0'] || 
-                       (results.cross_simulation && results.cross_simulation[0]);
-          
-          if (!sim0 || !sim0.output || !sim0.output[0]) {
-            return reject(new Error('Invalid XML structure: missing simulation data'));
-          }
-
-          const output = sim0.output[0];
-          const prices = output.price && output.price[0]?.full?.[0]?.['r_0']?.[0]?.['c_0']?.map(p => parseFloat(p));
-          
-          if (!prices) {
-            return reject(new Error('Invalid XML structure: missing price data'));
-          }
-
-          const logreturn = output.logreturn && output.logreturn[0];
-          const skew = logreturn?.skew?.[0]?.['r_0']?.[0]?.['c_0']?.[0];
-          const kurtosis = logreturn?.excesskurtosis?.[0]?.['r_0']?.[0]?.['c_0']?.[0];
-
-          console.log(`Successfully parsed ${prices.length} price points`);
-          
-          resolve({ 
-            prices, 
-            skew: skew ? parseFloat(skew) : null,
-            kurtosis: kurtosis ? parseFloat(kurtosis) : null,
-            agentCount: 100 
-          });
-          
-        } catch (error) {
-          console.error('Error in cleanup/parsing:', error);
-          reject(error);
-        }
-      });
-      
+      // ... existing promise code
     }).then(result => {
-      console.log('Sending successful response');
       res.json(result);
     }).catch(error => {
-      console.error('Promise rejection:', error);
       res.status(500).json({ error: error.message });
     });
 
   } catch (error) {
-    console.error('Top-level catch error:', error);
+    console.error('Error in /api/run-sim:', error);
     
     // Cleanup if file was created
     if (tempInputPath) {
@@ -369,11 +244,6 @@ app.post('/api/run-sim', async (req, res) => {
       } catch (cleanupError) {
         console.error('Failed to cleanup temp file:', cleanupError);
       }
-    }
-    
-    // Kill child process if it exists
-    if (child) {
-      child.kill('SIGKILL');
     }
     
     res.status(500).json({ error: error.message });
