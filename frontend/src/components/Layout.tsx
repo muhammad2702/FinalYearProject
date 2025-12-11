@@ -6,12 +6,15 @@ import {
     Database,
     Play,
     FileText,
-    TrendingUp
+    TrendingUp,
+    LogIn
 } from 'lucide-react';
+import ChatAgent from './ChatAgent';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const location = useLocation();
 
+    // Remove login from main nav
     const navItems = [
         { path: '/', icon: BarChart3, label: 'Dashboard' },
         { path: '/simulations', icon: Database, label: 'Simulations' },
@@ -24,48 +27,53 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
     return (
         <div className="app-layout">
-            {/* Sidebar */}
-            <aside className="sidebar">
-                <div className="sidebar-header">
+            <header className="topbar">
+                <div className="topbar-left">
                     <div className="logo">
                         <BarChart3 className="logo-icon" />
-                        <span className="logo-text">PRISM</span>
+                        <div>
+                            <div className="logo-text">PRISM</div>
+                            <div className="logo-subtitle">Agent-Based Economics</div>
+                        </div>
                     </div>
-                    <div className="logo-subtitle">Agent-Based Economics</div>
+
+                    <nav className="topnav">
+                        {navItems.map((item) => {
+                            const Icon = item.icon;
+                            const isActive = location.pathname === item.path;
+                            return (
+                                <Link
+                                    key={item.path}
+                                    to={item.path}
+                                    className={`topnav-item ${isActive ? 'active' : ''}`}
+                                >
+                                    <Icon className="nav-icon" />
+                                    <span>{item.label}</span>
+                                </Link>
+                            );
+                        })}
+                    </nav>
                 </div>
 
-                <nav className="sidebar-nav">
-                    {navItems.map((item) => {
-                        const Icon = item.icon;
-                        const isActive = location.pathname === item.path;
-
-                        return (
-                            <Link
-                                key={item.path}
-                                to={item.path}
-                                className={`nav-item ${isActive ? 'active' : ''}`}
-                            >
-                                <Icon className="nav-icon" />
-                                <span>{item.label}</span>
-                            </Link>
-                        );
-                    })}
-                </nav>
-
-                <div className="sidebar-footer">
-                    <div className="version-info">
-                        <span>Version 1.0.0</span>
-                        <span className="badge badge-primary">PhD</span>
-                    </div>
+                <div className="topbar-right">
+                    {/* LOGIN BUTTON MOVED HERE */}
+                    <Link
+                        to="/login"
+                        className={`topnav-item ${
+                            location.pathname === '/login' ? 'active' : ''
+                        }`}
+                    >
+                        <LogIn className="nav-icon" />
+                        <span>Login</span>
+                    </Link>
                 </div>
-            </aside>
+            </header>
 
-            {/* Main Content */}
             <main className="main-content">
-                <div className="content-wrapper">
-                    {children}
-                </div>
+                <div className="content-wrapper">{children}</div>
             </main>
+
+            <ChatAgent />
         </div>
     );
 };

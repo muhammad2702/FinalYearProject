@@ -15,8 +15,7 @@ import {
     ReferenceLine,
 } from 'recharts';
 import { Database, Download, Eye, TrendingUp, DollarSign, Wallet, Activity } from 'lucide-react';
-import { getSimulations, getSimulationData } from '../utils/api';
-import axios from 'axios';
+import { exportSimulation, getSimulations, getSimulationData } from '../utils/api';
 
 const DataExplorer: React.FC = () => {
     const [loading, setLoading] = useState(true);
@@ -60,7 +59,7 @@ const DataExplorer: React.FC = () => {
     const loadCollectors = async () => {
         try {
             const data = await getSimulationData(selectedSimId);
-            if (data.collectors) {
+            if ('collectors' in data) {
                 const collectorNames = Object.keys(data.collectors);
                 setCollectors(collectorNames);
                 if (collectorNames.length > 0 && !collectorNames.includes(selectedCollector)) {
@@ -77,7 +76,7 @@ const DataExplorer: React.FC = () => {
             setLoading(true);
             const data = await getSimulationData(selectedSimId, selectedCollector);
 
-            if (data.data && data.data.run_0_full) {
+            if ('data' in data && data.data && data.data.run_0_full) {
                 const series = data.data.run_0_full.data.map((row: any, index: number) => {
                     const dataPoint: any = { step: index };
 
@@ -94,7 +93,9 @@ const DataExplorer: React.FC = () => {
                 setChartData(series);
             }
 
-            setAllData(data.data || {});
+            if ('data' in data) {
+                setAllData(data.data || {});
+            }
             setLoading(false);
         } catch (err) {
             console.error('Failed to load collector data:', err);
@@ -104,10 +105,10 @@ const DataExplorer: React.FC = () => {
 
     const handleExport = async () => {
         try {
-            const response = await axios.get(`http://localhost:3001/api/simulations/${selectedSimId}/export`);
-            alert(`Data available at: ${response.data.path}\n\n${response.data.message}`);
+            const response = await exportSimulation(selectedSimId);
+            alert(`Data available at: ${response.path}\n\n${response.message}`);
         } catch (err: any) {
-            alert('Export failed: ' + (err.response?.data?.error || err.message));
+            alert('Export failed: ' + (err.response?.data?.error || err.message || err.toString()));
         }
     };
 
@@ -150,24 +151,24 @@ const DataExplorer: React.FC = () => {
                 justifyContent: 'center',
                 height: '400px',
                 flexDirection: 'column',
-                gap: 'var(--spacing-md)'
+                gap: 'var(--space-4)'
             }}>
-                <div className="spinner" style={{ width: '3rem', height: '3rem' }}></div>
-                <p style={{ color: 'var(--color-text-secondary)' }}>Loading data explorer...</p>
+                <div className="spinner" style={{ width: '32px', height: '32px' }}></div>
+                <p style={{ color: 'var(--text-secondary)' }}>Loading data explorer...</p>
             </div>
         );
     }
 
     return (
         <div className="data-explorer fade-in">
-            <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+            <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 'var(--space-4)' }}>
                 <div>
                     <h1 className="page-title">Data Explorer</h1>
                     <p className="page-description">
                         Comprehensive view of all simulation data: cash, stocks, wealth, prices, and more
                     </p>
                 </div>
-                <div style={{ display: 'flex', gap: 'var(--spacing-sm)' }}>
+                <div style={{ display: 'flex', gap: 'var(--space-3)' }}>
                     <button className="btn btn-primary" onClick={handleViewAnalytics}>
                         <Eye size={18} />
                         View Analytics
@@ -180,7 +181,7 @@ const DataExplorer: React.FC = () => {
             </div>
 
             {/* Simulation and Collector Selectors */}
-            <div className="grid grid-cols-2" style={{ marginBottom: 'var(--spacing-xl)' }}>
+            <div className="grid grid-cols-2" style={{ marginBottom: 'var(--space-7)' }}>
                 <div className="card">
                     <div className="card-body">
                         <label className="label">Select Simulation</label>
@@ -217,7 +218,7 @@ const DataExplorer: React.FC = () => {
             </div>
 
             {/* Data Type Cards */}
-            <div className="grid grid-cols-3" style={{ marginBottom: 'var(--spacing-xl)' }}>
+            <div className="grid grid-cols-3" style={{ marginBottom: 'var(--space-7)' }}>
                 {collectors.map((collector) => (
                     <div
                         key={collector}
@@ -226,23 +227,23 @@ const DataExplorer: React.FC = () => {
                         style={{
                             cursor: 'pointer',
                             border: selectedCollector === collector
-                                ? '2px solid var(--color-primary)'
-                                : '1px solid var(--color-border)',
+                                ? '2px solid var(--primary-blue)'
+                                : '1px solid var(--border-light)',
                             background: selectedCollector === collector
-                                ? 'var(--color-bg-elevated)'
-                                : 'var(--color-bg-secondary)',
+                                ? 'var(--primary-light-blue)'
+                                : '#fff',
                         }}
                     >
-                        <div className="card-body" style={{ padding: 'var(--spacing-md)' }}>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-sm)' }}>
+                        <div className="card-body" style={{ padding: 'var(--space-4)' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-3)' }}>
                                 <div style={{ color: getCollectorColor(collector) }}>
                                     {getCollectorIcon(collector)}
                                 </div>
                                 <div>
-                                    <div style={{ fontWeight: '600', fontSize: '0.875rem' }}>
+                                    <div style={{ fontWeight: 600, fontSize: '14px', color: 'var(--text-primary)' }}>
                                         {collector.charAt(0).toUpperCase() + collector.slice(1)}
                                     </div>
-                                    <div style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)' }}>
+                                    <div style={{ fontSize: '13px', color: 'var(--text-light)' }}>
                                         {Object.keys(allData).length > 0 ? `${Object.keys(allData).length} files` : 'Loading...'}
                                     </div>
                                 </div>
@@ -259,7 +260,7 @@ const DataExplorer: React.FC = () => {
                         <h3 className="chart-title">
                             {selectedCollector.charAt(0).toUpperCase() + selectedCollector.slice(1)} Over Time
                         </h3>
-                        <div style={{ fontSize: '0.875rem', color: 'var(--color-text-tertiary)' }}>
+                        <div style={{ fontSize: '14px', color: 'var(--text-light)' }}>
                             {chartData.length} data points
                         </div>
                     </div>
@@ -271,16 +272,16 @@ const DataExplorer: React.FC = () => {
                                     <stop offset="95%" stopColor={getCollectorColor(selectedCollector)} stopOpacity={0} />
                                 </linearGradient>
                             </defs>
-                            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
+                            <CartesianGrid strokeDasharray="3 3" stroke="var(--border-light)" />
                             <XAxis
                                 dataKey="step"
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Time Steps', position: 'insideBottom', offset: -5 }}
                             />
                             <YAxis
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{
                                     value: selectedCollector.charAt(0).toUpperCase() + selectedCollector.slice(1),
                                     angle: -90,
@@ -289,9 +290,9 @@ const DataExplorer: React.FC = () => {
                             />
                             <Tooltip
                                 contentStyle={{
-                                    background: 'var(--color-bg-elevated)',
-                                    border: '1px solid var(--color-border)',
-                                    borderRadius: 'var(--radius-md)',
+                                    background: '#fff',
+                                    border: '1px solid var(--border-light)',
+                                    borderRadius: 'var(--radius-card)',
                                 }}
                             />
                             <Legend />
@@ -310,9 +311,9 @@ const DataExplorer: React.FC = () => {
                     </ResponsiveContainer>
                 </div>
             ) : (
-                <div className="card" style={{ textAlign: 'center', padding: 'var(--spacing-2xl)' }}>
-                    <Database size={64} style={{ color: 'var(--color-text-tertiary)', margin: '0 auto var(--spacing-md)' }} />
-                    <p style={{ color: 'var(--color-text-secondary)' }}>
+                <div className="card" style={{ textAlign: 'center', padding: 'var(--space-7)' }}>
+                    <Database size={64} style={{ color: 'var(--text-light)', margin: '0 auto var(--space-4)' }} />
+                    <p style={{ color: 'var(--text-secondary)' }}>
                         No data available for this collector
                     </p>
                 </div>
@@ -320,26 +321,26 @@ const DataExplorer: React.FC = () => {
 
             {/* Additional Statistics */}
             {chartData.length > 0 && (
-                <div className="grid grid-cols-2" style={{ marginTop: 'var(--spacing-xl)' }}>
+                <div className="grid grid-cols-2" style={{ marginTop: 'var(--space-7)' }}>
                     <div className="card">
                         <div className="card-header">
                             <h3 className="card-title">Data Summary</h3>
                         </div>
                         <div className="card-body">
-                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--spacing-md)' }}>
+                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
                                 <div>
-                                    <div style={{ fontSize: '0.875rem', color: 'var(--color-text-secondary)', marginBottom: 'var(--spacing-xs)' }}>
+                                    <div style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: 'var(--space-1)' }}>
                                         Data Points
                                     </div>
-                                    <div style={{ fontSize: '1.5rem', fontWeight: '600' }}>
+                                    <div style={{ fontSize: '20px', fontWeight: 600, color: 'var(--text-primary)' }}>
                                         {chartData.length.toLocaleString()}
                                     </div>
                                 </div>
                                 <div>
-                                    <div style={{ fontSize: '0.875rem', color: 'var(--color-text-secondary)', marginBottom: 'var(--spacing-xs)' }}>
+                                    <div style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: 'var(--space-1)' }}>
                                         Time Range
                                     </div>
-                                    <div style={{ fontSize: '1.5rem', fontWeight: '600' }}>
+                                    <div style={{ fontSize: '20px', fontWeight: 600, color: 'var(--text-primary)' }}>
                                         0 - {chartData.length - 1}
                                     </div>
                                 </div>
@@ -352,16 +353,17 @@ const DataExplorer: React.FC = () => {
                             <h3 className="card-title">Available Files</h3>
                         </div>
                         <div className="card-body">
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-xs)' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-1)' }}>
                                 {Object.keys(allData).map((file) => (
                                     <div
                                         key={file}
                                         style={{
-                                            padding: 'var(--spacing-xs)',
-                                            background: 'var(--color-bg-tertiary)',
+                                            padding: 'var(--space-2)',
+                                            background: 'var(--background-soft)',
                                             borderRadius: 'var(--radius-sm)',
-                                            fontSize: '0.8125rem',
-                                            fontFamily: 'var(--font-mono)',
+                                            fontSize: '13px',
+                                            fontFamily: 'var(--font-primary)',
+                                            color: 'var(--text-secondary)',
                                         }}
                                     >
                                         {file}

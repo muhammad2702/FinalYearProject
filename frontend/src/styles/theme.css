@@ -1,0 +1,65 @@
+:root {
+  /* Primary Palette */
+  --primary-blue: #3B63A3;
+  --primary-dark-blue: #28497A;
+  --primary-light-blue: #E8F1FF;
+
+  /* Text */
+  --text-primary: #1C1C1E;
+  --text-secondary: #6B6B6B;
+  --text-light: #9CA3AF;
+
+  /* Borders */
+  --border-light: #E2E8F0;
+  --border-medium: #CBD5E1;
+
+  /* Backgrounds */
+  --background-main: #FFFFFF;
+  --background-soft: #F8FAFC;
+  --background-dark: #1E1E20;
+  --canvas-background: #000000;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-card: 16px;
+  --radius-input: 10px;
+  --radius-button: 8px;
+
+  /* Typography */
+  --font-primary: Inter, system-ui, sans-serif;
+  --font-h1-size: 28px;
+  --font-h1-weight: 700;
+  --font-h2-size: 22px;
+  --font-h2-weight: 600;
+  --font-h3-size: 18px;
+  --font-h3-weight: 600;
+  --font-body-size: 16px;
+  --font-body-weight: 400;
+  --font-small-size: 14px;
+  --font-small-weight: 400;
+  --font-label-size: 13px;
+  --font-label-weight: 500;
+
+  /* Shadows */
+  --card-shadow: 0px 2px 6px rgba(0, 0, 0, 0.06);
+  --navbar-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08);
+  --panel-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+
+  /* Status */
+  --success: #2E8B57;
+  --warning: #FBBF24;
+  --error: #DC2626;
+}
+

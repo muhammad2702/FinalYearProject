@@ -1,0 +1,11 @@
+# SABCEMM Data Export
+# Collector: logreturn
+# Quantity: logreturn
+# Method: skew
+# Group ID: -1
+# Simulation: cross_simulation_0
+# Number of Series: 1
+# Time Steps: 1
+#
+TimeStep,Series_0
+0,1.11949078435445

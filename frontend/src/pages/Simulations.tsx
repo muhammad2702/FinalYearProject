@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Database, Calendar, RefreshCw, Download, Eye } from 'lucide-react';
-import { getSimulations } from '../utils/api';
+import { exportSimulation, getSimulations } from '../utils/api';
 import type { Simulation } from '../utils/api';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 
 const Simulations: React.FC = () => {
     const [simulations, setSimulations] = useState<Simulation[]>([]);
@@ -40,12 +39,12 @@ const Simulations: React.FC = () => {
         if (!selectedSim) return;
 
         try {
-            const response = await axios.get(`http://localhost:3001/api/simulations/${selectedSim.id}/export`);
-            if (response.data.success) {
-                alert(`✅ Export Successful!\n\n${response.data.message}\n\nYou can find all CSV files at:\n${response.data.path}`);
+            const response = await exportSimulation(selectedSim.id);
+            if (response.success) {
+                alert(`✅ Export Successful!\n\n${response.message}\n\nYou can find all CSV files at:\n${response.path}`);
             }
         } catch (err: any) {
-            alert('❌ Export failed: ' + (err.response?.data?.error || err.message));
+            alert('❌ Export failed: ' + (err.response?.data?.error || err.message || err.toString()));
         }
     };
 
@@ -57,10 +56,10 @@ const Simulations: React.FC = () => {
                 justifyContent: 'center',
                 height: '400px',
                 flexDirection: 'column',
-                gap: 'var(--spacing-md)'
+                gap: 'var(--space-4)'
             }}>
-                <div className="spinner" style={{ width: '3rem', height: '3rem' }}></div>
-                <p style={{ color: 'var(--color-text-secondary)' }}>Loading simulations...</p>
+                <div className="spinner" style={{ width: '32px', height: '32px' }}></div>
+                <p style={{ color: 'var(--text-secondary)' }}>Loading simulations...</p>
             </div>
         );
     }
@@ -81,10 +80,10 @@ const Simulations: React.FC = () => {
             </div>
 
             {simulations.length === 0 ? (
-                <div className="card" style={{ textAlign: 'center', padding: 'var(--spacing-2xl)' }}>
-                    <Database size={64} style={{ color: 'var(--color-text-tertiary)', margin: '0 auto var(--spacing-lg)' }} />
-                    <h3 style={{ marginBottom: 'var(--spacing-sm)' }}>No Simulations Found</h3>
-                    <p style={{ color: 'var(--color-text-secondary)' }}>
+                <div className="card" style={{ textAlign: 'center', padding: 'var(--space-7)' }}>
+                    <Database size={64} style={{ color: 'var(--text-light)', margin: '0 auto var(--space-5)' }} />
+                    <h3 style={{ marginBottom: 'var(--space-2)' }}>No Simulations Found</h3>
+                    <p style={{ color: 'var(--text-secondary)' }}>
                         Run your first simulation to see results here
                     </p>
                 </div>
@@ -96,26 +95,26 @@ const Simulations: React.FC = () => {
                             <h3 className="card-title">Available Simulations</h3>
                         </div>
                         <div className="card-body">
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-sm)' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
                                 {simulations.map((sim) => (
                                     <div
                                         key={sim.id}
                                         onClick={() => setSelectedSim(sim)}
                                         style={{
-                                            padding: 'var(--spacing-md)',
-                                            background: selectedSim?.id === sim.id ? 'var(--color-bg-tertiary)' : 'transparent',
-                                            border: `1px solid ${selectedSim?.id === sim.id ? 'var(--color-primary)' : 'var(--color-border)'}`,
-                                            borderRadius: 'var(--radius-md)',
+                                            padding: 'var(--space-4)',
+                                            background: selectedSim?.id === sim.id ? 'var(--primary-light-blue)' : 'var(--background-main)',
+                                            border: `1px solid ${selectedSim?.id === sim.id ? 'var(--primary-blue)' : 'var(--border-light)'}`,
+                                            borderRadius: 'var(--radius-card)',
                                             cursor: 'pointer',
-                                            transition: 'all var(--transition-fast)',
+                                            transition: 'all 160ms ease',
                                         }}
                                     >
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-sm)', marginBottom: 'var(--spacing-xs)' }}>
-                                            <Database size={16} style={{ color: 'var(--color-primary)' }} />
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: 'var(--space-1)' }}>
+                                            <Database size={16} style={{ color: 'var(--primary-blue)' }} />
                                             <span style={{ fontWeight: '600', flex: 1 }}>{sim.name}</span>
                                             <span className="badge badge-primary">Active</span>
                                         </div>
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-sm)', fontSize: '0.8125rem', color: 'var(--color-text-tertiary)' }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', fontSize: '13px', color: 'var(--text-light)' }}>
                                             <Calendar size={14} />
                                             <span>{new Date(sim.created).toLocaleString()}</span>
                                         </div>
@@ -132,47 +131,47 @@ const Simulations: React.FC = () => {
                         </div>
                         {selectedSim ? (
                             <div className="card-body">
-                                <div style={{ marginBottom: 'var(--spacing-lg)' }}>
-                                    <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem', marginBottom: 'var(--spacing-xs)' }}>
+                                <div style={{ marginBottom: 'var(--space-5)' }}>
+                                    <div style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: 'var(--space-1)' }}>
                                         Simulation ID
                                     </div>
-                                    <div style={{ fontFamily: 'var(--font-mono)', color: 'var(--color-text-primary)' }}>
+                                    <div style={{ fontFamily: 'var(--font-primary)', color: 'var(--text-primary)', fontSize: '14px' }}>
                                         {selectedSim.id}
                                     </div>
                                 </div>
 
-                                <div style={{ marginBottom: 'var(--spacing-lg)' }}>
-                                    <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem', marginBottom: 'var(--spacing-xs)' }}>
+                                <div style={{ marginBottom: 'var(--space-5)' }}>
+                                    <div style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: 'var(--space-1)' }}>
                                         Created
                                     </div>
-                                    <div style={{ color: 'var(--color-text-primary)' }}>
+                                    <div style={{ color: 'var(--text-primary)', fontSize: '14px' }}>
                                         {new Date(selectedSim.created).toLocaleString()}
                                     </div>
                                 </div>
 
                                 {selectedSim.metadata && Object.keys(selectedSim.metadata).length > 0 && (
                                     <div>
-                                        <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem', marginBottom: 'var(--spacing-sm)' }}>
+                                        <div style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: 'var(--space-2)' }}>
                                             Metadata
                                         </div>
                                         <div style={{
-                                            background: 'var(--color-bg-tertiary)',
-                                            padding: 'var(--spacing-md)',
-                                            borderRadius: 'var(--radius-md)',
-                                            fontFamily: 'var(--font-mono)',
-                                            fontSize: '0.8125rem',
+                                            background: 'var(--background-soft)',
+                                            padding: 'var(--space-4)',
+                                            borderRadius: 'var(--radius-card)',
+                                            fontFamily: 'var(--font-primary)',
+                                            fontSize: '13px',
                                         }}>
                                             {Object.entries(selectedSim.metadata).map(([key, value]) => (
-                                                <div key={key} style={{ marginBottom: 'var(--spacing-xs)' }}>
-                                                    <span style={{ color: 'var(--color-primary)' }}>{key}:</span>{' '}
-                                                    <span style={{ color: 'var(--color-text-primary)' }}>{value}</span>
+                                                <div key={key} style={{ marginBottom: 'var(--space-1)' }}>
+                                                    <span style={{ color: 'var(--primary-blue)', fontWeight: 600 }}>{key}:</span>{' '}
+                                                    <span style={{ color: 'var(--text-primary)' }}>{value}</span>
                                                 </div>
                                             ))}
                                         </div>
                                     </div>
                                 )}
 
-                                <div style={{ marginTop: 'var(--spacing-xl)', display: 'flex', gap: 'var(--spacing-sm)' }}>
+                                <div style={{ marginTop: 'var(--space-7)', display: 'flex', gap: 'var(--space-3)' }}>
                                     <button className="btn btn-primary" onClick={handleViewAnalytics}>
                                         <Eye size={18} />
                                         View Analytics
@@ -184,8 +183,8 @@ const Simulations: React.FC = () => {
                                 </div>
                             </div>
                         ) : (
-                            <div className="card-body" style={{ textAlign: 'center', padding: 'var(--spacing-2xl)' }}>
-                                <p style={{ color: 'var(--color-text-tertiary)' }}>
+                            <div className="card-body" style={{ textAlign: 'center', padding: 'var(--space-7)' }}>
+                                <p style={{ color: 'var(--text-light)' }}>
                                     Select a simulation to view details
                                 </p>
                             </div>

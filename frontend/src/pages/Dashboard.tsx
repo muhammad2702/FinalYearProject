@@ -54,7 +54,7 @@ const Dashboard: React.FC = () => {
 
             // Get price data for chart
             const data = await getSimulationData(latestSim.id, 'price');
-            if (data.data && data.data.run_0_full) {
+            if ('data' in data && data.data && data.data.run_0_full) {
                 const chartData = data.data.run_0_full.data.map((row: any, index: number) => ({
                     step: index,
                     price: row.Series_0,
@@ -77,10 +77,10 @@ const Dashboard: React.FC = () => {
                 justifyContent: 'center',
                 height: '400px',
                 flexDirection: 'column',
-                gap: 'var(--spacing-md)'
+                gap: 'var(--space-4)'
             }}>
-                <div className="spinner" style={{ width: '3rem', height: '3rem' }}></div>
-                <p style={{ color: 'var(--color-text-secondary)' }}>Loading dashboard...</p>
+                <div className="spinner" style={{ width: '32px', height: '32px' }}></div>
+                <p style={{ color: 'var(--text-secondary)' }}>Loading dashboard...</p>
             </div>
         );
     }
@@ -88,15 +88,15 @@ const Dashboard: React.FC = () => {
     if (error) {
         return (
             <div className="error-container" style={{
-                background: 'rgba(239, 68, 68, 0.1)',
-                border: '1px solid var(--color-error)',
-                borderRadius: 'var(--radius-lg)',
-                padding: 'var(--spacing-xl)',
+                background: 'rgba(220, 38, 38, 0.08)',
+                border: '1px solid var(--error)',
+                borderRadius: 'var(--radius-card)',
+                padding: 'var(--space-7)',
                 textAlign: 'center'
             }}>
-                <AlertCircle style={{ width: '48px', height: '48px', color: 'var(--color-error)', margin: '0 auto var(--spacing-md)' }} />
-                <h3 style={{ color: 'var(--color-error)', marginBottom: 'var(--spacing-sm)' }}>Error</h3>
-                <p style={{ color: 'var(--color-text-secondary)' }}>{error}</p>
+                <AlertCircle style={{ width: '48px', height: '48px', color: 'var(--error)', margin: '0 auto var(--space-4)' }} />
+                <h3 style={{ color: 'var(--error)', marginBottom: 'var(--space-2)' }}>Error</h3>
+                <p style={{ color: 'var(--text-secondary)' }}>{error}</p>
             </div>
         );
     }
@@ -170,32 +170,32 @@ const Dashboard: React.FC = () => {
             </div>
 
             {/* Advanced Statistics */}
-            <div className="grid grid-cols-2" style={{ marginBottom: 'var(--spacing-xl)' }}>
+            <div className="grid grid-cols-2" style={{ marginBottom: 'var(--space-7)' }}>
                 <div className="card">
                     <div className="card-header">
                         <h3 className="card-title">Distribution Statistics</h3>
                     </div>
                     <div className="card-body">
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--spacing-md)' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
                             <div>
-                                <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem', marginBottom: 'var(--spacing-xs)' }}>
+                                <div style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: 'var(--space-1)' }}>
                                     Skewness
                                 </div>
-                                <div style={{ fontSize: '1.5rem', fontWeight: '600', color: 'var(--color-text-primary)' }}>
+                                <div style={{ fontSize: '20px', fontWeight: 600, color: 'var(--text-primary)' }}>
                                     {priceStats ? formatNumber(priceStats.skewness, 4) : '--'}
                                 </div>
-                                <div style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)', marginTop: 'var(--spacing-xs)' }}>
+                                <div style={{ fontSize: '13px', color: 'var(--text-light)', marginTop: 'var(--space-1)' }}>
                                     {priceStats && priceStats.skewness > 0 ? 'Positive tail' : priceStats && priceStats.skewness < 0 ? 'Negative tail' : 'Symmetric'}
                                 </div>
                             </div>
                             <div>
-                                <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem', marginBottom: 'var(--spacing-xs)' }}>
+                                <div style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: 'var(--space-1)' }}>
                                     Excess Kurtosis
                                 </div>
-                                <div style={{ fontSize: '1.5rem', fontWeight: '600', color: 'var(--color-text-primary)' }}>
+                                <div style={{ fontSize: '20px', fontWeight: 600, color: 'var(--text-primary)' }}>
                                     {priceStats ? formatNumber(priceStats.kurtosis, 4) : '--'}
                                 </div>
-                                <div style={{ fontSize: '0.75rem', color: 'var(--color-text-tertiary)', marginTop: 'var(--spacing-xs)' }}>
+                                <div style={{ fontSize: '13px', color: 'var(--text-light)', marginTop: 'var(--space-1)' }}>
                                     {priceStats && priceStats.kurtosis > 0 ? 'Fat tails' : priceStats && priceStats.kurtosis < 0 ? 'Thin tails' : 'Normal'}
                                 </div>
                             </div>
@@ -208,20 +208,20 @@ const Dashboard: React.FC = () => {
                         <h3 className="card-title">Price Range</h3>
                     </div>
                     <div className="card-body">
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--spacing-md)' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
                             <div>
-                                <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem', marginBottom: 'var(--spacing-xs)' }}>
+                                <div style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: 'var(--space-1)' }}>
                                     Minimum Price
                                 </div>
-                                <div style={{ fontSize: '1.5rem', fontWeight: '600', color: 'var(--color-error)' }}>
+                                <div style={{ fontSize: '20px', fontWeight: 600, color: 'var(--error)' }}>
                                     {priceStats ? formatNumber(priceStats.minPrice, 4) : '--'}
                                 </div>
                             </div>
                             <div>
-                                <div style={{ color: 'var(--color-text-secondary)', fontSize: '0.875rem', marginBottom: 'var(--spacing-xs)' }}>
+                                <div style={{ color: 'var(--text-secondary)', fontSize: '14px', marginBottom: 'var(--space-1)' }}>
                                     Maximum Price
                                 </div>
-                                <div style={{ fontSize: '1.5rem', fontWeight: '600', color: 'var(--color-success)' }}>
+                                <div style={{ fontSize: '20px', fontWeight: 600, color: 'var(--success)' }}>
                                     {priceStats ? formatNumber(priceStats.maxPrice, 4) : '--'}
                                 </div>
                             </div>
@@ -240,31 +240,31 @@ const Dashboard: React.FC = () => {
                         <AreaChart data={priceData}>
                             <defs>
                                 <linearGradient id="colorPrice" x1="0" y1="0" x2="0" y2="1">
-                                    <stop offset="5%" stopColor="hsl(220, 85%, 60%)" stopOpacity={0.3} />
-                                    <stop offset="95%" stopColor="hsl(220, 85%, 60%)" stopOpacity={0} />
+                                    <stop offset="5%" stopColor="var(--primary-blue)" stopOpacity={0.26} />
+                                    <stop offset="95%" stopColor="var(--primary-blue)" stopOpacity={0} />
                                 </linearGradient>
                             </defs>
-                            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
+                            <CartesianGrid strokeDasharray="3 3" stroke="var(--border-light)" />
                             <XAxis
                                 dataKey="step"
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                             />
                             <YAxis
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                             />
                             <Tooltip
                                 contentStyle={{
-                                    background: 'var(--color-bg-elevated)',
-                                    border: '1px solid var(--color-border)',
-                                    borderRadius: 'var(--radius-md)',
+                                    background: '#fff',
+                                    border: '1px solid var(--border-light)',
+                                    borderRadius: 'var(--radius-card)',
                                 }}
                             />
                             <Area
                                 type="monotone"
                                 dataKey="price"
-                                stroke="hsl(220, 85%, 60%)"
+                                stroke="var(--primary-blue)"
                                 strokeWidth={2}
                                 fill="url(#colorPrice)"
                             />

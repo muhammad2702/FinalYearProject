@@ -60,7 +60,7 @@ const Visualizations: React.FC = () => {
 
             // Get price data
             const data = await getSimulationData(selectedSimId, 'price');
-            if (data.data && data.data.run_0_full) {
+            if ('data' in data && data.data && data.data.run_0_full) {
                 const prices = data.data.run_0_full.data.map((row: any) => row.Series_0);
 
                 // Price chart data
@@ -120,10 +120,10 @@ const Visualizations: React.FC = () => {
                 justifyContent: 'center',
                 height: '400px',
                 flexDirection: 'column',
-                gap: 'var(--spacing-md)'
+                gap: 'var(--space-4)'
             }}>
-                <div className="spinner" style={{ width: '3rem', height: '3rem' }}></div>
-                <p style={{ color: 'var(--color-text-secondary)' }}>Loading visualizations...</p>
+                <div className="spinner" style={{ width: '32px', height: '32px' }}></div>
+                <p style={{ color: 'var(--text-secondary)' }}>Loading visualizations...</p>
             </div>
         );
     }
@@ -138,7 +138,7 @@ const Visualizations: React.FC = () => {
             </div>
 
             {/* Simulation Selector */}
-            <div className="card" style={{ marginBottom: 'var(--spacing-xl)' }}>
+            <div className="card" style={{ marginBottom: 'var(--space-7)' }}>
                 <div className="card-body">
                     <label className="label">Select Simulation</label>
                     <select
@@ -163,29 +163,29 @@ const Visualizations: React.FC = () => {
                     </div>
                     <ResponsiveContainer width="100%" height={350}>
                         <LineChart data={priceData}>
-                            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
+                            <CartesianGrid strokeDasharray="3 3" stroke="var(--border-light)" />
                             <XAxis
                                 dataKey="step"
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Time Steps', position: 'insideBottom', offset: -5 }}
                             />
                             <YAxis
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Price', angle: -90, position: 'insideLeft' }}
                             />
                             <Tooltip
                                 contentStyle={{
-                                    background: 'var(--color-bg-elevated)',
-                                    border: '1px solid var(--color-border)',
-                                    borderRadius: 'var(--radius-md)',
+                                    background: '#fff',
+                                    border: '1px solid var(--border-light)',
+                                    borderRadius: 'var(--radius-card)',
                                 }}
                             />
                             <Line
                                 type="monotone"
                                 dataKey="price"
-                                stroke="hsl(220, 85%, 60%)"
+                                stroke="var(--primary-blue)"
                                 strokeWidth={2}
                                 dot={false}
                             />
@@ -202,31 +202,31 @@ const Visualizations: React.FC = () => {
                     </div>
                     <ResponsiveContainer width="100%" height={350}>
                         <LineChart data={returnsData}>
-                            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
+                            <CartesianGrid strokeDasharray="3 3" stroke="var(--border-light)" />
                             <XAxis
                                 dataKey="step"
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Time Steps', position: 'insideBottom', offset: -5 }}
                             />
                             <YAxis
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Return', angle: -90, position: 'insideLeft' }}
                             />
                             <Tooltip
                                 contentStyle={{
-                                    background: 'var(--color-bg-elevated)',
-                                    border: '1px solid var(--color-border)',
-                                    borderRadius: 'var(--radius-md)',
+                                    background: '#fff',
+                                    border: '1px solid var(--border-light)',
+                                    borderRadius: 'var(--radius-card)',
                                 }}
                                 formatter={(value: any) => [(value * 100).toFixed(4) + '%', 'Return']}
                             />
-                            <ReferenceLine y={0} stroke="var(--color-text-tertiary)" strokeDasharray="3 3" />
+                            <ReferenceLine y={0} stroke="var(--text-light)" strokeDasharray="3 3" />
                             <Line
                                 type="monotone"
                                 dataKey="return"
-                                stroke="hsl(280, 70%, 65%)"
+                                stroke="var(--primary-blue)"
                                 strokeWidth={1.5}
                                 dot={false}
                             />
@@ -243,30 +243,30 @@ const Visualizations: React.FC = () => {
                     </div>
                     <ResponsiveContainer width="100%" height={350}>
                         <LineChart data={rollingVolData}>
-                            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
+                            <CartesianGrid strokeDasharray="3 3" stroke="var(--border-light)" />
                             <XAxis
                                 dataKey="step"
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Time Steps', position: 'insideBottom', offset: -5 }}
                             />
                             <YAxis
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Volatility', angle: -90, position: 'insideLeft' }}
                             />
                             <Tooltip
                                 contentStyle={{
-                                    background: 'var(--color-bg-elevated)',
-                                    border: '1px solid var(--color-border)',
-                                    borderRadius: 'var(--radius-md)',
+                                    background: '#fff',
+                                    border: '1px solid var(--border-light)',
+                                    borderRadius: 'var(--radius-card)',
                                 }}
                                 formatter={(value: any) => [(value * 100).toFixed(4) + '%', 'Volatility']}
                             />
                             <Line
                                 type="monotone"
                                 dataKey="volatility"
-                                stroke="hsl(40, 90%, 55%)"
+                                stroke="var(--warning)"
                                 strokeWidth={2}
                                 dot={false}
                             />
@@ -283,32 +283,32 @@ const Visualizations: React.FC = () => {
                     </div>
                     <ResponsiveContainer width="100%" height={350}>
                         <BarChart data={returnDistribution}>
-                            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
+                            <CartesianGrid strokeDasharray="3 3" stroke="var(--border-light)" />
                             <XAxis
                                 dataKey="return"
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Return', position: 'insideBottom', offset: -5 }}
                                 tickFormatter={(value) => (value * 100).toFixed(2) + '%'}
                             />
                             <YAxis
-                                stroke="var(--color-text-tertiary)"
-                                style={{ fontSize: '0.75rem' }}
+                                stroke="var(--text-light)"
+                                style={{ fontSize: '12px' }}
                                 label={{ value: 'Frequency', angle: -90, position: 'insideLeft' }}
                             />
                             <Tooltip
                                 contentStyle={{
-                                    background: 'var(--color-bg-elevated)',
-                                    border: '1px solid var(--color-border)',
-                                    borderRadius: 'var(--radius-md)',
+                                    background: '#fff',
+                                    border: '1px solid var(--border-light)',
+                                    borderRadius: 'var(--radius-card)',
                                 }}
-                                formatter={(value: any, name: string, props: any) => [
+                                formatter={(value: any) => [
                                     value,
                                     'Frequency',
                                 ]}
                                 labelFormatter={(value: any) => `Return: ${(value * 100).toFixed(4)}%`}
                             />
-                            <Bar dataKey="frequency" fill="hsl(145, 65%, 55%)" />
+                            <Bar dataKey="frequency" fill="var(--success)" />
                         </BarChart>
                     </ResponsiveContainer>
                 </div>

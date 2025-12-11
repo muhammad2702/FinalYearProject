@@ -66,7 +66,7 @@ const Parameters: React.FC = () => {
             </div>
 
             {/* Template Selector */}
-            <div className="card" style={{ marginBottom: 'var(--spacing-lg)' }}>
+            <div className="card" style={{ marginBottom: 'var(--space-5)' }}>
                 <div className="card-body">
                     <label className="label">
                         <FileCode size={16} style={{ display: 'inline', marginRight: '0.5rem' }} />
@@ -87,7 +87,7 @@ const Parameters: React.FC = () => {
             </div>
 
             {/* XML Editor */}
-            <div className="card" style={{ marginBottom: 'var(--spacing-lg)' }}>
+            <div className="card" style={{ marginBottom: 'var(--space-5)' }}>
                 <div className="card-header">
                     <h3 className="card-title">XML Configuration</h3>
                 </div>
@@ -98,13 +98,13 @@ const Parameters: React.FC = () => {
                         style={{
                             width: '100%',
                             minHeight: '500px',
-                            padding: 'var(--spacing-md)',
-                            background: 'var(--color-bg-tertiary)',
-                            border: '1px solid var(--color-border)',
-                            borderRadius: 'var(--radius-md)',
-                            color: 'var(--color-text-primary)',
-                            fontFamily: 'var(--font-mono)',
-                            fontSize: '0.875rem',
+                            padding: 'var(--space-4)',
+                            background: 'var(--background-main)',
+                            border: '1px solid var(--border-light)',
+                            borderRadius: 'var(--radius-input)',
+                            color: 'var(--text-primary)',
+                            fontFamily: 'var(--font-primary)',
+                            fontSize: '14px',
                             lineHeight: '1.6',
                             resize: 'vertical',
                         }}
@@ -113,7 +113,7 @@ const Parameters: React.FC = () => {
             </div>
 
             {/* Action Buttons */}
-            <div style={{ display: 'flex', gap: 'var(--spacing-md)', marginBottom: 'var(--spacing-lg)' }}>
+            <div style={{ display: 'flex', gap: 'var(--space-4)', marginBottom: 'var(--space-5)' }}>
                 <button
                     className="btn btn-primary btn-lg"
                     onClick={handleRunSimulation}
@@ -144,14 +144,14 @@ const Parameters: React.FC = () => {
                     className="card"
                     style={{
                         background: message.type === 'success'
-                            ? 'rgba(16, 185, 129, 0.1)'
-                            : 'rgba(239, 68, 68, 0.1)',
-                        border: `1px solid ${message.type === 'success' ? 'var(--color-success)' : 'var(--color-error)'}`,
+                            ? 'rgba(46, 139, 87, 0.08)'
+                            : 'rgba(220, 38, 38, 0.08)',
+                        border: `1px solid ${message.type === 'success' ? 'var(--success)' : 'var(--error)'}`,
                     }}
                 >
                     <div className="card-body">
                         <p style={{
-                            color: message.type === 'success' ? 'var(--color-success)' : 'var(--color-error)',
+                            color: message.type === 'success' ? 'var(--success)' : 'var(--error)',
                             margin: 0,
                         }}>
                             {message.text}
