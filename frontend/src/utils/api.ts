@@ -9,6 +9,32 @@ const api = axios.create({
     },
 });
 
+// Add token to requests if available
+api.interceptors.request.use(
+    (config) => {
+        const token = localStorage.getItem('token');
+        if (token) {
+            config.headers.Authorization = `Bearer ${token}`;
+        }
+        return config;
+    },
+    (error) => {
+        return Promise.reject(error);
+    }
+);
+
+// Handle 401 errors (unauthorized)
+api.interceptors.response.use(
+    (response) => response,
+    (error) => {
+        if (error.response?.status === 401) {
+            localStorage.removeItem('token');
+            window.location.href = '/login';
+        }
+        return Promise.reject(error);
+    }
+);
+
 export interface Simulation {
     id: string;
     name: string;
@@ -108,7 +134,7 @@ export const signup = async (payload: { fullName: string; email: string; passwor
 };
 
 export const verifyOtp = async (payload: { email: string; otp: string }) => {
-    const response = await api.post<{ success: boolean; token: string; message?: string }>(
+    const response = await api.post<{ success: boolean; token: string; user: { id: string; fullName: string; email: string }; message?: string }>(
         '/auth/verify-otp',
         payload,
     );
@@ -116,7 +142,12 @@ export const verifyOtp = async (payload: { email: string; otp: string }) => {
 };
 
 export const login = async (payload: { email: string; password: string }) => {
-    const response = await api.post<{ success: boolean; token: string }>('/auth/login', payload);
+    const response = await api.post<{ success: boolean; token: string; user: { id: string; fullName: string; email: string } }>('/auth/login', payload);
+    return response.data;
+};
+
+export const getUser = async () => {
+    const response = await api.get<{ success: boolean; user: { id: string; fullName: string; email: string } }>('/auth/me');
     return response.data;
 };
 

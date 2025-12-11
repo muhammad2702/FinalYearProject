@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { login } from '../utils/api';
 import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
 
 const Login: React.FC = () => {
     const navigate = useNavigate();
+    const { login: authLogin } = useAuth();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [message, setMessage] = useState<string | null>(null);
@@ -17,9 +19,13 @@ const Login: React.FC = () => {
         try {
             setLoading(true);
             const res = await login({ email, password });
-            localStorage.setItem('token', res.token);
-            setMessage('Logged in successfully.');
-            setTimeout(() => navigate('/'), 500);
+            if (res.token && res.user) {
+                authLogin(res.token, res.user);
+                setMessage('Logged in successfully.');
+                setTimeout(() => navigate('/'), 500);
+            } else {
+                setError('Login failed: Invalid response from server');
+            }
         } catch (err: any) {
             setError(err.response?.data?.error || err.message || 'Login failed');
         } finally {

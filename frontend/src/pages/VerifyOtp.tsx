@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { verifyOtp } from '../utils/api';
+import { useAuth } from '../contexts/AuthContext';
 
 const VerifyOtp: React.FC = () => {
     const location = useLocation();
     const navigate = useNavigate();
+    const { login: authLogin } = useAuth();
     const emailFromState = (location.state as any)?.email || '';
 
     const [email, setEmail] = useState(emailFromState);
@@ -20,9 +22,27 @@ const VerifyOtp: React.FC = () => {
         try {
             setLoading(true);
             const res = await verifyOtp({ email, otp });
-            localStorage.setItem('token', res.token);
-            setMessage('Email verified! Redirecting...');
-            setTimeout(() => navigate('/'), 500);
+            if (res.token) {
+                // Fetch user info after verification
+                try {
+                    const userRes = await getUser();
+                    if (userRes.success && userRes.user) {
+                        authLogin(res.token, userRes.user);
+                        setMessage('Email verified! Redirecting...');
+                        setTimeout(() => navigate('/'), 500);
+                    } else {
+                        localStorage.setItem('token', res.token);
+                        setMessage('Email verified! Redirecting...');
+                        setTimeout(() => navigate('/'), 500);
+                    }
+                } catch {
+                    localStorage.setItem('token', res.token);
+                    setMessage('Email verified! Redirecting...');
+                    setTimeout(() => navigate('/'), 500);
+                }
+            } else {
+                setError('Verification failed: Invalid response from server');
+            }
         } catch (err: any) {
             setError(err.response?.data?.error || err.message || 'Verification failed');
         } finally {

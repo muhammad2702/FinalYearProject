@@ -82,7 +82,7 @@ export const verifyOtp = async (req, res) => {
     await user.save();
 
     const token = createToken(user.id);
-    res.json({ success: true, token });
+    res.json({ success: true, token, user: { id: user.id, fullName: user.fullName, email: user.email } });
   } catch (error) {
     console.error('Verify OTP error:', error);
     res.status(500).json({ error: 'Failed to verify OTP.' });
@@ -111,10 +111,24 @@ export const login = async (req, res) => {
     }
 
     const token = createToken(user.id);
-    res.json({ success: true, token });
+    res.json({ success: true, token, user: { id: user.id, fullName: user.fullName, email: user.email } });
   } catch (error) {
     console.error('Login error:', error);
     res.status(500).json({ error: 'Failed to login.' });
+  }
+};
+
+export const getUser = async (req, res) => {
+  try {
+    // User is attached by authenticateToken middleware
+    const user = await User.findById(req.user.id).select('-passwordHash -otpCode -otpExpiresAt');
+    if (!user) {
+      return res.status(404).json({ error: 'User not found.' });
+    }
+    res.json({ success: true, user: { id: user.id, fullName: user.fullName, email: user.email } });
+  } catch (error) {
+    console.error('Get user error:', error);
+    res.status(500).json({ error: 'Failed to get user.' });
   }
 };
 

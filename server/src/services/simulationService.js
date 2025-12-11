@@ -285,12 +285,14 @@ export const runSimulation = async (xmlContent, name) => {
 
     child.stdout.on('data', (data) => {
       stdout += data.toString();
-      console.log('Simulation output:', data.toString());
+      // Suppress normal simulation output logs - these are expected from the C++ executable
+      // Only capture for error reporting if simulation fails
     });
 
     child.stderr.on('data', (data) => {
       stderr += data.toString();
-      console.error('Simulation error:', data.toString());
+      // Suppress stderr logs - these are often progress bars or normal output from the C++ executable
+      // Only log actual errors if simulation fails (handled in 'close' event)
     });
 
     const timeout = setTimeout(() => {

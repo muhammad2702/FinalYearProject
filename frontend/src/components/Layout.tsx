@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import {
     BarChart3,
     Settings,
@@ -7,14 +7,18 @@ import {
     Play,
     FileText,
     TrendingUp,
-    LogIn
+    LogIn,
+    LogOut,
+    User
 } from 'lucide-react';
+import { useAuth } from '../contexts/AuthContext';
 import ChatAgent from './ChatAgent';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const location = useLocation();
+    const navigate = useNavigate();
+    const { user, logout, token } = useAuth();
 
-    // Remove login from main nav
     const navItems = [
         { path: '/', icon: BarChart3, label: 'Dashboard' },
         { path: '/simulations', icon: Database, label: 'Simulations' },
@@ -24,6 +28,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         { path: '/parameters', icon: Settings, label: 'Parameters' },
         { path: '/reports', icon: FileText, label: 'Reports' },
     ];
+
+    const handleLogout = () => {
+        logout();
+        navigate('/login');
+    };
 
     return (
         <div className="app-layout">
@@ -37,35 +46,53 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                         </div>
                     </div>
 
-                    <nav className="topnav">
-                        {navItems.map((item) => {
-                            const Icon = item.icon;
-                            const isActive = location.pathname === item.path;
-                            return (
-                                <Link
-                                    key={item.path}
-                                    to={item.path}
-                                    className={`topnav-item ${isActive ? 'active' : ''}`}
-                                >
-                                    <Icon className="nav-icon" />
-                                    <span>{item.label}</span>
-                                </Link>
-                            );
-                        })}
-                    </nav>
+                    {token && (
+                        <nav className="topnav">
+                            {navItems.map((item) => {
+                                const Icon = item.icon;
+                                const isActive = location.pathname === item.path;
+                                return (
+                                    <Link
+                                        key={item.path}
+                                        to={item.path}
+                                        className={`topnav-item ${isActive ? 'active' : ''}`}
+                                    >
+                                        <Icon className="nav-icon" />
+                                        <span>{item.label}</span>
+                                    </Link>
+                                );
+                            })}
+                        </nav>
+                    )}
                 </div>
 
                 <div className="topbar-right">
-                    {/* LOGIN BUTTON MOVED HERE */}
-                    <Link
-                        to="/login"
-                        className={`topnav-item ${
-                            location.pathname === '/login' ? 'active' : ''
-                        }`}
-                    >
-                        <LogIn className="nav-icon" />
-                        <span>Login</span>
-                    </Link>
+                    {token && user ? (
+                        <>
+                            <div className="topnav-item" style={{ cursor: 'default', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <User className="nav-icon" size={16} />
+                                <span>{user.fullName}</span>
+                            </div>
+                            <button
+                                onClick={handleLogout}
+                                className="topnav-item"
+                                style={{ background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}
+                            >
+                                <LogOut className="nav-icon" />
+                                <span>Logout</span>
+                            </button>
+                        </>
+                    ) : (
+                        <Link
+                            to="/login"
+                            className={`topnav-item ${
+                                location.pathname === '/login' ? 'active' : ''
+                            }`}
+                        >
+                            <LogIn className="nav-icon" />
+                            <span>Login</span>
+                        </Link>
+                    )}
                 </div>
             </header>
 
@@ -73,7 +100,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <div className="content-wrapper">{children}</div>
             </main>
 
-            <ChatAgent />
+            {token && <ChatAgent />}
         </div>
     );
 };

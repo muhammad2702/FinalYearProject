@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { AuthProvider } from './contexts/AuthContext';
 import Layout from './components/Layout';
+import PrivateRoute from './components/PrivateRoute';
+import PublicRoute from './components/PublicRoute';
 import Dashboard from './pages/Dashboard';
 import Simulations from './pages/Simulations';
 import Visualizations from './pages/Visualizations';
@@ -12,29 +15,32 @@ import './components/Layout.css';
 
 function App() {
   return (
-    <Router>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/simulations" element={<Simulations />} />
-          <Route path="/visualizations" element={<Visualizations />} />
-          <Route path="/data-explorer" element={<DataExplorer />} />
-          <Route path="/parameters" element={<Parameters />} />
-          <Route path="/run" element={<Parameters />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/verify-otp" element={<VerifyOtp />} />
-          <Route path="/reports" element={
-            <div className="page-header">
-              <h1 className="page-title">Reports</h1>
-              <p className="page-description">
-                Generate comprehensive PDF reports (Coming Soon)
-              </p>
-            </div>
-          } />
-        </Routes>
-      </Layout>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <Layout>
+          <Routes>
+            <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
+            <Route path="/signup" element={<PublicRoute><Signup /></PublicRoute>} />
+            <Route path="/verify-otp" element={<PublicRoute><VerifyOtp /></PublicRoute>} />
+            
+            <Route path="/" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
+            <Route path="/simulations" element={<PrivateRoute><Simulations /></PrivateRoute>} />
+            <Route path="/visualizations" element={<PrivateRoute><Visualizations /></PrivateRoute>} />
+            <Route path="/data-explorer" element={<PrivateRoute><DataExplorer /></PrivateRoute>} />
+            <Route path="/parameters" element={<PrivateRoute><Parameters /></PrivateRoute>} />
+            <Route path="/run" element={<PrivateRoute><Parameters /></PrivateRoute>} />
+            <Route path="/reports" element={<PrivateRoute>
+              <div className="page-header">
+                <h1 className="page-title">Reports</h1>
+                <p className="page-description">
+                  Generate comprehensive PDF reports (Coming Soon)
+                </p>
+              </div>
+            </PrivateRoute>} />
+          </Routes>
+        </Layout>
+      </Router>
+    </AuthProvider>
   );
 }
 
